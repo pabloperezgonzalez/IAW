@@ -18,6 +18,195 @@ title: 🌐 UP1 — Caracterización de redes
 | h) Se han diferenciado los dispositivos de interconexión de redes atendiendo al nivel funcional en el que se encuadran. | Teórico |  % | 
 
 ---
+# Propuesta de secuenciación del RA1
+
+## RA1. Reconoce la estructura de las redes de datos identificando sus elementos y principios de funcionamiento.
+
+### 1. a) Factores que impulsan la continua expansión y evolución de las redes de datos
+
+**¿Por qué comenzar aquí?**
+
+Antes de estudiar qué es una red, conviene comprender por qué existen y por qué evolucionan constantemente. Este criterio sirve como introducción motivadora al módulo y permite contextualizar la importancia de las redes en la sociedad actual.
+
+Algunos aspectos que pueden tratarse son:
+
+- Digitalización de empresas y administraciones.
+- Crecimiento de Internet.
+- Computación en la nube.
+- Internet de las Cosas (IoT).
+- Movilidad.
+- Teletrabajo.
+- Streaming y servicios digitales.
+- Inteligencia Artificial.
+- Ciberseguridad.
+
+De esta forma el alumnado entiende desde el primer momento la utilidad real de todo lo que estudiará posteriormente.
+
+---
+
+### 2. c) Tipos de red y topologías
+
+Una vez entendida la necesidad de las redes, el siguiente paso es responder a la pregunta:
+
+> ¿Cómo pueden organizarse las redes?
+
+Aquí se presentan conceptos fundamentales:
+
+- LAN
+- MAN
+- WAN
+- PAN
+- SAN
+- VPN
+- Topologías:
+  - Bus
+  - Anillo
+  - Estrella
+  - Árbol
+  - Malla
+  - Híbridas
+
+El alumnado comienza a visualizar qué es realmente una red.
+
+---
+
+### 3. g) Elementos funcionales, físicos y lógicos de una red
+
+Después de conocer cómo son las redes, resulta natural estudiar de qué están formadas.
+
+Aquí aparecen por primera vez conceptos como:
+
+- Hosts
+- Clientes
+- Servidores
+- Interfaces de red
+- Tarjetas NIC
+- Direcciones MAC
+- Direcciones IP
+- Segmentos
+- Dominios de colisión
+- Recursos compartidos
+- Servicios de red
+
+Es una visión global antes de entrar en los detalles técnicos.
+
+---
+
+### 4. b) Medios de transmisión
+
+Cuando ya conocemos los elementos de una red surge una nueva pregunta:
+
+> ¿Cómo se conectan físicamente esos dispositivos?
+
+Aquí se estudian:
+
+- Cable de par trenzado
+- Cable coaxial
+- Fibra óptica
+- Medios inalámbricos
+- Características
+- Ventajas
+- Inconvenientes
+- Ancho de banda
+- Atenuación
+- Interferencias
+
+Ahora el alumnado entiende cómo viaja realmente la información.
+
+---
+
+### 5. d) Arquitecturas de red y niveles
+
+Hasta este momento todo lo estudiado pertenece principalmente al mundo físico.
+
+Ahora se introduce una idea mucho más abstracta:
+
+> ¿Cómo consiguen comunicarse equipos completamente distintos?
+
+Es el momento ideal para introducir:
+
+- Arquitectura en capas
+- Modelo OSI
+- Modelo TCP/IP
+- Función de cada capa
+
+Este criterio sirve de puente hacia el funcionamiento interno de las comunicaciones.
+
+---
+
+### 6. e) Concepto de protocolo de comunicación
+
+Una vez conocidas las capas, aparece una cuestión lógica:
+
+> ¿Qué reglas siguen los dispositivos para comunicarse?
+
+Aquí se introduce el concepto de protocolo.
+
+Se pueden explicar ejemplos conocidos como:
+
+- HTTP
+- HTTPS
+- FTP
+- DNS
+- DHCP
+- TCP
+- UDP
+- IP
+- ICMP
+
+El alumnado comprende que cada capa utiliza protocolos específicos.
+
+---
+
+### 7. f) Funcionamiento de las pilas de protocolos
+
+Después de conocer las capas y los protocolos por separado, llega el momento de unir ambos conceptos.
+
+Aquí se explica:
+
+- Encapsulación
+- Desencapsulación
+- PDU
+- Flujo de datos entre capas
+- Relación entre protocolos
+
+Este criterio suele ser uno de los más importantes del módulo porque explica realmente cómo viaja un dato desde una aplicación hasta el medio físico.
+
+---
+
+### 8. h) Dispositivos de interconexión
+
+Finalmente se estudian los dispositivos reales que implementan todo lo aprendido.
+
+Ahora tiene sentido hablar de:
+
+- Repetidores
+- Hubs
+- Bridges
+- Switches
+- Routers
+- Gateways
+- Puntos de acceso
+- Firewalls
+
+El alumnado ya conoce las capas del modelo OSI, por lo que puede comprender fácilmente por qué un switch trabaja en la capa 2 y un router en la capa 3, evitando memorizar esta información sin entenderla.
+
+---
+
+# Justificación pedagógica
+
+La secuencia propuesta sigue una progresión desde los conceptos más generales hasta los más específicos:
+
+1. **¿Por qué existen las redes?**
+2. **¿Cómo pueden organizarse?**
+3. **¿Qué elementos las forman?**
+4. **¿Cómo se conectan físicamente?**
+5. **¿Cómo se estructuran las comunicaciones?**
+6. **¿Qué reglas utilizan para comunicarse?**
+7. **¿Cómo funcionan conjuntamente esas reglas?**
+8. **¿Qué dispositivos hacen posible todo ello?**
+
+Este enfoque favorece un aprendizaje significativo, ya que cada nuevo contenido se apoya en los conocimientos adquiridos anteriormente. Además, evita introducir conceptos avanzados —como las capas OSI o el funcionamiento de los routers— antes de que el alumnado disponga de la base conceptual necesaria para comprenderlos.
 
 ## 📚 Contenidos
 
