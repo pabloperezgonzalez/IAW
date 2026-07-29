@@ -18,205 +18,271 @@ title: 🌐 UP1 — Caracterización de redes
 | h) Se han diferenciado los dispositivos de interconexión de redes atendiendo al nivel funcional en el que se encuadran. | Teórico |  % | 
 
 ---
-# Propuesta de secuenciación del RA1
 
-## RA1. Reconoce la estructura de las redes de datos identificando sus elementos y principios de funcionamiento.
+## CE1.a) Factores que impulsan la continua expansión y evolución de las redes de datos
 
-### 1. a) Factores que impulsan la continua expansión y evolución de las redes de datos
+### ¿Por qué las redes evolucionan constantemente?
 
-**¿Por qué comenzar aquí?**
+Hace apenas unas décadas, la mayoría de los ordenadores funcionaban de forma aislada. Hoy en día, prácticamente cualquier dispositivo puede conectarse a una red para compartir información, acceder a servicios o comunicarse con otros equipos situados en cualquier parte del mundo.
 
-Antes de estudiar qué es una red, conviene comprender por qué existen y por qué evolucionan constantemente. Este criterio sirve como introducción motivadora al módulo y permite contextualizar la importancia de las redes en la sociedad actual.
+Esta evolución no ha ocurrido por casualidad. Las redes de datos crecen y cambian continuamente para adaptarse a las nuevas necesidades de personas, empresas y administraciones.
 
-Algunos aspectos que pueden tratarse son:
-
-- Digitalización de empresas y administraciones.
-- Crecimiento de Internet.
-- Computación en la nube.
-- Internet de las Cosas (IoT).
-- Movilidad.
-- Teletrabajo.
-- Streaming y servicios digitales.
-- Inteligencia Artificial.
-- Ciberseguridad.
-
-De esta forma el alumnado entiende desde el primer momento la utilidad real de todo lo que estudiará posteriormente.
+En esta unidad estudiaremos cuáles son los principales factores que impulsan esta evolución y cómo han transformado la forma en que utilizamos la tecnología.
 
 ---
 
-### 2. c) Tipos de red y topologías
+### ¿Qué entendemos por evolución de una red?
 
-Una vez entendida la necesidad de las redes, el siguiente paso es responder a la pregunta:
+Una **red de datos** no es un sistema estático. Con el paso del tiempo aparecen nuevas tecnologías, aumentan las necesidades de comunicación y se desarrollan nuevos servicios que obligan a mejorar las infraestructuras existentes.
 
-> ¿Cómo pueden organizarse las redes?
+La evolución de una red puede implicar:
 
-Aquí se presentan conceptos fundamentales:
+- Aumentar la velocidad de transmisión.
+- Conectar un mayor número de dispositivos.
+- Mejorar la seguridad.
+- Reducir los tiempos de respuesta.
+- Facilitar el acceso desde cualquier lugar.
+- Incorporar nuevas tecnologías de comunicación.
 
-- LAN
-- MAN
-- WAN
-- PAN
-- SAN
-- VPN
-- Topologías:
-  - Bus
-  - Anillo
-  - Estrella
-  - Árbol
-  - Malla
-  - Híbridas
-
-El alumnado comienza a visualizar qué es realmente una red.
+En definitiva, las redes evolucionan para ofrecer un mejor servicio y responder a las demandas de una sociedad cada vez más conectada.
 
 ---
 
-### 3. g) Elementos funcionales, físicos y lógicos de una red
+### Principales factores que impulsan la evolución de las redes
 
-Después de conocer cómo son las redes, resulta natural estudiar de qué están formadas.
+#### 1. Crecimiento de Internet
 
-Aquí aparecen por primera vez conceptos como:
+Internet es la mayor red de datos del mundo.
+Cada año aumenta el número de usuarios, dispositivos y servicios disponibles.
+Este crecimiento obliga a mejorar continuamente las infraestructuras de red para soportar:
 
-- Hosts
-- Clientes
-- Servidores
-- Interfaces de red
-- Tarjetas NIC
-- Direcciones MAC
-- Direcciones IP
-- Segmentos
-- Dominios de colisión
-- Recursos compartidos
-- Servicios de red
+- Más conexiones simultáneas.
+- Mayor cantidad de información.
+- Nuevos servicios digitales.
 
-Es una visión global antes de entrar en los detalles técnicos.
-
----
-
-### 4. b) Medios de transmisión
-
-Cuando ya conocemos los elementos de una red surge una nueva pregunta:
-
-> ¿Cómo se conectan físicamente esos dispositivos?
-
-Aquí se estudian:
-
-- Cable de par trenzado
-- Cable coaxial
-- Fibra óptica
-- Medios inalámbricos
-- Características
-- Ventajas
-- Inconvenientes
-- Ancho de banda
-- Atenuación
-- Interferencias
-
-Ahora el alumnado entiende cómo viaja realmente la información.
+Ejemplos:
+- Plataformas de vídeo bajo demanda.
+- Redes sociales.
+- Comercio electrónico.
+- Videojuegos online.
+- Videoconferencias.
 
 ---
 
-### 5. d) Arquitecturas de red y niveles
+#### 2. Transformación digital de empresas y administraciones
 
-Hasta este momento todo lo estudiado pertenece principalmente al mundo físico.
+Cada vez más organizaciones sustituyen procesos tradicionales por soluciones digitales.
+Hoy es habitual trabajar mediante aplicaciones conectadas a una red.
 
-Ahora se introduce una idea mucho más abstracta:
+Por ejemplo:
+- Gestión de clientes.
+- Facturación electrónica.
+- Historias clínicas digitales.
+- Administración electrónica.
+- Gestión documental.
 
-> ¿Cómo consiguen comunicarse equipos completamente distintos?
-
-Es el momento ideal para introducir:
-
-- Arquitectura en capas
-- Modelo OSI
-- Modelo TCP/IP
-- Función de cada capa
-
-Este criterio sirve de puente hacia el funcionamiento interno de las comunicaciones.
+Esto requiere redes más rápidas, fiables y seguras.
 
 ---
 
-### 6. e) Concepto de protocolo de comunicación
+#### 3. Computación en la nube (Cloud Computing)
 
-Una vez conocidas las capas, aparece una cuestión lógica:
+Muchas aplicaciones ya no se ejecutan únicamente en el ordenador del usuario.
+Actualmente gran parte de la información se almacena en centros de datos accesibles a través de Internet.
+Esto permite:
+- Acceder a los archivos desde cualquier lugar.
+- Compartir documentos entre varios usuarios.
+- Reducir la necesidad de servidores locales.
+- Facilitar las copias de seguridad.
 
-> ¿Qué reglas siguen los dispositivos para comunicarse?
+Algunos ejemplos conocidos:
+- Google Drive
+- Microsoft OneDrive
+- Dropbox
+- Microsoft 365
+- Google Workspace
 
-Aquí se introduce el concepto de protocolo.
-
-Se pueden explicar ejemplos conocidos como:
-
-- HTTP
-- HTTPS
-- FTP
-- DNS
-- DHCP
-- TCP
-- UDP
-- IP
-- ICMP
-
-El alumnado comprende que cada capa utiliza protocolos específicos.
+Las redes son imprescindibles para acceder a estos servicios.
 
 ---
 
-### 7. f) Funcionamiento de las pilas de protocolos
+#### 4. Movilidad y trabajo remoto
 
-Después de conocer las capas y los protocolos por separado, llega el momento de unir ambos conceptos.
+Cada vez utilizamos más dispositivos móviles:
 
-Aquí se explica:
+- Smartphones.
+- Tablets.
+- Ordenadores portátiles.
 
-- Encapsulación
-- Desencapsulación
-- PDU
-- Flujo de datos entre capas
-- Relación entre protocolos
+Además, muchas personas trabajan desde casa o desde diferentes ubicaciones. Para ello es necesario disponer de:
 
-Este criterio suele ser uno de los más importantes del módulo porque explica realmente cómo viaja un dato desde una aplicación hasta el medio físico.
+- Redes Wi-Fi rápidas.
+- Acceso remoto seguro.
+- Conexiones permanentes.
+- Buena cobertura inalámbrica.
 
----
-
-### 8. h) Dispositivos de interconexión
-
-Finalmente se estudian los dispositivos reales que implementan todo lo aprendido.
-
-Ahora tiene sentido hablar de:
-
-- Repetidores
-- Hubs
-- Bridges
-- Switches
-- Routers
-- Gateways
-- Puntos de acceso
-- Firewalls
-
-El alumnado ya conoce las capas del modelo OSI, por lo que puede comprender fácilmente por qué un switch trabaja en la capa 2 y un router en la capa 3, evitando memorizar esta información sin entenderla.
+El teletrabajo ha acelerado enormemente la mejora de las redes de comunicaciones.
 
 ---
 
-# Justificación pedagógica
+#### 5. Internet de las Cosas (IoT)
 
-La secuencia propuesta sigue una progresión desde los conceptos más generales hasta los más específicos:
+El **Internet de las Cosas (IoT)** consiste en conectar a Internet dispositivos que tradicionalmente no eran considerados ordenadores. Por ejemplo:
 
-1. **¿Por qué existen las redes?**
-2. **¿Cómo pueden organizarse?**
-3. **¿Qué elementos las forman?**
-4. **¿Cómo se conectan físicamente?**
-5. **¿Cómo se estructuran las comunicaciones?**
-6. **¿Qué reglas utilizan para comunicarse?**
-7. **¿Cómo funcionan conjuntamente esas reglas?**
-8. **¿Qué dispositivos hacen posible todo ello?**
+- Cámaras IP.
+- Sensores de temperatura.
+- Termostatos inteligentes.
+- Bombillas inteligentes.
+- Electrodomésticos.
+- Vehículos conectados.
+- Relojes inteligentes.
 
-Este enfoque favorece un aprendizaje significativo, ya que cada nuevo contenido se apoya en los conocimientos adquiridos anteriormente. Además, evita introducir conceptos avanzados —como las capas OSI o el funcionamiento de los routers— antes de que el alumnado disponga de la base conceptual necesaria para comprenderlos.
+Cada uno de estos dispositivos necesita una conexión de red.
+Actualmente existen miles de millones de dispositivos IoT conectados en todo el mundo.
 
-## 📚 Contenidos
+---
 
-- ¿Qué es una red? Tipos y alcance
-- Topologías: cómo se conectan los dispositivos
-- Dispositivos de red: hub, switch, router, AP
-- El modelo OSI en 7 capas (visión general)
-- Protocolos: el idioma de las redes
-- Direcciones MAC e IP
-- Conectividad básica: ping, ARP, gateway
+#### 6. Streaming de contenidos
+
+Cada vez consumimos más contenido multimedia a través de Internet. Algunos ejemplos son:
+
+- Películas.
+- Series.
+- Música.
+- Retransmisiones deportivas.
+- Vídeos en directo.
+
+El vídeo en alta definición (HD), Full HD, 4K e incluso 8K requiere un enorme ancho de banda. Por este motivo las redes deben ofrecer velocidades cada vez mayores.
+
+---
+
+#### 7. Inteligencia Artificial y Big Data
+
+Las aplicaciones basadas en Inteligencia Artificial necesitan intercambiar grandes cantidades de información entre usuarios, servidores y centros de datos. Algunos ejemplos son:
+
+- Asistentes virtuales.
+- Traductores automáticos.
+- Sistemas de reconocimiento de imágenes.
+- Vehículos autónomos.
+- Motores de recomendación.
+
+Además, muchas empresas analizan enormes volúmenes de datos (Big Data), lo que requiere infraestructuras de red muy potentes.
+
+---
+
+#### 8. Ciberseguridad
+
+Cuanto mayor es el número de dispositivos conectados, mayor es también el riesgo de sufrir ataques informáticos. Por ello las redes incorporan continuamente nuevas medidas de protección:
+
+- Firewalls.
+- Sistemas de detección de intrusiones.
+- Redes privadas virtuales (VPN).
+- Cifrado de las comunicaciones.
+- Autenticación multifactor.
+
+La seguridad se ha convertido en uno de los principales motores de evolución de las redes.
+
+---
+
+#### 9. Aparición de nuevas tecnologías de comunicación
+
+Las tecnologías de red evolucionan constantemente para ofrecer mejores prestaciones. Algunos ejemplos son:
+
+| Tecnología | Mejora aportada |
+|------------|-----------------|
+| Fibra óptica | Mayor velocidad y menor latencia. |
+| Wi-Fi 6 y Wi-Fi 7 | Mayor rendimiento inalámbrico. |
+| Redes 5G | Mayor velocidad y menor tiempo de respuesta. |
+| IPv6 | Permite disponer de un número prácticamente ilimitado de direcciones IP. |
+| Ethernet Multigigabit | Aumenta la velocidad en redes locales. |
+
+Cada nueva tecnología permite construir redes más eficientes y preparadas para el futuro.
+
+---
+
+### Relación entre todos los factores
+
+Todos estos factores están relacionados entre sí. Por ejemplo:
+
+- El crecimiento del teletrabajo incrementa el uso de servicios en la nube.
+- La nube necesita centros de datos conectados mediante redes de alta velocidad.
+- El aumento del tráfico obliga a desplegar fibra óptica y redes 5G.
+- La aparición de millones de dispositivos IoT incrementa la necesidad de direcciones IPv6.
+- Cuantos más dispositivos existen, mayor importancia adquiere la ciberseguridad.
+
+La evolución de las redes responde, por tanto, a una combinación de necesidades tecnológicas, sociales y económicas.
+
+---
+
+### Esquema resumen del CE1.a)
+
+```text
+Transformación digital
+            │
+            ▼
+Más dispositivos conectados
+            │
+            ▼
+Mayor tráfico de datos
+            │
+            ▼
+Necesidad de redes más rápidas
+            │
+            ▼
+Nuevas tecnologías
+(Fibra, Wi-Fi 7, 5G, IPv6...)
+            │
+            ▼
+Mayor capacidad y mejores servicios
+```
+
+---
+
+### Ideas clave
+
+> 📌 Las redes evolucionan para adaptarse a las nuevas necesidades de comunicación.
+
+> 📌 Internet, la nube, el teletrabajo y el IoT son algunos de los principales motores de esta evolución.
+
+> 📌 El aumento del tráfico de datos obliga a desarrollar tecnologías más rápidas y eficientes.
+
+> 📌 La ciberseguridad es un aspecto fundamental en el crecimiento de las redes actuales.
+
+> 📌 La evolución de las redes continuará en los próximos años impulsada por la Inteligencia Artificial, el Internet de las Cosas y las nuevas tecnologías de comunicación.
+
+---
+
+### Actividades de repaso del CE1.a)
+
+#### Actividad 1
+
+Explica con tus propias palabras por qué las redes de datos necesitan evolucionar continuamente.
+
+---
+
+#### Actividad 2
+
+Relaciona cada situación con el factor que impulsa la evolución de las redes.
+
+| Situación | Factor |
+|-----------|--------|
+| Un hospital comparte historiales médicos entre diferentes centros. | |
+| Un usuario ve una película en 4K por Internet. | |
+| Una empresa utiliza Microsoft 365 para trabajar. | |
+| Una vivienda dispone de sensores inteligentes. | |
+| Un empleado trabaja desde casa mediante VPN. | |
+
+---
+
+#### Actividad 3
+
+Indica si las siguientes afirmaciones son **verdaderas (V)** o **falsas (F)**.
+
+- ☐ Las redes actuales transportan menos información que hace diez años.
+- ☐ El IoT permite conectar objetos cotidianos a Internet.
+- ☐ La fibra óptica ofrece mayor capacidad que el cable de cobre.
+- ☐ La ciberseguridad no influye en la evolución de las redes.
+- ☐ El teletrabajo ha incrementado la necesidad de conexiones seguras.
 
 ---
 
