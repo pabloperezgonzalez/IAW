@@ -67,6 +67,8 @@ Ejemplos:
 - Videojuegos online.
 - Videoconferencias.
 
+---
+
 #### 2. Transformación digital de empresas y administraciones
 
 Cada vez más organizaciones sustituyen procesos tradicionales por soluciones digitales.
@@ -80,6 +82,8 @@ Por ejemplo:
 - Gestión documental.
 
 Esto requiere redes más rápidas, fiables y seguras.
+
+---
 
 #### 3. Computación en la nube (Cloud Computing)
 
@@ -100,6 +104,8 @@ Algunos ejemplos conocidos:
 
 Las redes son imprescindibles para acceder a estos servicios.
 
+---
+
 #### 4. Movilidad y trabajo remoto
 
 Cada vez utilizamos más dispositivos móviles:
@@ -117,6 +123,8 @@ Además, muchas personas trabajan desde casa o desde diferentes ubicaciones. Par
 
 El teletrabajo ha acelerado enormemente la mejora de las redes de comunicaciones.
 
+---
+
 #### 5. Internet de las Cosas (IoT)
 
 El **Internet de las Cosas (IoT)** consiste en conectar a Internet dispositivos que tradicionalmente no eran considerados ordenadores. Por ejemplo:
@@ -132,6 +140,8 @@ El **Internet de las Cosas (IoT)** consiste en conectar a Internet dispositivos 
 Cada uno de estos dispositivos necesita una conexión de red.
 Actualmente existen miles de millones de dispositivos IoT conectados en todo el mundo.
 
+---
+
 #### 6. Streaming de contenidos
 
 Cada vez consumimos más contenido multimedia a través de Internet. Algunos ejemplos son:
@@ -143,6 +153,8 @@ Cada vez consumimos más contenido multimedia a través de Internet. Algunos eje
 - Vídeos en directo.
 
 El vídeo en alta definición (HD), Full HD, 4K e incluso 8K requiere un enorme ancho de banda. Por este motivo las redes deben ofrecer velocidades cada vez mayores.
+
+---
 
 #### 7. Inteligencia Artificial y Big Data
 
@@ -156,6 +168,8 @@ Las aplicaciones basadas en Inteligencia Artificial necesitan intercambiar grand
 
 Además, muchas empresas analizan enormes volúmenes de datos (Big Data), lo que requiere infraestructuras de red muy potentes.
 
+---
+
 #### 8. Ciberseguridad
 
 Cuanto mayor es el número de dispositivos conectados, mayor es también el riesgo de sufrir ataques informáticos. Por ello las redes incorporan continuamente nuevas medidas de protección:
@@ -167,6 +181,8 @@ Cuanto mayor es el número de dispositivos conectados, mayor es también el ries
 - Autenticación multifactor.
 
 La seguridad se ha convertido en uno de los principales motores de evolución de las redes.
+
+---
 
 #### 9. Aparición de nuevas tecnologías de comunicación
 
@@ -242,6 +258,8 @@ Mayor capacidad y mejores servicios
 
 Explica con tus propias palabras por qué las redes de datos necesitan evolucionar continuamente.
 
+---
+
 #### Actividad 2
 
 Relaciona cada situación con el factor que impulsa la evolución de las redes.
@@ -253,6 +271,8 @@ Relaciona cada situación con el factor que impulsa la evolución de las redes.
 | Una empresa utiliza Microsoft 365 para trabajar. | |
 | Una vivienda dispone de sensores inteligentes. | |
 | Un empleado trabaja desde casa mediante VPN. | |
+
+---
 
 #### Actividad 3
 

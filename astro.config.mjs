@@ -69,11 +69,36 @@ export default defineConfig({
         },
         {
           label: '📚 Unidades de Programación',
+          /*
           items: unitSlugs.map((slug, i) => ({
             slug,
             label: `${emojis[i]} UP${i+1}. ${unitLabels[i]}`,
-          })),
-        },
+          })),*/
+          items: [
+            {
+              label: '🌐 UP1. Caracterización de redes',
+              collapsed: true,
+              items: [
+                { slug: '01-caracterizacion-redes', label: 'Introducción' },
+                { slug: '01-01-concepto-red', label: '1.1 Concepto de red' },
+                { slug: '01-02-tipos-redes', label: '1.2 Tipos de redes' },
+                { slug: '01-03-topologias', label: '1.3 Topologías' },
+                { slug: '01-04-componentes', label: '1.4 Componentes' },
+              ],
+            },
+          {
+            label: '📡 UP2. Modelos OSI y análisis',
+            collapsed: true,
+            items: [
+              { slug: '02-modelos-osi-analisis', label: 'Introducción' },
+              { slug: '02-01-modelo-osi', label: '2.1 Modelo OSI' },
+              { slug: '02-02-encapsulacion', label: '2.2 Encapsulación' },
+            ],
+          },
+
+          // resto de unidades...
+        ],
+      },
         {
           label: '📝 Boletines',
           collapsed: true,
