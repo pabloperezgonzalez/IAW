@@ -81,18 +81,18 @@ export default defineConfig({
               items: [
                 { slug: '01.1-factores-redes', label: 'UP1.1. Factores que impulsan la continua expansión y evolución de las redes de datos - CE1.a)' },
                 { slug: '01.2-tipos-topologia-red', label: 'UP1.2. Tipos de red y topologías - CE1.c)' },
-                { slug: '01-02-tipos-redes', label: 'UP1.2. Tipos de redes' },
-                { slug: '01-03-topologias', label: 'UP1.3. Topologías' },
-                { slug: '01-04-componentes', label: 'UP1.4. Componentes' },
+                //{ slug: '01-02-tipos-redes', label: 'UP1.2. Tipos de redes' },
+                //{ slug: '01-03-topologias', label: 'UP1.3. Topologías' },
+                //{ slug: '01-04-componentes', label: 'UP1.4. Componentes' },
               ],
             },
             {
               label: '📡 UP2. Modelos OSI y análisis',
               collapsed: true,
               items: [
-                { slug: '02-modelos-osi-analisis', label: 'Introducción' },
-                { slug: '02-01-modelo-osi', label: '2.1 Modelo OSI' },
-                { slug: '02-02-encapsulacion', label: '2.2 Encapsulación' },
+                //{ slug: '02-modelos-osi-analisis', label: 'Introducción' },
+                //{ slug: '02-01-modelo-osi', label: '2.1 Modelo OSI' },
+                //{ slug: '02-02-encapsulacion', label: '2.2 Encapsulación' },
               ],
             },
 
