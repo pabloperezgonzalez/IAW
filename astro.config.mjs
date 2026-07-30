@@ -90,7 +90,7 @@ export default defineConfig({
               label: '📡 UP2. Modelos OSI y análisis',
               collapsed: true,
               items: [
-                //{ slug: '02-modelos-osi-analisis', label: 'Introducción' },
+                { slug: '02-modelos-osi-analisis', label: 'Introducción' },
                 //{ slug: '02-01-modelo-osi', label: '2.1 Modelo OSI' },
                 //{ slug: '02-02-encapsulacion', label: '2.2 Encapsulación' },
               ],
@@ -98,7 +98,7 @@ export default defineConfig({
 
           // resto de unidades...
         ],
-      },
+        },
         {
           label: '📝 Boletines',
           collapsed: true,
