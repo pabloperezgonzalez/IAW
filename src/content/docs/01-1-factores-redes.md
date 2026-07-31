@@ -174,28 +174,6 @@ Todos estos factores están relacionados entre sí.
 
 La evolución de las redes responde, por tanto, a una combinación de necesidades tecnológicas, sociales y económicas.
 
-### Esquema resumen
-
-```text
-Transformación digital
-            │
-            ▼
-Más dispositivos conectados
-            │
-            ▼
-Mayor tráfico de datos
-            │
-            ▼
-Necesidad de redes más rápidas
-            │
-            ▼
-Nuevas tecnologías
-(Fibra, Wi-Fi 7, 5G, IPv6...)
-            │
-            ▼
-Mayor capacidad y mejores servicios
-```
-
 ### Actividades de repaso
 #### Actividad 1
 

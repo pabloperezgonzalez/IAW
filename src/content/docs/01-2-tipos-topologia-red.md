@@ -184,18 +184,10 @@ En este apartado nos centraremos principalmente en las topologías físicas.
 
 ### Principales topologías
 
-#### Topología en bus
-
-Todos los equipos comparten un único cable principal denominado **bus**.
-
 <figure class="diagram-figure">
   <img src="/PAR/diagrams/topologia-bus.svg" alt="Topología en bus con cable coaxial compartido por 4 PCs" class="diagram-img" loading="lazy" />
-  <figcaption class="diagram-caption">Todos los PCs comparten el mismo cable. Una rotura en cualquier punto deja toda la red fuera de servicio.</figcaption>
+  <figcaption class="diagram-caption">Todos los PCs comparten el mismo cable, denominado bus. Una rotura en cualquier punto deja toda la red fuera de servicio.</figcaption>
 </figure>
-
-```text
-PC ─── PC ─── PC ─── PC
-```
 
 >✅ **Ventajas:** Poco cableado, instalación sencilla y bajo coste.
 
@@ -203,20 +195,10 @@ PC ─── PC ─── PC ─── PC
 
 Actualmente apenas se utiliza.
 
-#### Topología en anillo
-
-Cada dispositivo se conecta con los dos equipos adyacentes formando un circuito cerrado.
-
 <figure class="diagram-figure">
   <img src="/PAR/diagrams/topologia-anillo.svg" alt="Topología en anillo con 4 PCs conectados en círculo" class="diagram-img" loading="lazy" />
   <figcaption class="diagram-caption">Cada PC se conecta a sus dos vecinos. Los datos viajan en una dirección (o dos en anillos duales).</figcaption>
 </figure>
-
-```text
-PC ─── PC
-│       │
-PC ─── PC
-```
 
 Los datos recorren el anillo hasta llegar a su destino.
 
@@ -226,22 +208,10 @@ Los datos recorren el anillo hasta llegar a su destino.
 
 Hoy en día tiene un uso muy reducido.
 
-#### Topología en estrella
-
-Es la topología más utilizada en las redes Ethernet actuales. Todos los equipos se conectan a un dispositivo central, normalmente un **switch**.
-
 <figure class="diagram-figure">
   <img src="/PAR/diagrams/topologia-estrella.svg" alt="Topología en estrella con switch central y 4 PCs" class="diagram-img" loading="lazy" />
   <figcaption class="diagram-caption">Cada PC se conecta directamente al switch. Si un cable falla, solo ese PC pierde conexión.</figcaption>
 </figure>
-
-```text
-        PC
-         │
-PC ── Switch ── PC
-         │
-        PC
-```
 
 >✅ **Ventajas:** Fácil ampliación, fácil mantenimiento, las averías de un equipo no afectan al resto y alto rendimiento.
 
@@ -249,13 +219,9 @@ PC ── Switch ── PC
 
 Es la topología utilizada en prácticamente todas las redes LAN modernas.
 
-#### Topología en malla
-
-Cada dispositivo puede disponer de múltiples caminos para comunicarse con los demás. 
-
 <figure class="diagram-figure">
   <img src="/PAR/diagrams/topologia-malla.svg" alt="Topología en malla con 4 PCs conectados entre sí" class="diagram-img" loading="lazy" />
-  <figcaption class="diagram-caption">Cada PC tiene conexión directa con todos los demás. Para n dispositivos, necesitas n×(n-1)/2 cables.</figcaption>
+  <figcaption class="diagram-caption">Cada PC tiene conexión directa con todos los demás.</figcaption>
 </figure>
 
 >✅ **Ventajas:** Muy alta disponibilidad, gran tolerancia a fallos y redundancia.
