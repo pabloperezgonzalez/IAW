@@ -2,264 +2,302 @@
 title: 🌐 UP1.2. Tipos de red y topologías - CE1.c)
 ---
 
-## Introducción
-
-**RA1. Reconoce la estructura de las redes de datos identificando sus elementos y principios de funcionamiento.**
+### RA1. Reconoce la estructura de las redes de datos identificando sus elementos y principios de funcionamiento.
 
 | Criterio de evaluación | Tipo | Ponderación |
-|-----------|-----|-----|
-| a) Se han identificado los factores que impulsan la continua expansión y evolución de las redes de datos. | Teórico |  % | 
-| b) Se han diferenciado los distintos medios de transmisión utilizados en las redes. | Teórico |  % | 
-| c) Se han reconocido los distintos tipos de red y sus topologías. | Teórico |  % | 
-| d) Se han descrito las arquitecturas de red y los niveles que las componen. | Teórico |  % | 
-| e) Se ha descrito el concepto de protocolo de comunicación. | Teórico |  % | 
-| f) Se ha descrito el funcionamiento de las pilas de protocolos en las distintas arquitecturas de red. | Teórico |  % | 
-| g) Se han presentado y descrito los elementos funcionales, físicos y lógicos, de las redes de datos. | Teórico |  % | 
-| h) Se han diferenciado los dispositivos de interconexión de redes atendiendo al nivel funcional en el que se encuadran. | Teórico |  % | 
+|:-----------|:-----:|:-----:|
+| c) Se han reconocido los distintos tipos de red y sus topologías. | Teórico | 15 % | 
 
----
+### Introducción
 
-## CE1.a) Factores que impulsan la continua expansión y evolución de las redes de datos
+Las redes de datos pueden clasificarse de diferentes formas según su tamaño, el ámbito geográfico que abarcan, la tecnología empleada o la forma en que se conectan sus dispositivos.
 
-### ¿Por qué las redes evolucionan constantemente?
+Conocer los distintos tipos de red y las topologías más utilizadas resulta fundamental para cualquier administrador de sistemas y redes, ya que cada una presenta características, ventajas e inconvenientes que la hacen más adecuada para determinados escenarios.
 
-Hace apenas unas décadas, la mayoría de los ordenadores funcionaban de forma aislada. Hoy en día, prácticamente cualquier dispositivo puede conectarse a una red para compartir información, acceder a servicios o comunicarse con otros equipos situados en cualquier parte del mundo.
+En este criterio, aprenderás a distinguir los principales tipos de redes y las topologías empleadas para interconectar los dispositivos que las componen.
 
-Esta evolución no ha ocurrido por casualidad. Las redes de datos crecen y cambian continuamente para adaptarse a las nuevas necesidades de personas, empresas y administraciones.
+### ¿Qué es un tipo de red?
 
-En esta unidad estudiaremos cuáles son los principales factores que impulsan esta evolución y cómo han transformado la forma en que utilizamos la tecnología.
+Un **tipo de red** es una clasificación que permite agrupar las redes según determinadas características, siendo la más habitual el **alcance geográfico**.
 
----
+Dependiendo del tamaño del área que cubra una red, las tecnologías utilizadas, la velocidad de transmisión o los dispositivos necesarios pueden variar considerablemente.
 
-### ¿Qué entendemos por evolución de una red?
+Por ejemplo, no requiere la misma infraestructura una red doméstica que conecta varios ordenadores que la red utilizada para comunicar las sedes de una empresa repartidas por varios países.
 
-Una **red de datos** no es un sistema estático. Con el paso del tiempo aparecen nuevas tecnologías, aumentan las necesidades de comunicación y se desarrollan nuevos servicios que obligan a mejorar las infraestructuras existentes.
+### Clasificación de las redes según su alcance
 
-La evolución de una red puede implicar:
+#### PAN (Personal Area Network)
 
-- Aumentar la velocidad de transmisión.
-- Conectar un mayor número de dispositivos.
-- Mejorar la seguridad.
-- Reducir los tiempos de respuesta.
-- Facilitar el acceso desde cualquier lugar.
-- Incorporar nuevas tecnologías de comunicación.
+Una **PAN** (*Personal Area Network*) es una red de muy pequeño alcance diseñada para conectar los dispositivos personales de un usuario.
 
-En definitiva, las redes evolucionan para ofrecer un mejor servicio y responder a las demandas de una sociedad cada vez más conectada.
+Normalmente cubre una distancia inferior a los 10 metros.
 
----
+##### Características
 
-### Principales factores que impulsan la evolución de las redes
+- Muy corto alcance.
+- Bajo consumo energético.
+- Generalmente inalámbrica.
+- Fácil configuración.
 
-#### 1. Crecimiento de Internet
+##### Tecnologías habituales
 
-Internet es la mayor red de datos del mundo.
-Cada año aumenta el número de usuarios, dispositivos y servicios disponibles.
-Este crecimiento obliga a mejorar continuamente las infraestructuras de red para soportar:
+- Bluetooth
+- NFC
+- USB
+- Zigbee (en algunos dispositivos)
 
-- Más conexiones simultáneas.
-- Mayor cantidad de información.
-- Nuevos servicios digitales.
+##### Ejemplos
 
-Ejemplos:
-- Plataformas de vídeo bajo demanda.
-- Redes sociales.
-- Comercio electrónico.
-- Videojuegos online.
-- Videoconferencias.
+- Un teléfono móvil conectado a unos auriculares Bluetooth.
+- Un smartwatch sincronizado con un smartphone.
+- Un ordenador conectado a un teclado y un ratón inalámbricos.
 
-#### 2. Transformación digital de empresas y administraciones
+#### LAN (Local Area Network)
 
-Cada vez más organizaciones sustituyen procesos tradicionales por soluciones digitales.
-Hoy es habitual trabajar mediante aplicaciones conectadas a una red.
+Una **LAN** (*Local Area Network*) conecta dispositivos dentro de un área reducida, como una vivienda, una oficina, un laboratorio o un centro educativo.
 
-Por ejemplo:
-- Gestión de clientes.
-- Facturación electrónica.
-- Historias clínicas digitales.
-- Administración electrónica.
-- Gestión documental.
+Es el tipo de red más habitual en empresas y organizaciones.
 
-Esto requiere redes más rápidas, fiables y seguras.
+##### Características
 
-#### 3. Computación en la nube (Cloud Computing)
+- Alta velocidad de transmisión.
+- Baja latencia.
+- Administración propia.
+- Coste relativamente bajo.
 
-Muchas aplicaciones ya no se ejecutan únicamente en el ordenador del usuario.
-Actualmente gran parte de la información se almacena en centros de datos accesibles a través de Internet.
-Esto permite:
-- Acceder a los archivos desde cualquier lugar.
-- Compartir documentos entre varios usuarios.
-- Reducir la necesidad de servidores locales.
-- Facilitar las copias de seguridad.
+##### Tecnologías habituales
 
-Algunos ejemplos conocidos:
-- Google Drive.
-- Microsoft OneDrive.
-- Dropbox.
-- Microsoft 365.
-- Google Workspace.
+- Ethernet
+- Wi-Fi
 
-Las redes son imprescindibles para acceder a estos servicios.
+##### Ejemplos
 
-#### 4. Movilidad y trabajo remoto
+- La red informática de un instituto.
+- La red de una oficina.
+- La red doméstica de una vivienda.
 
-Cada vez utilizamos más dispositivos móviles:
+#### MAN (Metropolitan Area Network)
 
-- Smartphones.
-- Tablets.
-- Ordenadores portátiles.
+Una **MAN** (*Metropolitan Area Network*) conecta redes distribuidas dentro de una misma ciudad o área metropolitana.
 
-Además, muchas personas trabajan desde casa o desde diferentes ubicaciones. Para ello es necesario disponer de:
+Suelen ser gestionadas por operadores de telecomunicaciones o grandes organizaciones.
 
-- Redes Wi-Fi rápidas.
-- Acceso remoto seguro.
-- Conexiones permanentes.
-- Buena cobertura inalámbrica.
+##### Ejemplos
 
-El teletrabajo ha acelerado enormemente la mejora de las redes de comunicaciones.
+- Red municipal de un ayuntamiento.
+- Red que conecta los distintos edificios de una universidad repartidos por una ciudad.
+- Infraestructura de fibra óptica de un operador local.
 
-#### 5. Internet de las Cosas (IoT)
+#### WAN (Wide Area Network)
 
-El **Internet de las Cosas (IoT)** consiste en conectar a Internet dispositivos que tradicionalmente no eran considerados ordenadores. Por ejemplo:
+Una **WAN** (*Wide Area Network*) conecta redes situadas en diferentes ciudades, países o incluso continentes.
 
-- Cámaras IP.
-- Sensores de temperatura.
-- Termostatos inteligentes.
-- Bombillas inteligentes.
-- Electrodomésticos.
-- Vehículos conectados.
-- Relojes inteligentes.
+Utiliza enlaces de larga distancia proporcionados normalmente por operadores de telecomunicaciones.
 
-Cada uno de estos dispositivos necesita una conexión de red.
-Actualmente existen miles de millones de dispositivos IoT conectados en todo el mundo.
+##### Características
 
-#### 6. Streaming de contenidos
+- Gran cobertura geográfica.
+- Elevado número de dispositivos.
+- Coste superior al de una LAN.
+- Mayor complejidad de administración.
 
-Cada vez consumimos más contenido multimedia a través de Internet. Algunos ejemplos son:
+##### Ejemplos
 
-- Películas.
-- Series.
-- Música.
-- Retransmisiones deportivas.
-- Vídeos en directo.
+- La red corporativa de una empresa multinacional.
+- La red bancaria que conecta todas sus oficinas.
+- Internet.
 
-El vídeo en alta definición (HD), Full HD, 4K e incluso 8K requiere un enorme ancho de banda. Por este motivo las redes deben ofrecer velocidades cada vez mayores.
+### Comparativa de los tipos de red
 
-#### 7. Inteligencia Artificial y Big Data
+| Tipo | Alcance | Ejemplo |
+|------|----------|----------|
+| PAN | Persona (1-10 m) | Smartphone y auriculares Bluetooth |
+| LAN | Edificio | Instituto, empresa, vivienda |
+| MAN | Ciudad | Red municipal |
+| WAN | País, continente o mundo | Empresa multinacional |
 
-Las aplicaciones basadas en Inteligencia Artificial necesitan intercambiar grandes cantidades de información entre usuarios, servidores y centros de datos. Algunos ejemplos son:
+### Clasificación según el medio de transmisión
 
-- Asistentes virtuales.
-- Traductores automáticos.
-- Sistemas de reconocimiento de imágenes.
-- Vehículos autónomos.
-- Motores de recomendación.
+Las redes también pueden clasificarse según cómo viaja la información.
 
-Además, muchas empresas analizan enormes volúmenes de datos (Big Data), lo que requiere infraestructuras de red muy potentes.
+#### Redes cableadas
 
-#### 8. Ciberseguridad
+Utilizan un medio físico para transmitir los datos. Los más habituales son:
 
-Cuanto mayor es el número de dispositivos conectados, mayor es también el riesgo de sufrir ataques informáticos. Por ello las redes incorporan continuamente nuevas medidas de protección:
+- Cable de par trenzado.
+- Fibra óptica.
+- Cable coaxial.
 
-- Firewalls.
-- Sistemas de detección de intrusiones.
-- Redes privadas virtuales (VPN).
-- Cifrado de las comunicaciones.
-- Autenticación multifactor.
+>✅ **Ventajas:** Mayor velocidad, menor interferencia, mayor estabilidad y mayor seguridad física.
 
-La seguridad se ha convertido en uno de los principales motores de evolución de las redes.
+>❌ **Inconvenientes:** Instalación más compleja y menor movilidad.
 
-#### 9. Aparición de nuevas tecnologías de comunicación
+#### Redes inalámbricas
 
-Las tecnologías de red evolucionan constantemente para ofrecer mejores prestaciones. Algunos ejemplos son:
+Transmiten la información mediante ondas electromagnéticas. Las tecnologías más utilizadas son:
 
-| Tecnología | Mejora aportada |
-|------------|-----------------|
-| Fibra óptica | Mayor velocidad y menor latencia. |
-| Wi-Fi 6 y Wi-Fi 7 | Mayor rendimiento inalámbrico. |
-| Redes 5G | Mayor velocidad y menor tiempo de respuesta. |
-| IPv6 | Permite disponer de un número prácticamente ilimitado de direcciones IP. |
-| Ethernet Multigigabit | Aumenta la velocidad en redes locales. |
+- Wi-Fi
+- Bluetooth
+- Redes móviles (4G y 5G)
+- Enlaces por radio
 
-Cada nueva tecnología permite construir redes más eficientes y preparadas para el futuro.
+>✅ **Ventajas:** Gran movilidad, instalación sencilla y flexibilidad.
 
----
+>❌ **Inconvenientes:** Posibles interferencias, menor velocidad en determinadas situaciones y mayor exposición a ataques si no se protegen adecuadamente.
 
-### Relación entre todos los factores
+### Clasificación según la arquitectura
 
-Todos estos factores están relacionados entre sí. Por ejemplo:
+#### Redes cliente-servidor
 
-- El crecimiento del teletrabajo incrementa el uso de servicios en la nube.
-- La nube necesita centros de datos conectados mediante redes de alta velocidad.
-- El aumento del tráfico obliga a desplegar fibra óptica y redes 5G.
-- La aparición de millones de dispositivos IoT incrementa la necesidad de direcciones IPv6.
-- Cuantos más dispositivos existen, mayor importancia adquiere la ciberseguridad.
+En este modelo existen uno o varios **servidores** que ofrecen servicios al resto de equipos.
 
-La evolución de las redes responde, por tanto, a una combinación de necesidades tecnológicas, sociales y económicas.
+Los clientes solicitan dichos servicios cuando los necesitan, como, por ejemplo:
+- Servidor web.
+- Servidor de archivos.
+- Servidor DNS.
+- Servidor DHCP.
+- Servidor de bases de datos.
+- Servidor de correo electrónico.
 
----
+>✅ **Ventajas:** Administración centralizada, mayor seguridad, copias de seguridad más sencillas y mejor control de usuarios.
 
-### Esquema resumen del CE1.a)
+Es el modelo utilizado en prácticamente todas las empresas.
+
+#### Redes entre iguales (Peer to Peer)
+
+Todos los equipos pueden actuar simultáneamente como clientes y servidores. No existe un servidor central.
+
+>✅ **Ventajas:** Configuración sencilla y bajo coste.
+
+>❌ **Inconvenientes:** Difícil administración, menor seguridad y escasa escalabilidad.
+
+Actualmente se utilizan principalmente en pequeñas redes domésticas o para aplicaciones específicas.
+
+### ¿Qué es una topología de red?
+
+La **topología** describe la forma en que los dispositivos se conectan entre sí. Es importante distinguir entre:
+
+- **Topología física**, que representa la disposición real del cableado y los dispositivos.
+- **Topología lógica**, que describe el recorrido que siguen los datos independientemente de la disposición física.
+
+En este apartado nos centraremos principalmente en las topologías físicas.
+
+### Principales topologías
+
+#### Topología en bus
+
+Todos los equipos comparten un único cable principal denominado **bus**.
+
+<figure class="diagram-figure">
+  <img src="/PAR/diagrams/topologia-bus.svg" alt="Topología en bus con cable coaxial compartido por 4 PCs" class="diagram-img" loading="lazy" />
+  <figcaption class="diagram-caption">Todos los PCs comparten el mismo cable. Una rotura en cualquier punto deja toda la red fuera de servicio.</figcaption>
+</figure>
 
 ```text
-Transformación digital
-            │
-            ▼
-Más dispositivos conectados
-            │
-            ▼
-Mayor tráfico de datos
-            │
-            ▼
-Necesidad de redes más rápidas
-            │
-            ▼
-Nuevas tecnologías
-(Fibra, Wi-Fi 7, 5G, IPv6...)
-            │
-            ▼
-Mayor capacidad y mejores servicios
+PC ─── PC ─── PC ─── PC
 ```
 
----
+>✅ **Ventajas:** Poco cableado, instalación sencilla y bajo coste.
 
-### Ideas clave
+>❌ **Inconvenientes:** Si el cable principal falla, toda la red deja de funcionar, difícil localizar averías y bajo rendimiento cuando aumenta el tráfico.
 
-> 📌 Las redes evolucionan para adaptarse a las nuevas necesidades de comunicación.
+Actualmente apenas se utiliza.
 
-> 📌 Internet, la nube, el teletrabajo y el IoT son algunos de los principales motores de esta evolución.
+#### Topología en anillo
 
-> 📌 El aumento del tráfico de datos obliga a desarrollar tecnologías más rápidas y eficientes.
+Cada dispositivo se conecta con los dos equipos adyacentes formando un circuito cerrado.
 
-> 📌 La ciberseguridad es un aspecto fundamental en el crecimiento de las redes actuales.
+<figure class="diagram-figure">
+  <img src="/PAR/diagrams/topologia-anillo.svg" alt="Topología en anillo con 4 PCs conectados en círculo" class="diagram-img" loading="lazy" />
+  <figcaption class="diagram-caption">Cada PC se conecta a sus dos vecinos. Los datos viajan en una dirección (o dos en anillos duales).</figcaption>
+</figure>
 
-> 📌 La evolución de las redes continuará en los próximos años impulsada por la Inteligencia Artificial, el Internet de las Cosas y las nuevas tecnologías de comunicación.
+```text
+PC ─── PC
+│       │
+PC ─── PC
+```
 
----
+Los datos recorren el anillo hasta llegar a su destino.
 
-### Actividades de repaso del CE1.a)
+>✅ **Ventajas:** Acceso ordenado al medio y ausencia de colisiones en determinadas implementaciones. 
 
-#### Actividad 1
+>❌ **Inconvenientes:** Una avería puede afectar a toda la red y escasa flexibilidad.
 
-Explica con tus propias palabras por qué las redes de datos necesitan evolucionar continuamente.
+Hoy en día tiene un uso muy reducido.
 
-#### Actividad 2
+#### Topología en estrella
 
-Relaciona cada situación con el factor que impulsa la evolución de las redes.
+Es la topología más utilizada en las redes Ethernet actuales. Todos los equipos se conectan a un dispositivo central, normalmente un **switch**.
 
-| Situación | Factor |
-|-----------|--------|
-| Un hospital comparte historiales médicos entre diferentes centros. | |
-| Un usuario ve una película en 4K por Internet. | |
-| Una empresa utiliza Microsoft 365 para trabajar. | |
-| Una vivienda dispone de sensores inteligentes. | |
-| Un empleado trabaja desde casa mediante VPN. | |
+<figure class="diagram-figure">
+  <img src="/PAR/diagrams/topologia-estrella.svg" alt="Topología en estrella con switch central y 4 PCs" class="diagram-img" loading="lazy" />
+  <figcaption class="diagram-caption">Cada PC se conecta directamente al switch. Si un cable falla, solo ese PC pierde conexión.</figcaption>
+</figure>
 
-#### Actividad 3
+```text
+        PC
+         │
+PC ── Switch ── PC
+         │
+        PC
+```
 
-Indica si las siguientes afirmaciones son **verdaderas (V)** o **falsas (F)**.
+>✅ **Ventajas:** Fácil ampliación, fácil mantenimiento, las averías de un equipo no afectan al resto y alto rendimiento.
 
-- ☐ Las redes actuales transportan menos información que hace diez años.
-- ☐ El IoT permite conectar objetos cotidianos a Internet.
-- ☐ La fibra óptica ofrece mayor capacidad que el cable de cobre.
-- ☐ La ciberseguridad no influye en la evolución de las redes.
-- ☐ El teletrabajo ha incrementado la necesidad de conexiones seguras.
+>❌ **Inconvenientes:** Dependencia del dispositivo central.
+
+Es la topología utilizada en prácticamente todas las redes LAN modernas.
+
+#### Topología en malla
+
+Cada dispositivo puede disponer de múltiples caminos para comunicarse con los demás. 
+
+<figure class="diagram-figure">
+  <img src="/PAR/diagrams/topologia-malla.svg" alt="Topología en malla con 4 PCs conectados entre sí" class="diagram-img" loading="lazy" />
+  <figcaption class="diagram-caption">Cada PC tiene conexión directa con todos los demás. Para n dispositivos, necesitas n×(n-1)/2 cables.</figcaption>
+</figure>
+
+>✅ **Ventajas:** Muy alta disponibilidad, gran tolerancia a fallos y redundancia.
+
+>❌ **Inconvenientes:** Elevado coste y configuración compleja.
+
+Se utiliza en redes críticas y en el núcleo de Internet.
+
+### Comparativa de topologías
+
+| Topología | Coste | Tolerancia a fallos | Escalabilidad | Uso actual |
+|:-----------:|:------:|:--------------------:|:--------------:|:-----------:|
+| Bus | Bajo | Baja | Baja | Muy reducido |
+| Anillo | Medio | Baja | Media | Muy reducido |
+| Estrella | Medio | Alta | Alta | Muy frecuente |
+| Árbol | Medio-Alto | Alta | Muy alta | Muy frecuente |
+| Malla | Muy alto | Muy alta | Alta | Redes críticas |
+
+### ¿Qué topologías encontramos actualmente?
+
+En las redes modernas predominan dos topologías:
+
+- **Estrella**, en redes LAN.
+- **Árbol**, cuando existen varios switches distribuidos por un edificio o campus.
+
+Las topologías en bus y en anillo tienen hoy un interés principalmente histórico, mientras que las topologías en malla se utilizan cuando se requiere una elevada disponibilidad del servicio.
+
+### Caso práctico
+
+Un instituto dispone de:
+
+- Tres aulas de informática.
+- Una biblioteca.
+- Un departamento de administración.
+- Una sala de profesores.
+- Un CPD donde se encuentran los servidores.
+
+Cada aula dispone de un switch conectado mediante fibra óptica al switch principal situado en el CPD.
+
+#### Reflexiona
+
+1. ¿Qué tipo de red utiliza el instituto?
+2. ¿Qué topología presenta la red?
+3. ¿Qué ocurriría si fallara uno de los switches de un aula?
+4. ¿Qué consecuencias tendría la avería del switch principal?

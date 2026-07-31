@@ -1,5 +1,5 @@
 ﻿---
-title: 🌐 UP1 — Caracterización de redes
+title: 🌐 UP1. Caracterización de redes
 ---
 
 ### RA1. Reconoce la estructura de las redes de datos identificando sus elementos y principios de funcionamiento.
