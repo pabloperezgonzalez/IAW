@@ -245,7 +245,7 @@ Se utiliza en redes críticas y en el núcleo de Internet.
 En las redes modernas predominan dos topologías:
 
 - **Estrella**, en redes LAN.
-- **Árbol**, cuando existen varios switches distribuidos por un edificio o campus.
+- **Malla**, cuando existen varios switches distribuidos por un edificio o campus.
 
 Las topologías en bus y en anillo tienen hoy un interés principalmente histórico, mientras que las topologías en malla se utilizan cuando se requiere una elevada disponibilidad del servicio.
 
