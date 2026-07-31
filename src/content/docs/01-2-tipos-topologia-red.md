@@ -185,7 +185,7 @@ En este apartado nos centraremos principalmente en las topologías físicas.
 ### Principales topologías
 
 <figure class="diagram-figure">
-  <img src="/PAR/diagrams/topologia-bus.svg" alt="Topología en bus con cable coaxial compartido por 4 PCs" class="diagram-img" style="width:500px; height:auto;" loading="lazy" />
+  <img src="/PAR/diagrams/topologia-bus.svg" alt="Topología en bus con cable coaxial compartido por 4 PCs" class="diagram-img" style="width:1000px; height:auto;" loading="lazy" />
   <figcaption class="diagram-caption">Todos los PCs comparten el mismo cable, denominado bus. Una rotura en cualquier punto deja toda la red fuera de servicio.</figcaption>
 </figure>
 
@@ -196,7 +196,7 @@ En este apartado nos centraremos principalmente en las topologías físicas.
 Actualmente apenas se utiliza.
 
 <figure class="diagram-figure">
-  <img src="/PAR/diagrams/topologia-anillo.svg" alt="Topología en anillo con 4 PCs conectados en círculo" class="diagram-img" style="width:500px; height:auto;" loading="lazy" />
+  <img src="/PAR/diagrams/topologia-anillo.svg" alt="Topología en anillo con 4 PCs conectados en círculo" class="diagram-img" style="width:auto; height:1000px;" loading="lazy" />
   <figcaption class="diagram-caption">Cada PC se conecta a sus dos vecinos. Los datos viajan en una dirección (o dos en anillos duales).</figcaption>
 </figure>
 
@@ -209,7 +209,7 @@ Los datos recorren el anillo hasta llegar a su destino.
 Hoy en día tiene un uso muy reducido.
 
 <figure class="diagram-figure">
-  <img src="/PAR/diagrams/topologia-estrella.svg" alt="Topología en estrella con switch central y 4 PCs" class="diagram-img" style="width:500px; height:auto;" loading="lazy" />
+  <img src="/PAR/diagrams/topologia-estrella.svg" alt="Topología en estrella con switch central y 4 PCs" class="diagram-img" style="width:1000px; height:auto;" loading="lazy" />
   <figcaption class="diagram-caption">Cada PC se conecta directamente al switch. Si un cable falla, solo ese PC pierde conexión.</figcaption>
 </figure>
 
@@ -220,7 +220,7 @@ Hoy en día tiene un uso muy reducido.
 Es la topología utilizada en prácticamente todas las redes LAN modernas.
 
 <figure class="diagram-figure">
-  <img src="/PAR/diagrams/topologia-malla.svg" alt="Topología en malla con 4 PCs conectados entre sí" class="diagram-img" style="width:500px; height:auto;" loading="lazy" />
+  <img src="/PAR/diagrams/topologia-malla.svg" alt="Topología en malla con 4 PCs conectados entre sí" class="diagram-img" style="width:auto; height:1000px;" loading="lazy" />
   <figcaption class="diagram-caption">Cada PC tiene conexión directa con todos los demás.</figcaption>
 </figure>
 
