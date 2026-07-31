@@ -82,8 +82,8 @@ export default defineConfig({
                 { slug: '01-caracterizacion-redes', label: 'Introducción' },
                 { slug: '01-1-factores-redes', label: 'UP1.1. Factores que impulsan la continua expansión y evolución de las redes de datos - CE1.a)' },
                 { slug: '01-2-tipos-topologia-red', label: 'UP1.2. Tipos de red y topologías - CE1.c)' },
-                //{ slug: '01-03-topologias', label: 'UP1.3. Topologías' },
-                //{ slug: '01-04-componentes', label: 'UP1.4. Componentes' },
+                { slug: '01-3-elementos-red', label: 'UP1.3. Elementos funcionales, físicos y lógicos de una red - CE1.g)' },
+                { slug: '01-04-medios-transmision', label: 'UP1.4. Medios de transmisión' },
               ],
             },
             {
