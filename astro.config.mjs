@@ -83,7 +83,7 @@ export default defineConfig({
                 { slug: '01-1-factores-redes', label: 'UP1.1. Factores que impulsan la continua expansión y evolución de las redes de datos - CE1.a)' },
                 { slug: '01-2-tipos-topologia-red', label: 'UP1.2. Tipos de red y topologías - CE1.c)' },
                 { slug: '01-3-elementos-red', label: 'UP1.3. Elementos funcionales, físicos y lógicos de una red - CE1.g)' },
-                { slug: '01-04-medios-transmision', label: 'UP1.4. Medios de transmisión' },
+                { slug: '01-04-medios-transmision', label: 'UP1.4. Medios de transmisión - CE1.b)' },
               ],
             },
             {
