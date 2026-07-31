@@ -276,20 +276,6 @@ Todos los elementos de una red trabajan conjuntamente. Por ejemplo, cuando un al
 
 Ninguno de estos elementos sería suficiente por sí solo.
 
-### Caso práctico
-
-Un instituto dispone de la siguiente infraestructura:
-
-- 120 ordenadores.
-- 8 switches.
-- 1 router.
-- 3 puntos de acceso Wi-Fi.
-- Servidor de archivos.
-- Servidor DHCP.
-- Servidor DNS.
-- Fibra óptica entre edificios.
-- Cableado de par trenzado en las aulas.
-
 ### Actividad
 
 Clasifica cada uno de los siguientes elementos como **físico**, **lógico** o **funcional**.
@@ -306,23 +292,3 @@ Clasifica cada uno de los siguientes elementos como **físico**, **lógico** o *
 | DHCP | |
 | Switch | |
 | VLAN | |
-
-### Esquema resumen
-
-```text
-                    RED DE DATOS
-                         │
-        ┌────────────────┼────────────────┐
-        │                │                │
-        ▼                ▼                ▼
-   Elementos        Elementos       Elementos
-    físicos          lógicos         funcionales
-
- Ordenadores       Dirección IP      DNS
- Servidores        Dirección MAC     DHCP
- Switches          VLAN              Compartición
- Routers           Gateway           Autenticación
- Cableado          Protocolos        Seguridad
- Fibra óptica      DNS               Internet
- Wi-Fi
-```

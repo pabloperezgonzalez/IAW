@@ -239,15 +239,6 @@ La elección depende de diversos factores.
 
 No existe un medio perfecto. Cada uno ofrece ventajas para determinadas situaciones.
 
-### Caso práctico
-Una empresa va a construir una nueva sede con tres plantas. Se necesitan:
-
-- Conectar 180 ordenadores.
-- Instalar varios puntos de acceso Wi-Fi.
-- Unir las plantas mediante enlaces de alta velocidad.
-- Conectar cámaras IP exteriores.
-- Ofrecer cobertura inalámbrica a empleados y visitantes.
-
 ### Actividad
 
 Indica qué medio de transmisión utilizarías en cada uno de los siguientes casos y justifica tu respuesta.
@@ -259,19 +250,3 @@ Indica qué medio de transmisión utilizarías en cada uno de los siguientes cas
 | Portátiles de los empleados | |
 | Cámaras IP del aparcamiento | |
 | Smartphone de un visitante | |
-
-### Esquema resumen
-
-```text
-                    Medios de transmisión
-                             │
-            ┌────────────────┴────────────────┐
-            │                                 │
-      Medios guiados                   Medios no guiados
-            │                                 │
-      Par trenzado                        Wi-Fi
-      Fibra óptica                       Bluetooth
-      Cable coaxial                      4G / 5G
-                                         Radio
-                                         Satélite
-```
