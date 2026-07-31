@@ -15,7 +15,7 @@ title: 🌐 UP1 — Caracterización de redes
 | g) Se han presentado y descrito los elementos funcionales, físicos y lógicos, de las redes de datos. | Teórico | 10 % | 
 | h) Se han diferenciado los dispositivos de interconexión de redes atendiendo al nivel funcional en el que se encuadran. | Teórico |  15 % | 
 
-## CE1.a) Factores que impulsan la continua expansión y evolución de las redes de datos
+### CE1.a) Factores que impulsan la continua expansión y evolución de las redes de datos
 
 **¿Por qué comenzar aquí?**
 
@@ -33,7 +33,7 @@ Algunos aspectos que se tratarán son:
 - Inteligencia Artificial.
 - Ciberseguridad.
 
-## CE1.c) Tipos de red y topologías
+### CE1.c) Tipos de red y topologías
 
 Una vez entendida la necesidad de las redes, el siguiente paso es responder a la pregunta:
 
@@ -56,7 +56,7 @@ Además, de introducir las distintas topologías de red:
 - Malla.
 - Híbridas.
 
-## CE1.g) Elementos funcionales, físicos y lógicos de una red
+### CE1.g) Elementos funcionales, físicos y lógicos de una red
 
 Después de conocer cómo son las redes, resulta natural estudiar de qué están formadas. Aquí se presentan los siguientes conceptos, de manera general:
 
@@ -72,7 +72,7 @@ Después de conocer cómo son las redes, resulta natural estudiar de qué están
 - Recursos compartidos.
 - Servicios de red.
 
-## CE1.b) Medios de transmisión
+### CE1.b) Medios de transmisión
 
 Cuando ya conocemos los elementos de una red, surge una nueva pregunta:
 
@@ -91,7 +91,7 @@ Para entender cómo viaja realmente la información, se introducirá:
 - Atenuación.
 - Interferencias.
 
-## CE1.d) Arquitecturas de red y niveles
+### CE1.d) Arquitecturas de red y niveles
 
 Hasta este momento, todo lo estudiado pertenece principalmente al mundo físico. Ahora se introduce una idea mucho más abstracta:
 
@@ -106,7 +106,7 @@ Es el momento ideal para introducir:
 
 Este criterio sirve de puente hacia el funcionamiento interno de las comunicaciones.
 
-## CE1.e) Concepto de protocolo de comunicación
+### CE1.e) Concepto de protocolo de comunicación
 
 Una vez conocidas las capas, aparece una cuestión lógica:
 
