@@ -31,9 +31,9 @@ Los tres trabajan conjuntamente para que la información pueda viajar desde un d
                      │
      ┌───────────────┼───────────────┐
      │               │               │
-Elementos      Elementos       Elementos
- físicos         lógicos        funcionales
-(Hardware)     (Configuración)   (Servicios)
+Elementos        Elementos       Elementos
+ físicos          lógicos       funcionales
+(Hardware)    (Configuración)   (Servicios)
 ```
 
 ### 1. Elementos físicos
@@ -140,7 +140,7 @@ Ejemplo IPv4:
 Ejemplo IPv6:
 
 ```text
-2001:db8::15
+2001:0db8:85a3:0000:0000:8a2e:0370:7334
 ```
 
 Las direcciones IP permiten localizar el destino de una comunicación.
@@ -167,7 +167,7 @@ Recordar una dirección IP resulta complicado. Los servidores **DNS (Domain Name
 www.google.es
       │
       ▼
-142.250.xxx.xxx
+142.250.177.14
 ```
 
 Gracias al DNS podemos navegar utilizando nombres fáciles de recordar.

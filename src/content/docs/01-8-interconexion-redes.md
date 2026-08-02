@@ -24,10 +24,10 @@ Un **dispositivo de interconexión** es un equipo de red cuya función consiste 
                          │
      ┌───────────────────┼───────────────────┐
      │                   │                   │
- Capa Física        Capa Enlace         Capa Red
-      │                   │                   │
- Repetidor             Switch            Router
- Hub                   Bridge            Gateway
+Capa Física         Capa Enlace         Capa Red
+     │                   │                   │
+ Repetidor             Switch              Router
+    Hub                Bridge             Gateway
 ```
 
 ### Clasificación según el modelo OSI

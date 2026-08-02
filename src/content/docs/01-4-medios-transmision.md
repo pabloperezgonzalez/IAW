@@ -36,28 +36,26 @@ Los medios de transmisión pueden clasificarse en dos grandes grupos:
          ┌─────────────┴─────────────┐
          │                           │
          ▼                           ▼
- Medios guiados               Medios no guiados
- (Cableados)                  (Inalámbricos)
+   Medios guiados            Medios no guiados
+    (Cableados)               (Inalámbricos)
 ```
 
 ### 1. Medios guiados
 Los **medios guiados** utilizan un soporte físico para transportar la información. Las señales permanecen confinadas dentro del cable, lo que proporciona una mayor estabilidad y protección frente a interferencias externas. Son los medios más utilizados en redes empresariales y centros de datos.
 
-### Cable de par trenzado
-Es el medio de transmisión más utilizado en las redes Ethernet actuales. Está formado por varios pares de hilos de cobre trenzados entre sí. El trenzado reduce las interferencias electromagnéticas y mejora la calidad de la transmisión.
+### 1.1. Cable de par trenzado
+Es el medio de transmisión más utilizado en las redes Ethernet actuales. Está formado por varios pares de hilos de cobre trenzados entre sí. El trenzado reduce las interferencias electromagnéticas y mejora la calidad de la transmisión. Existen diferentes tipos de cable de par trenzado:
 
-#### Tipos de cable de par trenzado
-
-##### UTP (Unshielded Twisted Pair)
+##### a) UTP (Unshielded Twisted Pair)
 No dispone de apantallamiento. Es el cable más utilizado en redes LAN.
 
-##### STP (Shielded Twisted Pair)
+##### b) STP (Shielded Twisted Pair)
 Incluye una malla metálica que protege frente a interferencias. Se utiliza en entornos industriales o con elevada contaminación electromagnética.
 
-##### FTP (Foiled Twisted Pair)
+##### c) FTP (Foiled Twisted Pair)
 Dispone de una lámina metálica que envuelve el conjunto de pares. Ofrece una protección intermedia entre UTP y STP.
 
-#### Categorías del cable de par trenzado
+##### Categorías del cable de par trenzado
 
 La velocidad máxima depende de la categoría del cable.
 
@@ -73,19 +71,17 @@ La velocidad máxima depende de la categoría del cable.
 
 >❌ **Inconvenientes:** Distancia limitada (100 metros en Ethernet), sensible a interferencias y menor velocidad que la fibra óptica.
 
-### Fibra óptica
-La fibra óptica transmite la información mediante **impulsos de luz**, en lugar de señales eléctricas. Está formada por un núcleo de vidrio o plástico extremadamente fino por el que viajan los haces de luz. Actualmente constituye el medio de transmisión de mayor capacidad.
+### 1.2. Fibra óptica
+La fibra óptica transmite la información mediante **impulsos de luz**, en lugar de señales eléctricas. Está formada por un núcleo de vidrio o plástico extremadamente fino por el que viajan los haces de luz. Actualmente constituye el medio de transmisión de mayor capacidad. Existen diferentes tipos de fibra óptica:
 
-#### Tipos de fibra óptica
-
-##### Fibra multimodo (MMF)
+##### a) Fibra multimodo (MMF)
 Permite que varios haces de luz recorran simultáneamente el núcleo. Se utiliza principalmente en:
 
 - Edificios.
 - Campus universitarios.
 - Centros de datos.
 
-##### Fibra monomodo (SMF)
+##### b) Fibra monomodo (SMF)
 Permite que un único haz de luz recorra la fibra. Presenta:
 
 - Mayor alcance.
@@ -98,7 +94,7 @@ Es la utilizada por los operadores de telecomunicaciones.
 
 >❌ **Inconvenientes:** Mayor coste, instalación más compleja y requiere herramientas especializadas.
 
-### Cable coaxial
+### 1.3. Cable coaxial
 
 Fue uno de los primeros medios utilizados en redes locales. Está formado por:
 
@@ -128,7 +124,7 @@ Actualmente apenas se utiliza en redes Ethernet, aunque sigue presente en:
 ### 2. Medios no guiados
 Los **medios no guiados** transmiten la información mediante ondas electromagnéticas. No requieren un cable físico entre el emisor y el receptor. Su principal ventaja es la movilidad.
 
-### Wi-Fi
+#### 2.1. Wi-Fi
 Es la tecnología inalámbrica más utilizada en redes locales. Permite conectar dispositivos mediante un punto de acceso (Access Point). Actualmente las versiones más utilizadas son:
 
 - Wi-Fi 5 (802.11ac)
@@ -141,7 +137,7 @@ Es la tecnología inalámbrica más utilizada en redes locales. Permite conectar
 
 >❌ **Inconvenientes:** Sensible a interferencias, menor velocidad que una conexión cableada y mayor riesgo de accesos no autorizados si no se configura correctamente.
 
-### Bluetooth
+#### 2.2. Bluetooth
 Bluetooth está diseñado para comunicaciones de corto alcance entre dispositivos personales. Se utiliza principalmente para conectar:
 
 - Auriculares.
@@ -152,7 +148,7 @@ Bluetooth está diseñado para comunicaciones de corto alcance entre dispositivo
 
 Su consumo energético es muy reducido.
 
-### Redes móviles
+#### 2.3. Redes móviles
 Las tecnologías móviles permiten transmitir información a través de la infraestructura de los operadores de telecomunicaciones. Las generaciones más importantes son:
 
 | Generación | Características |
@@ -163,7 +159,7 @@ Las tecnologías móviles permiten transmitir información a través de la infra
 
 Las redes 5G están impulsando el desarrollo del Internet de las Cosas y de los vehículos conectados.
 
-### Radio y microondas
+#### 2.4. Radio y microondas
 Se utilizan para establecer enlaces inalámbricos de larga distancia. Son habituales en:
 
 - Comunicaciones entre edificios.
@@ -173,7 +169,7 @@ Se utilizan para establecer enlaces inalámbricos de larga distancia. Son habitu
 
 En muchos casos requieren visión directa entre los puntos de comunicación.
 
-### Satélite
+#### 2.5. Satélite
 Las comunicaciones por satélite permiten ofrecer conectividad en lugares donde no existe infraestructura terrestre. Su principal aplicación es:
 
 - Zonas rurales.

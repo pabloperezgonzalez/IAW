@@ -25,19 +25,19 @@ Los protocolos definen todos los aspectos necesarios para que la comunicación s
 ```text
                  PROTOCOLOS DE COMUNICACIÓN
 
-                 Conjunto de reglas
-                         │
-      ┌──────────────────┼──────────────────┐
-      │                  │                  │
-      ▼                  ▼                  ▼
- Establecen        Organizan        Garantizan
- la comunicación    los datos      una transmisión
-                                   correcta
-                         │
-                         ▼
-               Comunicación entre
-           dispositivos de cualquier
-            fabricante o sistema
+                  Conjunto de reglas
+                          │
+       ┌──────────────────┼──────────────────┐
+       │                  │                  │
+       ▼                  ▼                  ▼
+  Establecen          Organizan          Garantizan
+la comunicación       los datos        una transmisión
+                                          correcta
+                          │
+                          ▼
+                  Comunicación entre
+               dispositivos de cualquier
+                 fabricante o sistema
 ```
 
 ### ¿Por qué son necesarios los protocolos?
@@ -227,7 +227,7 @@ Es el programa utilizado por el usuario. Ejemplos:
 
 Las aplicaciones utilizan protocolos para acceder a los distintos servicios de red.
 
-# Caso práctico
+### Caso práctico
 
 Una empresa va a implantar una nueva plataforma de trabajo colaborativo accesible desde Internet.
 

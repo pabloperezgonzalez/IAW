@@ -40,14 +40,14 @@ Imaginemos que queremos enviar un correo electrónico. Aunque para el usuario la
 Si todas estas tareas estuvieran mezcladas, el desarrollo y mantenimiento de las redes sería extremadamente complejo. Por este motivo se utilizan **arquitecturas por capas**, donde cada nivel realiza una función específica.
 
 ```text
-Usuario
-   │
+  Usuario
+     │
 Aplicaciones
-   │
-Protocolos
-   │
+     │
+ Protocolos
+     │
 Transmisión
-   │
+     │
 Medio físico
 ```
 

@@ -8,7 +8,7 @@ title: 🌐 UP1.1. Factores que impulsan la continua expansión y evolución de 
 |:-----------|:-----:|:-----:|
 | a) Se han identificado los factores que impulsan la continua expansión y evolución de las redes de datos. | Teórico |  5 % | 
 
-### ¿Por qué las redes evolucionan constantemente?
+### 1. ¿Por qué las redes evolucionan constantemente?
 
 Hace apenas unas décadas, la mayoría de los ordenadores funcionaban de forma aislada. Hoy en día, prácticamente cualquier dispositivo puede conectarse a una red para compartir información, acceder a servicios o comunicarse con otros equipos situados en cualquier parte del mundo.
 
@@ -16,7 +16,7 @@ Esta evolución no ha ocurrido por casualidad. Las redes de datos crecen y cambi
 
 En este criterio, estudiaremos cuáles son los principales factores que impulsan esta evolución y cómo han transformado la forma en que utilizamos la tecnología.
 
-### ¿Qué entendemos por evolución de una red?
+### 2. ¿Qué entendemos por evolución de una red?
 
 Una **red de datos** no es un sistema estático. Con el paso del tiempo aparecen nuevas tecnologías, aumentan las necesidades de comunicación y se desarrollan nuevos servicios que obligan a mejorar las infraestructuras existentes.
 
@@ -31,9 +31,9 @@ La evolución de una red puede implicar:
 
 En definitiva, las redes evolucionan para ofrecer un mejor servicio y responder a las demandas de una sociedad cada vez más conectada.
 
-### Principales factores que impulsan la evolución de las redes
+### 3. Principales factores que impulsan la evolución de las redes
 
-#### 1. Crecimiento de Internet
+#### 3.1. Crecimiento de Internet
 
 Internet es la mayor red de datos del mundo. Cada año aumenta el número de usuarios, dispositivos y servicios disponibles Este crecimiento obliga a mejorar continuamente las infraestructuras de red para soportar:
 
@@ -49,7 +49,7 @@ Algunos ejemplos son:
 - Videojuegos online.
 - Videoconferencias.
 
-#### 2. Transformación digital de empresas y administraciones
+#### 3.2. Transformación digital de empresas y administraciones
 
 Cada vez más organizaciones sustituyen procesos tradicionales por soluciones digitales. Hoy es habitual trabajar mediante aplicaciones conectadas a una red. Por ejemplo:
 
@@ -61,7 +61,7 @@ Cada vez más organizaciones sustituyen procesos tradicionales por soluciones di
 
 Esto requiere redes más rápidas, fiables y seguras.
 
-#### 3. Computación en la nube (Cloud Computing)
+#### 3.3. Computación en la nube (Cloud Computing)
 
 Muchas aplicaciones ya no se ejecutan únicamente en el ordenador del usuario. Actualmente gran parte de la información se almacena en centros de datos accesibles a través de Internet. Esto permite:
 
@@ -80,7 +80,7 @@ Algunos ejemplos conocidos son:
 
 Las redes son imprescindibles para acceder a estos servicios.
 
-#### 4. Movilidad y trabajo remoto
+#### 3.4. Movilidad y trabajo remoto
 
 Cada vez utilizamos más dispositivos móviles:
 
@@ -97,7 +97,7 @@ Además, muchas personas trabajan desde casa o desde diferentes ubicaciones. Par
 
 El teletrabajo ha acelerado enormemente la mejora de las redes de comunicaciones.
 
-#### 5. Internet de las Cosas (IoT)
+#### 3.5. Internet de las Cosas (IoT)
 
 El **Internet de las Cosas (IoT)** consiste en conectar a Internet dispositivos que tradicionalmente no eran considerados ordenadores. Por ejemplo:
 
@@ -112,7 +112,7 @@ El **Internet de las Cosas (IoT)** consiste en conectar a Internet dispositivos 
 Cada uno de estos dispositivos necesita una conexión de red.
 Actualmente, existen miles de millones de dispositivos IoT conectados en todo el mundo.
 
-#### 6. Streaming de contenidos
+#### 3.6. Streaming de contenidos
 
 Cada vez consumimos más contenido multimedia a través de Internet. Algunos ejemplos son:
 
@@ -124,7 +124,7 @@ Cada vez consumimos más contenido multimedia a través de Internet. Algunos eje
 
 El vídeo en alta definición (HD), Full HD, 4K e incluso 8K requiere un enorme ancho de banda. Por este motivo las redes deben ofrecer velocidades cada vez mayores.
 
-#### 7. Inteligencia Artificial y Big Data
+#### 3.7. Inteligencia Artificial y Big Data
 
 Las aplicaciones basadas en Inteligencia Artificial necesitan intercambiar grandes cantidades de información entre usuarios, servidores y centros de datos. Algunos ejemplos son:
 
@@ -136,7 +136,7 @@ Las aplicaciones basadas en Inteligencia Artificial necesitan intercambiar grand
 
 Además, muchas empresas analizan enormes volúmenes de datos (Big Data), lo que requiere infraestructuras de red muy potentes.
 
-#### 8. Ciberseguridad
+#### 3.8. Ciberseguridad
 
 Cuanto mayor es el número de dispositivos conectados, mayor es también el riesgo de sufrir ataques informáticos. Por ello las redes incorporan continuamente nuevas medidas de protección:
 
@@ -148,7 +148,7 @@ Cuanto mayor es el número de dispositivos conectados, mayor es también el ries
 
 La seguridad se ha convertido en uno de los principales motores de evolución de las redes.
 
-#### 9. Aparición de nuevas tecnologías de comunicación
+#### 3.9. Aparición de nuevas tecnologías de comunicación
 
 Las tecnologías de red evolucionan constantemente para ofrecer mejores prestaciones. Algunos ejemplos son:
 
@@ -162,7 +162,7 @@ Las tecnologías de red evolucionan constantemente para ofrecer mejores prestaci
 
 Cada nueva tecnología permite construir redes más eficientes y preparadas para el futuro.
 
-### Relación entre todos los factores
+### 4. Relación entre todos los factores
 
 Todos estos factores están relacionados entre sí.
 
@@ -174,7 +174,7 @@ Todos estos factores están relacionados entre sí.
 
 La evolución de las redes responde, por tanto, a una combinación de necesidades tecnológicas, sociales y económicas.
 
-### Actividades de repaso
+### 5. Actividades de repaso
 #### Actividad 1
 
 Explica con tus propias palabras por qué las redes de datos necesitan evolucionar continuamente.
