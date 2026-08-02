@@ -8,7 +8,7 @@ title: 🌐 UP1.3. Elementos funcionales, físicos y lógicos de una red - CE1.g
 |:-----------|:-----:|:-----:|
 | g) Se han presentado y descrito los elementos funcionales, físicos y lógicos, de las redes de datos. | Teórico | 10 % | 
 
-### Introducción
+### 1. Introducción
 
 Cuando hablamos de una red de datos solemos pensar en ordenadores conectados mediante cables o redes inalámbricas. Sin embargo, una red es mucho más que un conjunto de dispositivos unidos entre sí.
 
@@ -16,7 +16,7 @@ Para que una red funcione correctamente es necesario que intervengan **elementos
 
 Comprender estos tres tipos de elementos permitirá al administrador de redes diseñar, configurar y mantener infraestructuras de comunicaciones eficientes, seguras y escalables.
 
-### ¿Qué elementos forman una red?
+### 2. ¿Qué elementos forman una red?
 
 Una red de datos puede entenderse como un sistema compuesto por tres grandes grupos de elementos:
 
@@ -36,11 +36,11 @@ Elementos        Elementos       Elementos
 (Hardware)    (Configuración)   (Servicios)
 ```
 
-### 1. Elementos físicos
+### 3. Elementos físicos
 
 Los **elementos físicos** son todos aquellos componentes materiales que forman la infraestructura de la red. Sin ellos sería imposible establecer una comunicación entre los dispositivos.
 
-#### Equipos finales (Hosts)
+#### 3.1. Equipos finales (Hosts)
 
 Son los dispositivos que generan o reciben información. Ejemplos:
 
@@ -55,7 +55,7 @@ Son los dispositivos que generan o reciben información. Ejemplos:
 
 Estos equipos reciben el nombre de **hosts** porque pueden actuar como origen o destino de una comunicación.
 
-#### Tarjetas de red (NIC)
+#### 3.2. Tarjetas de red (NIC)
 
 La **Network Interface Card (NIC)** permite que un dispositivo pueda conectarse a una red. Puede ser:
 
@@ -65,7 +65,7 @@ La **Network Interface Card (NIC)** permite que un dispositivo pueda conectarse 
 
 Cada tarjeta dispone de una dirección física única denominada **dirección MAC**, que estudiaremos más adelante.
 
-#### Medios de transmisión
+#### 3.3. Medios de transmisión
 
 Son los elementos que transportan la información entre los dispositivos. Pueden ser:
 
@@ -83,7 +83,7 @@ Son los elementos que transportan la información entre los dispositivos. Pueden
 - Microondas.
 - Redes móviles (4G, 5G).
 
-#### Dispositivos de interconexión
+#### 3.4. Dispositivos de interconexión
 
 Permiten conectar diferentes equipos o segmentos de red. Algunos ejemplos son:
 
@@ -96,7 +96,7 @@ Permiten conectar diferentes equipos o segmentos de red. Algunos ejemplos son:
 
 En el siguiente criterio de evaluación se estudiará en profundidad la función de cada uno de ellos.
 
-#### Armarios y elementos de infraestructura
+#### 3.5. Armarios y elementos de infraestructura
 
 En una red profesional también forman parte de la infraestructura física:
 
@@ -109,11 +109,11 @@ En una red profesional también forman parte de la infraestructura física:
 
 Estos elementos facilitan la organización y el mantenimiento de la instalación.
 
-### 2. Elementos lógicos
+### 4. Elementos lógicos
 
 Los elementos físicos necesitan una serie de configuraciones que permitan identificar los dispositivos y dirigir correctamente la información. Estos componentes reciben el nombre de **elementos lógicos**.
 
-#### Dirección MAC
+#### 4.1. Dirección MAC
 
 Cada tarjeta de red posee una dirección física única grabada por el fabricante. Ejemplo:
 
@@ -121,13 +121,13 @@ Cada tarjeta de red posee una dirección física única grabada por el fabricant
 00:1B:63:84:45:E6
 ```
 
-Características:
+##### Características:
 
 - Identifica de forma única una interfaz de red.
 - Trabaja en la capa de enlace del modelo OSI.
 - No depende de la configuración del usuario.
 
-#### Dirección IP
+#### 4.2. Dirección IP
 
 Mientras que la dirección MAC identifica físicamente una tarjeta de red, la **dirección IP** identifica un dispositivo dentro de una red.
 
@@ -145,7 +145,7 @@ Ejemplo IPv6:
 
 Las direcciones IP permiten localizar el destino de una comunicación.
 
-#### Máscara de red
+#### 4.3. Máscara de red
 
 La máscara determina qué parte de una dirección IP identifica la red y cuál identifica al equipo. Ejemplo:
 
@@ -155,11 +155,11 @@ La máscara determina qué parte de una dirección IP identifica la red y cuál 
 
 Su función es permitir que un dispositivo sepa si el destino pertenece a su misma red o debe enviar el tráfico a un router.
 
-#### Puerta de enlace (Gateway)
+#### 4.4. Puerta de enlace (Gateway)
 
 Es la dirección IP del router que permite acceder a otras redes. Cuando un equipo desea comunicarse con un dispositivo situado fuera de su red local, envía la información a la puerta de enlace.
 
-#### Servidores DNS
+#### 4.5. Servidores DNS
 
 Recordar una dirección IP resulta complicado. Los servidores **DNS (Domain Name System)** traducen nombres de dominio en direcciones IP. Ejemplo:
 
@@ -172,7 +172,7 @@ www.google.es
 
 Gracias al DNS podemos navegar utilizando nombres fáciles de recordar.
 
-#### Protocolos de comunicación
+#### 4.6. Protocolos de comunicación
 
 Los protocolos establecen las normas que deben seguir los dispositivos para comunicarse. Algunos de los más conocidos son:
 
@@ -187,7 +187,7 @@ Los protocolos establecen las normas que deben seguir los dispositivos para comu
 
 Cada protocolo desempeña una función específica dentro de la red.
 
-#### VLAN
+#### 4.7. VLAN
 
 Una **VLAN (Virtual Local Area Network)** permite dividir una red física en varias redes lógicas independientes. Gracias a las VLAN es posible mejorar:
 
@@ -197,11 +197,11 @@ Una **VLAN (Virtual Local Area Network)** permite dividir una red física en var
 
 Su funcionamiento se estudiará en unidades posteriores.
 
-### 3. Elementos funcionales
+### 5. Elementos funcionales
 
 Los elementos funcionales son los encargados de proporcionar los servicios que utilizan los usuarios. Podemos entenderlos como las funciones que hacen útil una red.
 
-#### Compartición de recursos
+#### 5.1. Compartición de recursos
 
 Las redes permiten compartir recursos comunes como:
 
@@ -213,7 +213,7 @@ Las redes permiten compartir recursos comunes como:
 
 De este modo se reduce el coste y se facilita el trabajo colaborativo.
 
-#### Comunicación
+#### 5.2. Comunicación
 
 Uno de los principales objetivos de una red consiste en permitir la comunicación entre usuarios. Por ejemplo:
 
@@ -222,7 +222,7 @@ Uno de los principales objetivos de una red consiste en permitir la comunicació
 - Videoconferencias.
 - Telefonía IP.
 
-#### Acceso a Internet
+#### 5.3. Acceso a Internet
 
 En la mayoría de organizaciones la red proporciona acceso a Internet mediante un router conectado al proveedor de servicios. Este acceso permite utilizar:
 
@@ -231,7 +231,7 @@ En la mayoría de organizaciones la red proporciona acceso a Internet mediante u
 - Plataformas educativas.
 - Servicios en la nube.
 
-#### Autenticación de usuarios
+#### 5.4. Autenticación de usuarios
 
 Las empresas necesitan controlar quién puede acceder a la red. Para ello utilizan sistemas de autenticación que permiten:
 
@@ -239,7 +239,7 @@ Las empresas necesitan controlar quién puede acceder a la red. Para ello utiliz
 - Verificar contraseñas.
 - Asignar permisos.
 
-#### Servicios de red
+#### 5.5. Servicios de red
 
 Las redes ofrecen numerosos servicios, entre ellos:
 
@@ -252,7 +252,7 @@ Las redes ofrecen numerosos servicios, entre ellos:
 | NTP | Sincronización de fecha y hora. |
 | LDAP o Active Directory | Gestión centralizada de usuarios. |
 
-#### Seguridad
+#### 5.6. Seguridad
 
 Las redes modernas incorporan múltiples mecanismos de protección. Entre ellos destacan:
 
@@ -264,7 +264,7 @@ Las redes modernas incorporan múltiples mecanismos de protección. Entre ellos 
 
 Su objetivo consiste en proteger la información frente a accesos no autorizados.
 
-### Relación entre los tres tipos de elementos
+### 6. Relación entre los tres tipos de elementos
 
 Todos los elementos de una red trabajan conjuntamente. Por ejemplo, cuando un alumno abre una página web ocurre lo siguiente:
 
@@ -276,7 +276,7 @@ Todos los elementos de una red trabajan conjuntamente. Por ejemplo, cuando un al
 
 Ninguno de estos elementos sería suficiente por sí solo.
 
-### Actividad
+### 7. Actividad
 
 Clasifica cada uno de los siguientes elementos como **físico**, **lógico** o **funcional**.
 

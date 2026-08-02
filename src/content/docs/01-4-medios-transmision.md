@@ -8,7 +8,7 @@ title: 🌐 UP1.4. Medios de transmisión - CE1.b)
 |:-----------|:-----:|:-----:|
 | b) Se han diferenciado los distintos medios de transmisión utilizados en las redes. | Teórico |  10 % | 
 
-### Introducción
+### 1. Introducción
 
 Para que dos dispositivos puedan intercambiar información es necesario que exista un **medio de transmisión**, es decir, un canal por el que viajen las señales que contienen los datos.
 
@@ -16,7 +16,7 @@ El medio de transmisión constituye uno de los elementos fundamentales de cualqu
 
 Elegir el medio de transmisión adecuado es una de las decisiones más importantes durante el diseño de una infraestructura de red.
 
-### ¿Qué es un medio de transmisión?
+### 2. ¿Qué es un medio de transmisión?
 
 Un **medio de transmisión** es el soporte físico o el canal por el que se transmiten los datos desde un dispositivo emisor hasta otro receptor. Dependiendo del tipo de red y de las necesidades de comunicación, la información puede viajar:
 
@@ -26,7 +26,7 @@ Un **medio de transmisión** es el soporte físico o el canal por el que se tran
 
 Todos los medios de transmisión tienen el mismo objetivo: transportar la información de forma rápida, fiable y segura.
 
-### Clasificación de los medios de transmisión
+### 3. Clasificación de los medios de transmisión
 
 Los medios de transmisión pueden clasificarse en dos grandes grupos:
 
@@ -40,10 +40,10 @@ Los medios de transmisión pueden clasificarse en dos grandes grupos:
     (Cableados)               (Inalámbricos)
 ```
 
-### 1. Medios guiados
+### 4. Medios guiados
 Los **medios guiados** utilizan un soporte físico para transportar la información. Las señales permanecen confinadas dentro del cable, lo que proporciona una mayor estabilidad y protección frente a interferencias externas. Son los medios más utilizados en redes empresariales y centros de datos.
 
-### 1.1. Cable de par trenzado
+### 4.1. Cable de par trenzado
 Es el medio de transmisión más utilizado en las redes Ethernet actuales. Está formado por varios pares de hilos de cobre trenzados entre sí. El trenzado reduce las interferencias electromagnéticas y mejora la calidad de la transmisión. Existen diferentes tipos de cable de par trenzado:
 
 ##### a) UTP (Unshielded Twisted Pair)
@@ -71,7 +71,7 @@ La velocidad máxima depende de la categoría del cable.
 
 >❌ **Inconvenientes:** Distancia limitada (100 metros en Ethernet), sensible a interferencias y menor velocidad que la fibra óptica.
 
-### 1.2. Fibra óptica
+### 4.2. Fibra óptica
 La fibra óptica transmite la información mediante **impulsos de luz**, en lugar de señales eléctricas. Está formada por un núcleo de vidrio o plástico extremadamente fino por el que viajan los haces de luz. Actualmente constituye el medio de transmisión de mayor capacidad. Existen diferentes tipos de fibra óptica:
 
 ##### a) Fibra multimodo (MMF)
@@ -94,7 +94,7 @@ Es la utilizada por los operadores de telecomunicaciones.
 
 >❌ **Inconvenientes:** Mayor coste, instalación más compleja y requiere herramientas especializadas.
 
-### 1.3. Cable coaxial
+### 4.3. Cable coaxial
 
 Fue uno de los primeros medios utilizados en redes locales. Está formado por:
 
@@ -113,7 +113,7 @@ Actualmente apenas se utiliza en redes Ethernet, aunque sigue presente en:
 
 >❌ **Inconvenientes:** Poco flexible, instalación más compleja y menor velocidad que la fibra.
 
-### Comparativa de medios guiados
+### 4.4. Comparativa de medios guiados
 
 | Medio | Velocidad | Distancia | Coste | Interferencias |
 |--------|----------:|----------:|-------:|---------------|
@@ -121,10 +121,10 @@ Actualmente apenas se utiliza en redes Ethernet, aunque sigue presente en:
 | Fibra óptica | Muy alta | Varios kilómetros | Alto | Muy baja |
 | Coaxial | Media | Cientos de metros | Medio | Baja |
 
-### 2. Medios no guiados
+### 5. Medios no guiados
 Los **medios no guiados** transmiten la información mediante ondas electromagnéticas. No requieren un cable físico entre el emisor y el receptor. Su principal ventaja es la movilidad.
 
-#### 2.1. Wi-Fi
+#### 5.1. Wi-Fi
 Es la tecnología inalámbrica más utilizada en redes locales. Permite conectar dispositivos mediante un punto de acceso (Access Point). Actualmente las versiones más utilizadas son:
 
 - Wi-Fi 5 (802.11ac)
@@ -137,7 +137,7 @@ Es la tecnología inalámbrica más utilizada en redes locales. Permite conectar
 
 >❌ **Inconvenientes:** Sensible a interferencias, menor velocidad que una conexión cableada y mayor riesgo de accesos no autorizados si no se configura correctamente.
 
-#### 2.2. Bluetooth
+#### 5.2. Bluetooth
 Bluetooth está diseñado para comunicaciones de corto alcance entre dispositivos personales. Se utiliza principalmente para conectar:
 
 - Auriculares.
@@ -148,7 +148,7 @@ Bluetooth está diseñado para comunicaciones de corto alcance entre dispositivo
 
 Su consumo energético es muy reducido.
 
-#### 2.3. Redes móviles
+#### 5.3. Redes móviles
 Las tecnologías móviles permiten transmitir información a través de la infraestructura de los operadores de telecomunicaciones. Las generaciones más importantes son:
 
 | Generación | Características |
@@ -159,7 +159,7 @@ Las tecnologías móviles permiten transmitir información a través de la infra
 
 Las redes 5G están impulsando el desarrollo del Internet de las Cosas y de los vehículos conectados.
 
-#### 2.4. Radio y microondas
+#### 5.4. Radio y microondas
 Se utilizan para establecer enlaces inalámbricos de larga distancia. Son habituales en:
 
 - Comunicaciones entre edificios.
@@ -169,7 +169,7 @@ Se utilizan para establecer enlaces inalámbricos de larga distancia. Son habitu
 
 En muchos casos requieren visión directa entre los puntos de comunicación.
 
-#### 2.5. Satélite
+#### 5.5. Satélite
 Las comunicaciones por satélite permiten ofrecer conectividad en lugares donde no existe infraestructura terrestre. Su principal aplicación es:
 
 - Zonas rurales.
@@ -179,7 +179,7 @@ Las comunicaciones por satélite permiten ofrecer conectividad en lugares donde 
 
 Su principal inconveniente es la elevada latencia.
 
-### Comparativa de medios no guiados
+### 5.6. Comparativa de medios no guiados
 
 | Medio | Alcance | Movilidad | Velocidad |
 |--------|---------|-----------|-----------|
@@ -189,9 +189,9 @@ Su principal inconveniente es la elevada latencia.
 | Radio | Kilómetros | Baja | Alta |
 | Satélite | Mundial | Muy alta | Media |
 
-### Conceptos importantes
+### 6. Conceptos importantes
 
-#### Ancho de banda
+#### 6.1. Ancho de banda
 Es la cantidad máxima de información que puede transmitirse por un medio en un determinado tiempo. Se mide habitualmente en:
 
 - Mbps (Megabits por segundo)
@@ -199,7 +199,7 @@ Es la cantidad máxima de información que puede transmitirse por un medio en un
 
 Cuanto mayor sea el ancho de banda, mayor cantidad de información podrá transmitirse simultáneamente.
 
-#### Latencia
+#### 6.2. Latencia
 La **latencia** es el tiempo que tarda un dato en viajar desde el origen hasta el destino. Se mide en milisegundos (ms). Una baja latencia resulta esencial para:
 
 - Videojuegos en línea.
@@ -207,10 +207,10 @@ La **latencia** es el tiempo que tarda un dato en viajar desde el origen hasta e
 - Aplicaciones industriales.
 - Vehículos autónomos.
 
-#### Atenuación
+#### 6.3. Atenuación
 La señal pierde intensidad a medida que aumenta la distancia recorrida. Este fenómeno recibe el nombre de **atenuación**. Cada medio presenta una atenuación diferente.La fibra óptica presenta una atenuación mucho menor que el cable de cobre.
 
-#### Interferencias
+#### 6.4. Interferencias
 Las señales eléctricas pueden verse afectadas por campos electromagnéticos generados por otros dispositivos. Las interferencias pueden provocar:
 
 - Errores de transmisión.
@@ -219,7 +219,7 @@ Las señales eléctricas pueden verse afectadas por campos electromagnéticos ge
 
 Por este motivo el cableado debe instalarse siguiendo determinadas normas de seguridad.
 
-### ¿Qué medio elegir?
+### 7. ¿Qué medio elegir?
 
 La elección depende de diversos factores.
 
@@ -235,7 +235,7 @@ La elección depende de diversos factores.
 
 No existe un medio perfecto. Cada uno ofrece ventajas para determinadas situaciones.
 
-### Actividad
+### 8. Actividad
 
 Indica qué medio de transmisión utilizarías en cada uno de los siguientes casos y justifica tu respuesta.
 

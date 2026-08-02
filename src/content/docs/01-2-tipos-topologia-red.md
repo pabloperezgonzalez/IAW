@@ -183,6 +183,7 @@ La **topología** describe la forma en que los dispositivos se conectan entre s�
 En este apartado nos centraremos principalmente en las topologías físicas.
 
 ### 8. Principales topologías
+#### 8.1. Topología en bus 
 
 <figure class="diagram-figure">
   <img src="/PAR/diagrams/topologia-bus.svg" alt="Topología en bus con cable coaxial compartido por 4 PCs" class="diagram-img" style="width:1000px; height:auto;" loading="lazy" />
@@ -194,6 +195,8 @@ En este apartado nos centraremos principalmente en las topologías físicas.
 >❌ **Inconvenientes:** Si el cable principal falla, toda la red deja de funcionar, difícil localizar averías y bajo rendimiento cuando aumenta el tráfico.
 
 Actualmente apenas se utiliza.
+
+#### 8.2. Topología en anillo 
 
 <figure class="diagram-figure">
   <img src="/PAR/diagrams/topologia-anillo.svg" alt="Topología en anillo con 4 PCs conectados en círculo" class="diagram-img" style="width:auto; height:750px;" loading="lazy" />
@@ -208,6 +211,8 @@ Los datos recorren el anillo hasta llegar a su destino.
 
 Hoy en día tiene un uso muy reducido.
 
+#### 8.3. Topología en estrella 
+
 <figure class="diagram-figure">
   <img src="/PAR/diagrams/topologia-estrella.svg" alt="Topología en estrella con switch central y 4 PCs" class="diagram-img" style="width:1000px; height:auto;" loading="lazy" />
   <figcaption class="diagram-caption">Cada PC se conecta directamente al switch. Si un cable falla, solo ese PC pierde conexión.</figcaption>
@@ -218,6 +223,8 @@ Hoy en día tiene un uso muy reducido.
 >❌ **Inconvenientes:** Dependencia del dispositivo central.
 
 Es la topología utilizada en prácticamente todas las redes LAN modernas.
+
+#### 8.4. Topología en malla 
 
 <figure class="diagram-figure">
   <img src="/PAR/diagrams/topologia-malla.svg" alt="Topología en malla con 4 PCs conectados entre sí" class="diagram-img" style="width:auto; height:750px;" loading="lazy" />

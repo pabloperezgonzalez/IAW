@@ -8,7 +8,7 @@ title: 🌐 UP1.5. Arquitecturas de red y niveles que las componen - CE1.d)
 |:-----------|:-----:|:-----:|
 | d) Se han descrito las arquitecturas de red y los niveles que las componen. | Teórico |  15 % | 
 
-### Introducción
+### 1. Introducción
 
 Las redes actuales están formadas por una gran variedad de dispositivos, sistemas operativos y aplicaciones desarrollados por diferentes fabricantes. Sin embargo, todos ellos son capaces de comunicarse entre sí gracias a que utilizan una serie de **arquitecturas de red** y **protocolos estandarizados**.
 
@@ -16,7 +16,7 @@ Una arquitectura de red define la forma en que se organiza la comunicación entr
 
 Gracias a esta organización por capas es posible desarrollar nuevas tecnologías o sustituir determinados componentes sin modificar completamente el funcionamiento de la red.
 
-### ¿Qué es una arquitectura de red?
+### 2. ¿Qué es una arquitectura de red?
 
 Una **arquitectura de red** es un modelo que organiza el proceso de comunicación entre dispositivos dividiendo las funciones necesarias en distintos niveles o capas. Cada capa tiene una misión concreta y ofrece servicios a la capa superior mientras utiliza los servicios de la capa inferior. Este diseño aporta numerosas ventajas:
 
@@ -26,7 +26,7 @@ Una **arquitectura de red** es un modelo que organiza el proceso de comunicació
 - Permite la evolución independiente de cada tecnología.
 - Facilita el aprendizaje y la documentación de las redes.
 
-### ¿Por qué se utilizan modelos por capas?
+### 3. ¿Por qué se utilizan modelos por capas?
 
 Imaginemos que queremos enviar un correo electrónico. Aunque para el usuario la operación parece sencilla, realmente intervienen numerosas funciones:
 
@@ -51,7 +51,7 @@ Transmisión
 Medio físico
 ```
 
-### Principales arquitecturas de red
+### 4. Principales arquitecturas de red
 
 Actualmente existen dos modelos de referencia fundamentales:
 
@@ -60,7 +60,7 @@ Actualmente existen dos modelos de referencia fundamentales:
 
 El primero tiene un carácter principalmente didáctico y sirve para comprender el funcionamiento de las redes. El segundo constituye la arquitectura utilizada realmente en Internet y en prácticamente todas las redes actuales.
 
-### El modelo OSI
+### 5. El modelo OSI
 
 El **Modelo OSI (Open Systems Interconnection)** fue desarrollado por la Organización Internacional de Normalización (ISO) con el objetivo de establecer un modelo común para las comunicaciones entre sistemas abiertos. Está formado por **siete capas**, cada una especializada en una función determinada.
 
@@ -174,7 +174,7 @@ Es la capa más cercana al usuario. Proporciona los servicios que utilizan las a
 
 Es importante recordar que esta capa **no es la aplicación**, sino el conjunto de protocolos que permiten a las aplicaciones utilizar la red.
 
-### Resumen del modelo OSI
+#### Resumen del modelo OSI
 
 | Capa | Nombre | Función principal |
 |------:|---------|------------------|
@@ -186,7 +186,7 @@ Es importante recordar que esta capa **no es la aplicación**, sino el conjunto 
 | 2 | Enlace | Comunicación dentro de la misma red |
 | 1 | Física | Transmisión de bits |
 
-### El modelo TCP/IP
+### 6. El modelo TCP/IP
 
 Aunque el modelo OSI es el más utilizado para explicar el funcionamiento de las redes, Internet funciona utilizando la **arquitectura TCP/IP**. Este modelo es más sencillo y está compuesto por **cuatro capas**.
 
@@ -239,7 +239,7 @@ Agrupa todas las funciones relacionadas con los servicios utilizados por las apl
 - SMTP.
 - SSH.
 
-### Relación entre el modelo OSI y TCP/IP
+### 7. Relación entre el modelo OSI y TCP/IP
 
 Aunque ambos modelos presentan un número diferente de capas, desempeñan funciones similares.
 
@@ -255,7 +255,7 @@ Aunque ambos modelos presentan un número diferente de capas, desempeñan funcio
 
 El modelo TCP/IP simplifica las funciones del modelo OSI agrupando varias capas.
 
-### ¿Qué modelo se utiliza realmente?
+### 8. ¿Qué modelo se utiliza realmente?
 
 En la práctica:
 
@@ -264,7 +264,7 @@ En la práctica:
 
 Ambos modelos son complementarios y es importante conocerlos.
 
-### Beneficios de la organización por capas
+### 9. Beneficios de la organización por capas
 
 El diseño por capas aporta numerosas ventajas:
 
@@ -276,7 +276,7 @@ El diseño por capas aporta numerosas ventajas:
 
 Por ejemplo, la sustitución del cable de cobre por fibra óptica afecta principalmente a la capa física, mientras que las aplicaciones siguen funcionando sin modificaciones.
 
-### Caso práctico
+### 10. Caso práctico
 
 Una empresa va a renovar la infraestructura de comunicaciones de su sede principal.
 
