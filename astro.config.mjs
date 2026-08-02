@@ -83,7 +83,11 @@ export default defineConfig({
                 { slug: '01-1-factores-redes', label: 'UP1.1. Factores que impulsan la continua expansión y evolución de las redes de datos - CE1.a)' },
                 { slug: '01-2-tipos-topologia-red', label: 'UP1.2. Tipos de red y topologías - CE1.c)' },
                 { slug: '01-3-elementos-red', label: 'UP1.3. Elementos funcionales, físicos y lógicos de una red - CE1.g)' },
-                { slug: '01-04-medios-transmision', label: 'UP1.4. Medios de transmisión - CE1.b)' },
+                { slug: '01-4-medios-transmision', label: 'UP1.4. Medios de transmisión - CE1.b)' },
+                { slug: '01-5-arquitecturas-red', label: 'UP1.5. Arquitecturas de red y niveles que las componen - CE1.d)' },
+                { slug: '01-6-protocolo-comunicacion', label: 'UP1.6. El concepto de protocolo de comunicación - CE1.e)' },
+                { slug: '01-7-pilas-protocolos', label: 'UP1.7. Funcionamiento de las pilas de protocolos en las distintas arquitecturas de red - CE1.f)' },
+                { slug: '01-8-interconexion-redes', label: 'UP1.8. Dispositivos de interconexión de redes según el nivel funcional en el que se encuadran - CE1.h)' },
               ],
             },
             {
