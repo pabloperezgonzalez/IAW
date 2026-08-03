@@ -31,13 +31,13 @@ Todos los medios de transmisión tienen el mismo objetivo: transportar la inform
 Los medios de transmisión pueden clasificarse en dos grandes grupos:
 
 ```text
-              Medios de transmisión
-                       │
-         ┌─────────────┴─────────────┐
-         │                           │
-         ▼                           ▼
-   Medios guiados            Medios no guiados
-    (Cableados)               (Inalámbricos)
+                            Medios de transmisión
+                                    │
+                        ┌─────────────┴─────────────┐
+                        │                           │
+                        ▼                           ▼
+                Medios guiados            Medios no guiados
+                    (Cableados)               (Inalámbricos)
 ```
 
 ### 4. Medios guiados
@@ -46,14 +46,25 @@ Los **medios guiados** utilizan un soporte físico para transportar la informaci
 ### 4.1. Cable de par trenzado
 Es el medio de transmisión más utilizado en las redes Ethernet actuales. Está formado por varios pares de hilos de cobre trenzados entre sí. El trenzado reduce las interferencias electromagnéticas y mejora la calidad de la transmisión. Existen diferentes tipos de cable de par trenzado:
 
-##### a) UTP (Unshielded Twisted Pair)
+#####   a) UTP (Unshielded Twisted Pair)
 No dispone de apantallamiento. Es el cable más utilizado en redes LAN.
 
-##### b) STP (Shielded Twisted Pair)
+#####   b) STP (Shielded Twisted Pair)
 Incluye una malla metálica que protege frente a interferencias. Se utiliza en entornos industriales o con elevada contaminación electromagnética.
 
-##### c) FTP (Foiled Twisted Pair)
+#####   c) FTP (Foiled Twisted Pair)
 Dispone de una lámina metálica que envuelve el conjunto de pares. Ofrece una protección intermedia entre UTP y STP.
+
+#####   d) SFTP (Shielded Foiled Twisted Pair) 
+Protege la señal de interferencias externas usando una malla metálica global y una lámina de aluminio por cada par de cables. Combina la protección de STP y FTP.
+
+<img
+  src="/PAR/diagrams/cables_ethernet.jpg"
+  alt="Comparativa entre diferentes cables de Ethernet"
+  class="diagram-img"
+  style="width:500px; height:auto;"
+  loading="lazy"
+/>
 
 ##### Categorías del cable de par trenzado
 
@@ -74,14 +85,14 @@ La velocidad máxima depende de la categoría del cable.
 ### 4.2. Fibra óptica
 La fibra óptica transmite la información mediante **impulsos de luz**, en lugar de señales eléctricas. Está formada por un núcleo de vidrio o plástico extremadamente fino por el que viajan los haces de luz. Actualmente constituye el medio de transmisión de mayor capacidad. Existen diferentes tipos de fibra óptica:
 
-##### a) Fibra multimodo (MMF)
+#####   a) Fibra multimodo (MMF)
 Permite que varios haces de luz recorran simultáneamente el núcleo. Se utiliza principalmente en:
 
 - Edificios.
 - Campus universitarios.
 - Centros de datos.
 
-##### b) Fibra monomodo (SMF)
+#####   b) Fibra monomodo (SMF)
 Permite que un único haz de luz recorra la fibra. Presenta:
 
 - Mayor alcance.
@@ -93,6 +104,14 @@ Es la utilizada por los operadores de telecomunicaciones.
 >✅ **Ventajas:** Muy alta velocidad, grandes distancias, inmune a interferencias electromagnéticas, mayor seguridad y baja atenuación.
 
 >❌ **Inconvenientes:** Mayor coste, instalación más compleja y requiere herramientas especializadas.
+
+<img
+  src="/PAR/diagrams/cables_fibra.jpg"
+  alt="Comparativa entre diferentes cables de fibra óptica"
+  class="diagram-img"
+  style="width:500px; height:auto;"
+  loading="lazy"
+/>
 
 ### 4.3. Cable coaxial
 
@@ -112,6 +131,14 @@ Actualmente apenas se utiliza en redes Ethernet, aunque sigue presente en:
 >✅ **Ventajas:** Buena protección frente a interferencias y mayor alcance que el par trenzado.
 
 >❌ **Inconvenientes:** Poco flexible, instalación más compleja y menor velocidad que la fibra.
+
+<img
+  src="/PAR/diagrams/cable_coaxial.jpg"
+  alt="Estructura del cable coaxial"
+  class="diagram-img"
+  style="width:500px; height:auto;"
+  loading="lazy"
+/>
 
 ### 4.4. Comparativa de medios guiados
 
