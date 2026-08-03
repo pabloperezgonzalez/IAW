@@ -103,15 +103,6 @@ export default defineConfig({
           // resto de unidades...
         ],
         },
-        {
-          label: '📝 Boletines',
-          collapsed: true,
-          items: Array.from({ length: 12 }, (_, i) => ({
-            label: `${emojis[i]} Unidad ${nn(i)}`,
-            collapsed: true,
-            items: boletinItems(i),
-          })),
-        },
       ],
     }),
   ],
