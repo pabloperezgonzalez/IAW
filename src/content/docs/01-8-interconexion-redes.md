@@ -19,15 +19,15 @@ Para comprender cómo funciona una red es necesario conocer los **dispositivos d
 Un **dispositivo de interconexión** es un equipo de red cuya función consiste en conectar dispositivos, segmentos o redes para permitir el intercambio de información. Dependiendo de la información que sea capaz de analizar, cada dispositivo trabaja principalmente en una o varias capas del modelo OSI.
 
 ```text
-                Dispositivos de interconexión
+                              Dispositivos de interconexión
 
-                         │
-     ┌───────────────────┼───────────────────┐
-     │                   │                   │
-Capa Física         Capa Enlace         Capa Red
-     │                   │                   │
- Repetidor             Switch              Router
-    Hub                Bridge             Gateway
+                                          │
+                  ┌───────────────────┼───────────────────┐
+                  │                   │                   │
+                  Capa Física         Capa Enlace         Capa Red
+                  │                   │                   │
+                  Repetidor             Switch              Router
+                  Hub                Bridge             Gateway
 ```
 
 ### 3. Clasificación según el modelo OSI
@@ -61,18 +61,14 @@ PC ───── Repetidor ───── PC
 
 #### 4.2. Hub (Concentrador)
 
-El **Hub** conecta varios equipos formando un único segmento de red.
-
-Cuando recibe información por un puerto, la retransmite a todos los demás.
+El **Hub** conecta varios equipos formando un único segmento de red. Cuando recibe información por un puerto, la retransmite a todos los demás.
 
 ```text
-        Hub
-
-     PC1
-      │
-PC2───┼───PC3
-      │
-     PC4
+      PC1
+       │
+PC2───Hub───PC3
+       │
+      PC4
 ```
 
 >💡 **Características:** Trabaja en la capa Física, no conoce direcciones MAC, todos los equipos reciben todas las tramas y comparte el ancho de banda.
@@ -100,13 +96,11 @@ Actualmente su función ha sido asumida casi completamente por los switches.
 El **Switch** es el dispositivo más utilizado en las redes LAN actuales. Aprende automáticamente la dirección MAC de cada equipo conectado. Cuando recibe una trama únicamente la envía al puerto donde se encuentra el destinatario.
 
 ```text
-        Switch
-
-     PC1
-      │
-PC2───┼───PC3
-      │
-     PC4
+       PC1
+        │
+PC2───Switch───PC3
+        │
+       PC4
 ```
 
 El switch mantiene una **tabla MAC** similar a la siguiente:
@@ -131,9 +125,9 @@ Un **Access Point (AP)** conecta dispositivos inalámbricos con una red Ethernet
 ```text
 Portátil ))))
 
-          Access Point ───── Switch
-                │
-        Smartphone ))))
+          Access Point ───── Switch  
+
+Smartphone ))))
 ```
 
 Trabaja principalmente en la capa de Enlace, ya que actúa como puente entre la red inalámbrica y la red cableada.
@@ -221,21 +215,13 @@ Supongamos que un ordenador accede a una página web.
 
 ```text
 PC
-
-↓
-
+ ↓
 Switch
-
-↓
-
+ ↓
 Router
-
-↓
-
+ ↓
 Internet
-
-↓
-
+ ↓
 Servidor Web
 ```
 

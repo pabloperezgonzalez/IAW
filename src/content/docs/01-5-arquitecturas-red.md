@@ -39,18 +39,6 @@ Imaginemos que queremos enviar un correo electrónico. Aunque para el usuario la
 
 Si todas estas tareas estuvieran mezcladas, el desarrollo y mantenimiento de las redes sería extremadamente complejo. Por este motivo se utilizan **arquitecturas por capas**, donde cada nivel realiza una función específica.
 
-```text
-  Usuario
-     │
-Aplicaciones
-     │
- Protocolos
-     │
-Transmisión
-     │
-Medio físico
-```
-
 ### 4. Principales arquitecturas de red
 
 Actualmente existen dos modelos de referencia fundamentales:
@@ -64,23 +52,13 @@ El primero tiene un carácter principalmente didáctico y sirve para comprender 
 
 El **Modelo OSI (Open Systems Interconnection)** fue desarrollado por la Organización Internacional de Normalización (ISO) con el objetivo de establecer un modelo común para las comunicaciones entre sistemas abiertos. Está formado por **siete capas**, cada una especializada en una función determinada.
 
-```text
-┌─────────────────────────────┐
-│ 7. Aplicación               │
-├─────────────────────────────┤
-│ 6. Presentación             │
-├─────────────────────────────┤
-│ 5. Sesión                   │
-├─────────────────────────────┤
-│ 4. Transporte               │
-├─────────────────────────────┤
-│ 3. Red                      │
-├─────────────────────────────┤
-│ 2. Enlace de datos          │
-├─────────────────────────────┤
-│ 1. Física                   │
-└─────────────────────────────┘
-```
+<img
+  src="/PAR/diagrams/osi.png"
+  alt="Modelo OSI"
+  class="diagram-img"
+  style="width:500px; height:auto;"
+  loading="lazy"
+/>
 
 #### Capa 1. Física
 
@@ -190,19 +168,15 @@ Es importante recordar que esta capa **no es la aplicación**, sino el conjunto 
 
 Aunque el modelo OSI es el más utilizado para explicar el funcionamiento de las redes, Internet funciona utilizando la **arquitectura TCP/IP**. Este modelo es más sencillo y está compuesto por **cuatro capas**.
 
-```text
-┌─────────────────────────────┐
-│ Aplicación                  │
-├─────────────────────────────┤
-│ Transporte                  │
-├─────────────────────────────┤
-│ Internet                    │
-├─────────────────────────────┤
-│ Acceso a la red             │
-└─────────────────────────────┘
-```
+<img
+  src="/PAR/diagrams/tcpip.png"
+  alt="Modelo TCP/IP"
+  class="diagram-img"
+  style="width:500px; height:auto;"
+  loading="lazy"
+/>
 
-#### Capa de acceso a la red
+#### Capa 1. Acceso a la red
 
 Incluye todo lo relacionado con el acceso físico al medio. Equivale aproximadamente a las capas Física y Enlace del modelo OSI. Ejemplos:
 
@@ -210,7 +184,7 @@ Incluye todo lo relacionado con el acceso físico al medio. Equivale aproximadam
 - Wi-Fi.
 - Fibra óptica.
 
-#### Capa de Internet
+#### Capa 2. Internet
 
 Su función consiste en transportar los paquetes entre diferentes redes. El protocolo principal es:
 
@@ -221,14 +195,14 @@ También trabajan aquí protocolos como:
 - ICMP.
 - ARP (en IPv4).
 
-#### Capa de transporte
+#### Capa 3. Transporte
 
 Se encarga de garantizar la comunicación entre aplicaciones. Los protocolos fundamentales son:
 
 - TCP.
 - UDP.
 
-#### Capa de aplicación
+#### Capa 4. Aplicación
 
 Agrupa todas las funciones relacionadas con los servicios utilizados por las aplicaciones. Ejemplos:
 
@@ -243,15 +217,13 @@ Agrupa todas las funciones relacionadas con los servicios utilizados por las apl
 
 Aunque ambos modelos presentan un número diferente de capas, desempeñan funciones similares.
 
-| Modelo OSI | Modelo TCP/IP |
-|-------------|---------------|
-| Aplicación | Aplicación |
-| Presentación | Aplicación |
-| Sesión | Aplicación |
-| Transporte | Transporte |
-| Red | Internet |
-| Enlace | Acceso a la red |
-| Física | Acceso a la red |
+<img
+  src="/PAR/diagrams/osi-tcpip.png"
+  alt="Modelo OSI vs TCP/IP"
+  class="diagram-img"
+  style="display: block; margin: 0 auto;"
+  loading="lazy"
+/>
 
 El modelo TCP/IP simplifica las funciones del modelo OSI agrupando varias capas.
 

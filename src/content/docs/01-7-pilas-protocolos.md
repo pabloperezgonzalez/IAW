@@ -20,22 +20,6 @@ Comprender el funcionamiento de las pilas de protocolos resulta fundamental para
 
 Una **pila de protocolos** es el conjunto de protocolos organizados en diferentes capas que colaboran para hacer posible una comunicación entre dispositivos. Cada protocolo realiza una tarea específica y utiliza los servicios proporcionados por la capa inferior mientras ofrece servicios a la capa superior.
 
-```text
-Aplicación
-     ▲
-     │
-Transporte
-     ▲
-     │
-Red
-     ▲
-     │
-Enlace
-     ▲
-     │
-Física
-```
-
 Cuando una aplicación envía información, los datos atraviesan todas las capas de la pila hasta llegar al medio físico. En el equipo receptor ocurre el proceso inverso.
 
 ### 3. ¿Por qué se utilizan pilas de protocolos?
@@ -60,19 +44,13 @@ Cada capa de la arquitectura únicamente se comunica con:
 - La capa inmediatamente inferior.
 - Su capa equivalente en el equipo remoto.
 
-```text
-Equipo A                      Equipo B
-
-Aplicación  <------------->  Aplicación
-     │                           │
-Transporte <-------------> Transporte
-     │                           │
-Red        <-------------> Red
-     │                           │
-Enlace     <-------------> Enlace
-     │                           │
-Física     <-------------> Física
-```
+<img
+  src="/PAR/diagrams/pila-protocolos.jpg"
+  alt="Pila de protocolos"
+  class="diagram-img"
+  style="display: block; margin: 0 auto;"
+  loading="lazy"
+/>
 
 Aunque físicamente los datos atraviesan todas las capas, cada protocolo interpreta únicamente la información correspondiente a su propio nivel.
 
@@ -161,21 +139,13 @@ Cuando la información llega al dispositivo de destino, ocurre el proceso contra
 
 ```text
 Bits
-
-↓
-
+ ↓
 Trama Ethernet
-
-↓
-
+ ↓
 Paquete IP
-
-↓
-
+ ↓
 Segmento TCP
-
-↓
-
+ ↓
 Datos de la aplicación
 ```
 
@@ -186,7 +156,7 @@ Este proceso recibe el nombre de **desencapsulamiento** (*decapsulation*).
 Supongamos que un alumno abre el navegador y accede a:
 
 ```text
-https://www.educacion.gob.es
+https://portal.edu.gva.es/aules
 ```
 
 Durante esta operación intervienen numerosos protocolos.
@@ -201,53 +171,7 @@ Durante esta operación intervienen numerosos protocolos.
 
 El usuario únicamente observa la página web, pero realmente están colaborando varios protocolos simultáneamente.
 
-### 8. La pila de protocolos en el modelo OSI
-
-El modelo OSI organiza la comunicación en siete capas.
-
-```text
-┌────────────────────────────┐
-│ Aplicación                 │
-├────────────────────────────┤
-│ Presentación               │
-├────────────────────────────┤
-│ Sesión                     │
-├────────────────────────────┤
-│ Transporte (TCP / UDP)     │
-├────────────────────────────┤
-│ Red (IP)                   │
-├────────────────────────────┤
-│ Enlace (Ethernet, Wi-Fi)   │
-├────────────────────────────┤
-│ Física                     │
-└────────────────────────────┘
-```
-
-Cada una añade o interpreta la información correspondiente a su nivel.
-
-### 9. La pila de protocolos en TCP/IP
-
-Internet utiliza una arquitectura más sencilla formada por cuatro capas.
-
-```text
-┌────────────────────────────┐
-│ Aplicación                 │
-│ HTTP, HTTPS, DNS, SMTP...  │
-├────────────────────────────┤
-│ Transporte                 │
-│ TCP, UDP                   │
-├────────────────────────────┤
-│ Internet                   │
-│ IP, ICMP                   │
-├────────────────────────────┤
-│ Acceso a la red            │
-│ Ethernet, Wi-Fi, Fibra     │
-└────────────────────────────┘
-```
-
-Aunque presenta menos capas, el funcionamiento general es el mismo.
-
-### 10. Relación entre ambas pilas
+### 8. Relación entre ambas pilas
 
 | Modelo OSI | Modelo TCP/IP | Ejemplos |
 |-------------|---------------|----------|
@@ -261,7 +185,7 @@ Aunque presenta menos capas, el funcionamiento general es el mismo.
 
 El modelo TCP/IP agrupa varias funciones del modelo OSI en una misma capa.
 
-### 11. Unidad de datos en cada capa
+### 9. Unidad de datos en cada capa
 
 Cada capa trabaja con una unidad de información diferente.
 
@@ -275,62 +199,7 @@ Cada capa trabaja con una unidad de información diferente.
 
 Conocer esta terminología resulta muy útil al analizar capturas de tráfico o utilizar herramientas como **Wireshark**.
 
-### 12. Ejemplo de encapsulamiento
-
-```text
-                 DATOS
-
-                    │
-
-          + Cabecera TCP
-
-                    │
-
-          + Cabecera IP
-
-                    │
-
-      + Cabecera Ethernet
-
-                    │
-
-      101010101001010101...
-```
-
-En el receptor:
-
-```text
-Bits
-
-↓
-
-Trama
-
-↓
-
-Paquete
-
-↓
-
-Segmento
-
-↓
-
-Datos
-```
-
-### 13. ¿Por qué es importante conocer las pilas de protocolos?
-
-Cuando una comunicación falla, el administrador de redes debe localizar en qué capa se encuentra el problema. Por ejemplo:
-
-- Un cable desconectado afecta a la capa Física.
-- Una dirección IP incorrecta afecta a la capa de Red.
-- Un servidor DNS que no responde afecta a la capa de Aplicación.
-- Un puerto bloqueado puede impedir el funcionamiento de TCP.
-
-Por este motivo, el estudio por capas constituye una herramienta fundamental para el diagnóstico de incidencias.
-
-### 14. Caso práctico
+### 10. Caso práctico
 
 Una empresa detecta que los usuarios no pueden acceder a una aplicación web alojada en un servidor remoto.
 

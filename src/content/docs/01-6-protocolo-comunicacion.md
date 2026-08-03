@@ -23,21 +23,21 @@ Un **protocolo de comunicación** es un conjunto de normas y procedimientos que 
 Los protocolos definen todos los aspectos necesarios para que la comunicación sea correcta, desde el formato de los datos hasta la forma de detectar errores o confirmar la recepción de la información. En otras palabras, un protocolo actúa como un **lenguaje común** que todos los dispositivos deben comprender para poder comunicarse.
 
 ```text
-                 PROTOCOLOS DE COMUNICACIÓN
+                                  PROTOCOLOS DE COMUNICACIÓN
 
-                  Conjunto de reglas
-                          │
-       ┌──────────────────┼──────────────────┐
-       │                  │                  │
-       ▼                  ▼                  ▼
-  Establecen          Organizan          Garantizan
-la comunicación       los datos        una transmisión
-                                          correcta
-                          │
-                          ▼
-                  Comunicación entre
-               dispositivos de cualquier
-                 fabricante o sistema
+                                    Conjunto de reglas
+                                            │
+                        ┌──────────────────┼──────────────────┐
+                        │                  │                  │
+                        ▼                  ▼                  ▼
+                    Establecen          Organizan          Garantizan
+                  la comunicación       los datos        una transmisión
+                                                            correcta
+                                            │
+                                            ▼
+                                    Comunicación entre
+                                dispositivos de cualquier
+                                  fabricante o sistema
 ```
 
 ### 3. ¿Por qué son necesarios los protocolos?
@@ -129,33 +129,13 @@ Cada uno realiza una función diferente.
 
 Como ya se estudió en el criterio anterior, las redes se organizan mediante arquitecturas por capas. Cada capa utiliza uno o varios protocolos especializados.
 
-```text
-Aplicación
-│
-├── HTTP
-├── HTTPS
-├── DNS
-├── SMTP
-│
-Transporte
-│
-├── TCP
-└── UDP
-│
-Red
-│
-└── IP
-│
-Enlace
-│
-└── Ethernet
-│
-Física
-│
-Cable
-Fibra
-Wi-Fi
-```
+<img
+  src="/PAR/diagrams/protocolos.jpeg"
+  alt="Protocolos en distintas capas"
+  class="diagram-img"
+  style="width:500px; height:auto;"
+  loading="lazy"
+/>
 
 Cada protocolo se comunica únicamente con su equivalente en el dispositivo remoto.
 
@@ -182,7 +162,7 @@ A continuación se muestran algunos de los protocolos más utilizados.
 Cuando un usuario escribe la dirección:
 
 ```text
-https://www.educacion.gob.es
+https://portal.edu.gva.es/aules
 ```
 
 se ponen en funcionamiento numerosos protocolos.
