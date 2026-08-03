@@ -27,13 +27,13 @@ Una red de datos puede entenderse como un sistema compuesto por tres grandes gru
 Los tres trabajan conjuntamente para que la información pueda viajar desde un dispositivo hasta otro.
 
 ```text
-                RED DE DATOS
-                     │
-     ┌───────────────┼───────────────┐
-     │               │               │
-Elementos        Elementos       Elementos
- físicos          lógicos       funcionales
-(Hardware)    (Configuración)   (Servicios)
+                                    RED DE DATOS
+                                          │
+                        ┌───────────────┼───────────────┐
+                        │               │               │
+                        Elementos        Elementos       Elementos
+                        físicos          lógicos       funcionales
+                        (Hardware)    (Configuración)   (Servicios)
 ```
 
 ### 3. Elementos físicos

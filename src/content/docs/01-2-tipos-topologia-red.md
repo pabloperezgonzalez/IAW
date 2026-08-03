@@ -10,9 +10,9 @@ title: 🌐 UP1.2. Tipos de red y topologías - CE1.c)
 
 ### 1. Introducción
 
-Las redes de datos pueden clasificarse de diferentes formas según su tamaño, el ámbito geográfico que abarcan, la tecnología empleada o la forma en que se conectan sus dispositivos.
+Una **red informática** es un conjunto de ordenadores y dispositivos conectados entre sí para compartir información, recursos y servicios.
 
-Conocer los distintos tipos de red y las topologías más utilizadas resulta fundamental para cualquier administrador de sistemas y redes, ya que cada una presenta características, ventajas e inconvenientes que la hacen más adecuada para determinados escenarios.
+Las redes de datos pueden clasificarse de diferentes formas según su tamaño, el ámbito geográfico que abarcan, la tecnología empleada o la forma en que se conectan sus dispositivos. Conocer los distintos tipos de red y las topologías más utilizadas resulta fundamental para cualquier administrador de sistemas y redes, ya que cada una presenta características, ventajas e inconvenientes que la hacen más adecuada para determinados escenarios.
 
 En este criterio, aprenderás a distinguir los principales tipos de redes y las topologías empleadas para interconectar los dispositivos que las componen.
 
@@ -20,92 +20,43 @@ En este criterio, aprenderás a distinguir los principales tipos de redes y las 
 
 Un **tipo de red** es una clasificación que permite agrupar las redes según determinadas características, siendo la más habitual el **alcance geográfico**.
 
-Dependiendo del tamaño del área que cubra una red, las tecnologías utilizadas, la velocidad de transmisión o los dispositivos necesarios pueden variar considerablemente.
-
-Por ejemplo, no requiere la misma infraestructura una red doméstica que conecta varios ordenadores que la red utilizada para comunicar las sedes de una empresa repartidas por varios países.
+Dependiendo del tamaño del área que cubra una red, las tecnologías utilizadas, la velocidad de transmisión o los dispositivos necesarios pueden variar considerablemente. Por ejemplo, no requiere la misma infraestructura una red doméstica que conecta varios ordenadores que la red utilizada para comunicar las sedes de una empresa repartidas por varios países.
 
 ### 3. Clasificación de las redes según su alcance
 
 #### 3.1. PAN (Personal Area Network)
 
-Una **PAN** (*Personal Area Network*) es una red de muy pequeño alcance diseñada para conectar los dispositivos personales de un usuario.
+Una **PAN** (*Personal Area Network*) es una red de muy pequeño alcance diseñada para conectar los dispositivos personales de un usuario Normalmente cubre una distancia inferior a los 10 metros.
 
-Normalmente cubre una distancia inferior a los 10 metros.
+>💡 **Características:** Muy corto alcance, bajo consumo energético, generalmente inalámbrica y de fácil configuración.
 
-##### Características
+>💻 **Tecnologías habituales:** Bluetooth, NFC, USB y Zigbee (en algunos dispositivos).
 
-- Muy corto alcance.
-- Bajo consumo energético.
-- Generalmente inalámbrica.
-- Fácil configuración.
-
-##### Tecnologías habituales
-
-- Bluetooth
-- NFC
-- USB
-- Zigbee (en algunos dispositivos)
-
-##### Ejemplos
-
-- Un teléfono móvil conectado a unos auriculares Bluetooth.
-- Un smartwatch sincronizado con un smartphone.
-- Un ordenador conectado a un teclado y un ratón inalámbricos.
+>👉 **Ejemplos:** Un teléfono móvil conectado a unos auriculares Bluetooth, un smartwatch sincronizado con un smartphone o un ordenador conectado a un teclado y un ratón inalámbricos.
 
 #### 3.2. LAN (Local Area Network)
 
-Una **LAN** (*Local Area Network*) conecta dispositivos dentro de un área reducida, como una vivienda, una oficina, un laboratorio o un centro educativo.
+Una **LAN** (*Local Area Network*) conecta dispositivos dentro de un área reducida, como una vivienda, una oficina, un laboratorio o un centro educativo. Es el tipo de red más habitual en empresas y organizaciones.
 
-Es el tipo de red más habitual en empresas y organizaciones.
+>💡 **Características:** Alta velocidad de transmisión, baja latencia, administración propia y coste relativamente bajo.
 
-##### Características
+>💻 **Tecnologías habituales:** Ethernet y Wi-Fi.
 
-- Alta velocidad de transmisión.
-- Baja latencia.
-- Administración propia.
-- Coste relativamente bajo.
-
-##### Tecnologías habituales
-
-- Ethernet
-- Wi-Fi
-
-##### Ejemplos
-
-- La red informática de un instituto.
-- La red de una oficina.
-- La red doméstica de una vivienda.
+>👉 **Ejemplos:** La red informática de un instituto, la red de una oficina o la red doméstica de una vivienda.
 
 #### 3.3. MAN (Metropolitan Area Network)
 
-Una **MAN** (*Metropolitan Area Network*) conecta redes distribuidas dentro de una misma ciudad o área metropolitana.
+Una **MAN** (*Metropolitan Area Network*) conecta redes distribuidas dentro de una misma ciudad o área metropolitana. Suelen ser gestionadas por operadores de telecomunicaciones o grandes organizaciones.
 
-Suelen ser gestionadas por operadores de telecomunicaciones o grandes organizaciones.
-
-##### Ejemplos
-
-- Red municipal de un ayuntamiento.
-- Red que conecta los distintos edificios de una universidad repartidos por una ciudad.
-- Infraestructura de fibra óptica de un operador local.
+>👉 **Ejemplos:** La red municipal de un ayuntamiento, la red que conecta los distintos edificios de una universidad repartidos por una ciudad o la infraestructura de fibra óptica de un operador local.
 
 #### 3.4. WAN (Wide Area Network)
 
-Una **WAN** (*Wide Area Network*) conecta redes situadas en diferentes ciudades, países o incluso continentes.
+Una **WAN** (*Wide Area Network*) conecta redes situadas en diferentes ciudades, países o incluso continentes. Utiliza enlaces de larga distancia proporcionados normalmente por operadores de telecomunicaciones.
 
-Utiliza enlaces de larga distancia proporcionados normalmente por operadores de telecomunicaciones.
+>💡 **Características:** Gran cobertura geográfica, elevado número de dispositivos, coste superior al de una LAN y mayor complejidad de administración.
 
-##### Características
-
-- Gran cobertura geográfica.
-- Elevado número de dispositivos.
-- Coste superior al de una LAN.
-- Mayor complejidad de administración.
-
-##### Ejemplos
-
-- La red corporativa de una empresa multinacional.
-- La red bancaria que conecta todas sus oficinas.
-- Internet.
+>👉 **Ejemplos:** La red corporativa de una empresa multinacional, la red bancaria que conecta todas sus oficinas o Internet.
 
 ### 4. Comparativa de los tipos de red
 
