@@ -62,7 +62,7 @@ Protege la señal de interferencias externas usando una malla metálica global y
   src="/PAR/diagrams/cables_ethernet.jpg"
   alt="Comparativa entre diferentes cables de Ethernet"
   class="diagram-img"
-  style="width:500px; height:auto;"
+  style="display: block; margin: 0 auto;"
   loading="lazy"
 />
 
@@ -109,7 +109,7 @@ Es la utilizada por los operadores de telecomunicaciones.
   src="/PAR/diagrams/cables_fibra.jpg"
   alt="Comparativa entre diferentes cables de fibra óptica"
   class="diagram-img"
-  style="width:500px; height:auto;"
+  style="display: block; margin: 0 auto;"
   loading="lazy"
 />
 
@@ -136,7 +136,7 @@ Actualmente apenas se utiliza en redes Ethernet, aunque sigue presente en:
   src="/PAR/diagrams/cable_coaxial.jpg"
   alt="Estructura del cable coaxial"
   class="diagram-img"
-  style="width:500px; height:auto;"
+  style="display: block; margin: 0 auto;"
   loading="lazy"
 />
 
