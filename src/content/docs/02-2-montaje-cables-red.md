@@ -7,3 +7,4 @@ title: 📡 UP2.2. Montaje de cables de red Ethernet y consola - CE2.b)
 | Criterio de evaluación | Tipo | Ponderación |
 |:-----------|:-----:|:-----:|
 | b) Se han montado cables directos, cruzados y de consola. | Práctico |  10 % | 
+

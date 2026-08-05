@@ -103,7 +103,7 @@ En las redes Ethernet sobre cable de cobre se utiliza habitualmente el conector 
   src="/PAR/diagrams/ethernet-rj45.jpg"
   alt="Conector RJ-45"
   class="diagram-img"
-  style="width:500px; height:auto;"
+  style="width:350px; height:auto;"
   loading="lazy"
 />
 
