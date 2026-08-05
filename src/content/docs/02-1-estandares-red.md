@@ -99,12 +99,13 @@ Cada uno de ellos presenta ventajas e inconvenientes que ya se estudiaron en el 
 
 En las redes Ethernet sobre cable de cobre se utiliza habitualmente el conector **RJ-45**.
 
-```text
-┌─────────────────────┐
-│ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ │
-└─────────────────────┘
-        RJ-45
-```
+<img
+  src="/PAR/diagrams/ethernet-rj45.jpg"
+  alt="Conector RJ-45"
+  class="diagram-img"
+  style="width:500px; height:auto;"
+  loading="lazy"
+/>
 
 Este conector dispone de **8 contactos eléctricos**, utilizados por los cuatro pares del cable de red.
 
@@ -180,7 +181,7 @@ Las redes Wi-Fi incorporan mecanismos de seguridad para proteger la información
 
 Hoy en día se recomienda utilizar siempre **WPA3** o, cuando no sea posible, **WPA2**.
 
-#### 7. Comparativa entre Ethernet y Wi-Fi
+### 7. Comparativa entre Ethernet y Wi-Fi
 
 | Característica | Ethernet | Wi-Fi |
 |----------------|-----------|--------|
@@ -194,7 +195,7 @@ Hoy en día se recomienda utilizar siempre **WPA3** o, cuando no sea posible, **
 
 Ambas tecnologías suelen utilizarse conjuntamente en las redes actuales.
 
-#### 8. Otras tecnologías inalámbricas
+### 8. Otras tecnologías inalámbricas
 
 Aunque Wi-Fi es la tecnología más conocida, existen otros estándares inalámbricos utilizados en diferentes ámbitos.
 
@@ -205,7 +206,7 @@ Aunque Wi-Fi es la tecnología más conocida, existen otros estándares inalámb
 | NFC | Comunicación de muy corto alcance. |
 | Redes móviles (4G/5G) | Acceso móvil a Internet. |
 
-#### 9. ¿Cómo elegir el estándar adecuado?
+### 9. ¿Cómo elegir el estándar adecuado?
 
 La elección depende de las necesidades de la instalación.
 
@@ -220,7 +221,7 @@ La elección depende de las necesidades de la instalación.
 
 En la práctica, la mayoría de las infraestructuras combinan tecnologías cableadas e inalámbricas.
 
-#### 10. Caso práctico
+### 10. Caso práctico
 
 Un instituto va a construir un nuevo edificio destinado a impartir ciclos formativos de Informática. La infraestructura deberá incluir aulas con ordenadores de sobremesa, zonas comunes con cobertura Wi-Fi para alumnado y profesorado, cámaras IP de videovigilancia, teléfonos IP y varios puntos de acceso inalámbricos.
 
