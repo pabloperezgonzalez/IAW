@@ -115,7 +115,7 @@ El **cable de consola** no transporta tráfico de red entre equipos. Su finalida
   src="/PAR/diagrams/cable-consola.png"
   alt="Cable de consola"
   class="diagram-img"
-  style="display: block; margin: 0 auto;"
+  style="width:350px; height:auto;"
   loading="lazy"
 />
 
@@ -175,7 +175,7 @@ El **cable cruzado** fue necesario durante muchos años para conectar directamen
 ### 9. Procedimiento para fabricar un cable Ethernet
 La fabricación de un cable Ethernet debe seguir siempre una secuencia ordenada.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QMpWkkqX1eM?si=VRQpBYeBW6djTphF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="600" height="600" src="https://www.youtube.com/embed/QMpWkkqX1eM?si=VRQpBYeBW6djTphF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### Paso 1. Cortar el cable
 Se corta el cable con la longitud necesaria. Debe dejarse un pequeño margen para facilitar el montaje.
