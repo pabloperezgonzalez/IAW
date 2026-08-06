@@ -191,7 +191,7 @@ Se desenrollan cuidadosamente los cuatro pares. Debe mantenerse el trenzado lo m
 Los hilos se colocan siguiendo la norma elegida. Por ejemplo, el estándar T-568B.
 
 <img
-  src="/PAR/diagrams/rj45-pinout.png"
+  src="/PAR/diagrams/rj45-pinout.jpg"
   alt="Pinout RJ-45"
   class="diagram-img"
   style="display: block; margin: 0 auto;"
