@@ -6,7 +6,7 @@ title: 📡 UP2.6. Integración de dispositivos en redes cableadas e inalámbric
 
 | Criterio de evaluación | Tipo | Ponderación |
 |:-----------|:-----:|:-----:|
-| f) Se han integrado dispositivos en redes cableadas e inalámbricas. | Práctico | 10 % | 
+| f) Se han integrado dispositivos en redes cableadas e inalámbricas. | Práctico | 10 % |
 
 ### 1. Introducción
 Una red de datos no está formada únicamente por ordenadores. En la actualidad, una infraestructura de red integra una gran variedad de dispositivos que deben comunicarse entre sí de forma eficiente y segura. Ordenadores, servidores, impresoras, teléfonos IP, cámaras de videovigilancia, puntos de acceso inalámbricos, dispositivos móviles o equipos IoT forman parte de las redes actuales. Todos ellos deben configurarse correctamente para garantizar su funcionamiento y permitir el acceso a los recursos compartidos.
