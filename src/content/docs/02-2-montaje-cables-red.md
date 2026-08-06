@@ -101,63 +101,67 @@ La norma **568B** es la más utilizada actualmente.
 
 Dependiendo del orden de los conductores en sus extremos, los cables Ethernet pueden ser:
 
+- Cable de consola.
 - Cable directo.
 - Cable cruzado.
-- Cable de consola.
 
 Cada uno está diseñado para una finalidad diferente.
 
-#### 8.1. Cable directo (Straight Through)
+#### 8.1. Cable de consola
+
+El **cable de consola** no transporta tráfico de red entre equipos. Su finalidad consiste en permitir la configuración de dispositivos de red mediante un puerto de administración.
+
+<img
+  src="/PAR/diagrams/cable-consola.png"
+  alt="Cable de consola"
+  class="diagram-img"
+  style="display: block; margin: 0 auto;"
+  loading="lazy"
+/>
+
+El cable de consola se **utiliza** para:
+
+- Configurar un router por primera vez.
+- Acceder a un switch sin dirección IP.
+- Recuperar configuraciones.
+- Resolver incidencias.
+
+Dependiendo del fabricante, pueden utilizarse distintos **conectores**. Los más habituales son:
+
+- USB ↔ RJ-45.
+- USB ↔ USB-C.
+- Serie DB9 ↔ RJ-45 (equipos antiguos).
+- USB ↔ Micro USB.
+
+#### 8.2. Cable directo (Straight Through)
 
 Un **cable directo** utiliza el mismo estándar en ambos extremos. Puede ser 568A - 568A ó 568B - 568B.
 
 <img
-  src="/PAR/diagrams/cable-directo-rj45"
+  src="/PAR/diagrams/cable-directo-rj45.png"
   alt="Cable directo RJ-45"
   class="diagram-img"
   style="display: block; margin: 0 auto;"
   loading="lazy"
 />
 
-#### 8.2. El cable cruzado (Crossover)
+El **cable directo** es el cable Ethernet utilizado actualmente en prácticamente todas las instalaciones de red. Tradicionalmente se empleaba para conectar dispositivos diferentes (como un ordenador y un switch), aunque gracias a la tecnología Auto-MDI/MDIX también puede utilizarse para conectar dispositivos del mismo tipo.
+
+#### 8.3. El cable cruzado (Crossover)
 
 Un **cable cruzado** utiliza un estándar diferente en cada extremo. Puede ser 568A - 568B o viceversa.
 
 <img
-  src="/PAR/diagrams/cable-cruzado-rj45"
+  src="/PAR/diagrams/cable-cruzado-rj45.jpeg"
   alt="Cable cruzado RJ-45"
   class="diagram-img"
   style="display: block; margin: 0 auto;"
   loading="lazy"
 />
 
-Al intercambiar los pares de transmisión y recepción, ambos dispositivos pueden enviar y recibir datos correctamente.
+El **cable cruzado** fue necesario durante muchos años para conectar directamente dispositivos del mismo tipo. Actualmente su uso es muy poco frecuente, ya que la mayoría de equipos incorporan la función Auto-MDI/MDIX, que realiza el cruce de señales de forma automática.
 
-##### ¿Por qué actualmente casi no se utiliza?
-
-La mayoría de tarjetas de red, switches y routers modernos incorporan la tecnología **Auto-MDI/MDIX**. Esta función detecta automáticamente si el dispositivo conectado necesita un cable directo o cruzado y adapta internamente las conexiones de transmisión y recepción.
-
-Gracias a ello, en la mayoría de situaciones actuales basta con utilizar un **cable directo**, independientemente del tipo de dispositivos que se conecten.
-
-💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
-
-## Ventajas del cable cruzado
-
-- Permite conectar directamente dispositivos similares.
-- No requiere un switch intermedio.
-- Sigue siendo compatible con equipos antiguos.
-
----
-
-## Inconvenientes
-
-- Su uso ha quedado prácticamente sustituido por Auto-MDI/MDIX.
-- Puede provocar confusión si no se identifica correctamente.
-- Hoy en día apenas se utiliza en instalaciones nuevas.
-
----
-
-## Comparativa entre cable directo y cable cruzado
+##### Comparativa entre cable directo y cable cruzado
 
 | Característica | Cable directo | Cable cruzado |
 |----------------|---------------|---------------|
@@ -166,131 +170,47 @@ Gracias a ello, en la mayoría de situaciones actuales basta con utilizar un **c
 | Uso actual | Muy frecuente | Poco habitual |
 | Compatible con Auto-MDI/MDIX | Sí | Sí |
 
-#### 8.3. Cable de consola
+>📝 **Nota:** Aunque en la actualidad casi todas las conexiones Ethernet utilizan cables directos gracias a la tecnología Auto-MDI/MDIX, es importante conocer el funcionamiento del cable cruzado porque sigue formando parte de los fundamentos de las redes Ethernet, aparece en documentación técnica, en certificaciones profesionales (como Cisco CCNA) y puede encontrarse en equipos antiguos.
 
-El **cable de consola** no transporta tráfico de red entre equipos. Su finalidad consiste en permitir la configuración de dispositivos de red mediante un puerto de administración.
-
-```text
-Ordenador
-
-      │
-
-Cable consola
-
-      │
-
-Router / Switch
-```
-
-##### ¿Para qué sirve?
-
-Permite:
-
-- Configurar un router por primera vez.
-- Acceder a un switch sin dirección IP.
-- Recuperar configuraciones.
-- Resolver incidencias.
-
-Sin este cable sería imposible configurar inicialmente muchos equipos profesionales.
-
-##### Tipos de cable de consola
-
-Dependiendo del fabricante, pueden utilizarse distintos conectores. Los más habituales son:
-
-- USB ↔ RJ-45.
-- USB ↔ USB-C.
-- Serie DB9 ↔ RJ-45 (equipos antiguos).
-- USB ↔ Micro USB.
-
-Cisco utiliza actualmente cables USB y RJ-45 de consola en muchos de sus dispositivos.
-
-# Procedimiento para fabricar un cable Ethernet
-
+### 9. Procedimiento para fabricar un cable Ethernet
 La fabricación de un cable Ethernet debe seguir siempre una secuencia ordenada.
 
-## Paso 1. Cortar el cable
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QMpWkkqX1eM?si=VRQpBYeBW6djTphF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Se corta el cable con la longitud necesaria.
+#### Paso 1. Cortar el cable
+Se corta el cable con la longitud necesaria. Debe dejarse un pequeño margen para facilitar el montaje.
 
-Debe dejarse un pequeño margen para facilitar el montaje.
+#### Paso 2. Retirar la cubierta exterior
+Con ayuda de un pelacables se eliminan aproximadamente **2 o 3 cm** de la cubierta. Es importante no dañar los conductores interiores.
 
----
+#### Paso 3. Separar los pares
+Se desenrollan cuidadosamente los cuatro pares. Debe mantenerse el trenzado lo máximo posible para evitar pérdidas de calidad.
 
-## Paso 2. Retirar la cubierta exterior
+#### Paso 4. Ordenar los conductores
 
-Con ayuda de un pelacables se eliminan aproximadamente **2 o 3 cm** de la cubierta.
+Los hilos se colocan siguiendo la norma elegida. Por ejemplo, el estándar T-568B.
 
-Es importante no dañar los conductores interiores.
+<img
+  src="/PAR/diagrams/rj45-pinout.png"
+  alt="Pinout RJ-45"
+  class="diagram-img"
+  style="display: block; margin: 0 auto;"
+  loading="lazy"
+/>
 
----
+#### Paso 5. Igualar la longitud
+ Se cortan todos los conductores para que tengan exactamente la misma longitud.
 
-## Paso 3. Separar los pares
+#### Paso 6. Introducir el conector
+Los ocho conductores deben llegar hasta el fondo del RJ-45. La cubierta exterior también debe entrar ligeramente en el conector para mejorar la resistencia mecánica.
 
-Se desenrollan cuidadosamente los cuatro pares.
+#### Paso 7. Crimpar
+Se utiliza la crimpadora para fijar definitivamente el conector. Los contactos metálicos perforan el aislamiento y establecen la conexión eléctrica.
 
-Debe mantenerse el trenzado lo máximo posible para evitar pérdidas de calidad.
+#### Paso 8. Verificar el cable
+Finalmente se comprueba el funcionamiento mediante un comprobador de cableado. Este procedimiento será estudiado en el siguiente criterio de evaluación.
 
----
-
-## Paso 4. Ordenar los conductores
-
-Los hilos se colocan siguiendo la norma elegida.
-
-Por ejemplo:
-
-```text
-568B
-
-Blanco/Naranja
-
-Naranja
-
-Blanco/Verde
-
-Azul
-
-Blanco/Azul
-
-Verde
-
-Blanco/Marrón
-
-Marrón
-```
-
----
-
-## Paso 5. Igualar la longitud
-
-Se cortan todos los conductores para que tengan exactamente la misma longitud.
-
----
-
-## Paso 6. Introducir el conector
-
-Los ocho conductores deben llegar hasta el fondo del RJ-45.
-
-La cubierta exterior también debe entrar ligeramente en el conector para mejorar la resistencia mecánica.
-
----
-
-## Paso 7. Crimpar
-
-Se utiliza la crimpadora para fijar definitivamente el conector.
-
-Los contactos metálicos perforan el aislamiento y establecen la conexión eléctrica.
-
----
-
-## Paso 8. Verificar el cable
-
-Finalmente se comprueba el funcionamiento mediante un comprobador de cableado.
-
-Este procedimiento será estudiado en el siguiente criterio de evaluación.
-
----
-
-# Buenas prácticas durante el montaje
+#### Buenas prácticas durante el montaje
 
 Para obtener un cable de calidad conviene seguir estas recomendaciones:
 
@@ -301,11 +221,9 @@ Para obtener un cable de calidad conviene seguir estas recomendaciones:
 - Respetar el estándar de cableado.
 - Verificar siempre el resultado con un tester.
 
----
+#### Errores habituales
 
-# Errores habituales
-
-Los errores más frecuentes durante el montaje son:
+Los errores más frecuentes, que pueden provocar pérdidas de conectividad o limitar la velocidad de la red, durante el montaje son:
 
 - Orden incorrecto de los conductores.
 - Pines mal introducidos.
@@ -314,11 +232,7 @@ Los errores más frecuentes durante el montaje son:
 - Conductores dañados durante el pelado.
 - Mala crimpación.
 
-Estos errores pueden provocar pérdidas de conectividad o limitar la velocidad de la red.
-
----
-
-# Comparativa de los distintos cables
+### 10. Comparativa de los distintos cables
 
 | Tipo de cable | Estándares | Uso principal |
 |---------------|------------|---------------|
@@ -326,12 +240,8 @@ Estos errores pueden provocar pérdidas de conectividad o limitar la velocidad d
 | Cruzado | 568A-568B | Conectar dispositivos iguales (principalmente en equipos antiguos). |
 | Consola | Específico del fabricante | Configuración y administración de dispositivos de red. |
 
----
+### 11. Caso práctico
 
-# Caso práctico
-
-Una pequeña empresa va a instalar una nueva red local formada por varios ordenadores, un switch, un router y un punto de acceso inalámbrico. Antes de comenzar la instalación es necesario fabricar el cableado necesario para interconectar todos los dispositivos y disponer de un cable que permita realizar la configuración inicial del router.
-
-El técnico deberá seleccionar el tipo de cable adecuado para cada conexión, montar correctamente los conectores RJ-45 siguiendo el estándar correspondiente y verificar posteriormente que el cableado cumple las especificaciones requeridas.
+Una pequeña empresa va a instalar una nueva red local formada por varios ordenadores, un switch, un router y un punto de acceso inalámbrico. Antes de comenzar la instalación es necesario fabricar el cableado necesario para interconectar todos los dispositivos y disponer de un cable que permita realizar la configuración inicial del router. El técnico deberá seleccionar el tipo de cable adecuado para cada conexión, montar correctamente los conectores RJ-45 siguiendo el estándar correspondiente y verificar posteriormente que el cableado cumple las especificaciones requeridas.
 
 > **Analiza la instalación propuesta e indica qué tipo de cable utilizarías en cada conexión, justificando tu elección y describiendo el procedimiento básico de montaje de un cable Ethernet.**
