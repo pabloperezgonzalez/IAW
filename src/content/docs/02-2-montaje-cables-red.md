@@ -175,7 +175,7 @@ El **cable cruzado** fue necesario durante muchos años para conectar directamen
 ### 9. Procedimiento para fabricar un cable Ethernet
 La fabricación de un cable Ethernet debe seguir siempre una secuencia ordenada.
 
-<iframe width="600" height="600" src="https://www.youtube.com/embed/QMpWkkqX1eM?si=VRQpBYeBW6djTphF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="400" height="800" src="https://www.youtube.com/embed/QMpWkkqX1eM?si=VRQpBYeBW6djTphF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### Paso 1. Cortar el cable
 Se corta el cable con la longitud necesaria. Debe dejarse un pequeño margen para facilitar el montaje.

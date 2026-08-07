@@ -101,7 +101,7 @@ export default defineConfig({
                 { slug: '02-4-configuracion-adaptadores-red', label: 'UP2.4. Configuración de adaptadores de red - CE2.e)' },
                 { slug: '02-5-direccionamiento-ip', label: 'UP2.5. Direccionamiento IPv4 e IPv6 - CE2.d)' },
                 { slug: '02-6-integracion-dispositivos-red', label: 'UP2.6. Integración de dispositivos en redes cableadas e inalámbricas - CE2.f)' },
-                { slug: '02-7-montaje-cables-red', label: 'UP2.7. Comprobación de la conectividad y resolución de incidencias - CE2.g)' },
+                { slug: '02-7-conectividad-incidencias', label: 'UP2.7. Comprobación de la conectividad y resolución de incidencias - CE2.g)' },
                 { slug: '02-8-mapa-fisico-logico', label: 'UP2.8. Representación del mapa físico y lógico de la red - CE2.h)' },
                 { slug: '02-9-monitorizacion-red', label: 'UP2.9. Monitorización de redes mediante SNMP - CE2.i)' },
               ],
