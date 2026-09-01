@@ -1,34 +1,31 @@
-# PAR - Planificación y Administración de Redes
-## Módulo de 1º de ASIR - Administración de Sistemas Informáticos en Red
+# IAW - Implantación de Aplicaciones Web
+## Módulo de 2º de ASIR - Administración de Sistemas Informáticos en Red
 
-Visita página principal de contenidos en: https://pabloperezgonzalez.github.io/PAR/
+Visita página principal de contenidos en: https://pabloperezgonzalez.github.io/IAW/
 
 Usa ![traductor](public/icons/icono-trad-google.png) para visualizar en otras lenguas.
 
-Código Módulo: 0370 - Planificación y Administración de Redes.
+Código Módulo: 0376 - Implantación de Aplicaciones Web.
 
 De ASIR, Administración de Sistemas Informáticos en Red.
 
 De acuerdo con el Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus enseñanzas mínimas, los resultados de aprendizaje son los expuestos seguidamente.
 
 ## Resultados de aprendizaje
-**RA1.** Reconoce la estructura de las redes de datos identificando sus elementos y principios de funcionamiento (10%).
+**RA1.** Prepara el entorno de desarrollo y los servidores de aplicaciones Web instalando e integrando las funcionalidades necesarias (10%).
 
-**RA2.** Integra ordenadores y periféricos en redes cableadas e inalámbricas, evaluando su funcionamiento y prestaciones (15%).
+**RA2.** Implanta gestores de contenidos seleccionándolos y estableciendo la configuración de sus parámetros (15%).
 
-**RA3.** Administra conmutadores estableciendo opciones de configuración para su
-integración en la red (15%).
+**RA3.** Administra gestores de contenidos adaptándolos a los requerimientos y garantizando la integridad de la información (15%).
 
-**RA4.** Administra las funciones básicas de un «router» estableciendo opciones de
-configuración para su integración en la red (15%).
+**RA4.** Gestiona aplicaciones de ofimática Web integrando funcionalidades y asegurando el acceso a la información (10%).
 
-**RA5.** Configura redes locales virtuales identificando su campo de aplicación (20%).
+**RA5.** Genera documentos Web utilizando lenguajes de guiones de servidor (15%).
 
-**RA6.** Realiza tareas avanzadas de administración de red analizando y utilizando
-protocolos dinámicos de encaminamiento (15%).
+**RA6.** Genera documentos Web con acceso a bases de datos utilizando lenguajes de guiones de servidor (20%).
 
-**RA7.** Conecta redes privadas a redes públicas identificando y aplicando diferentes
-tecnologías (10%).
+**RA7.** Realiza modificaciones en gestores de contenidos adaptando su apariencia y funcionalidades (15%).
+
 
 ## Criterios de evaluación
-Los criterios de evaluación pueden consultarse en la página web https://pabloperezgonzalez.github.io/PAR/
+Los criterios de evaluación pueden consultarse en la página web https://pabloperezgonzalez.github.io/IAW/

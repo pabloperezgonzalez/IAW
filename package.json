@@ -1,8 +1,8 @@
 {
-  "name": "apuntes-par",
+  "name": "apuntes-iaw",
   "type": "module",
   "version": "1.0.0",
-  "description": "Apuntes de Planificación y Administración de Redes",
+  "description": "Apuntes de Implantación de Aplicaciones Web",
   "scripts": {
     "dev": "astro dev",
     "diagrams": "node scripts/generate-diagrams.mjs",

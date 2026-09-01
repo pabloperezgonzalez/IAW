@@ -43,12 +43,12 @@ const boletinItems = (i) => [
 ];
 
 export default defineConfig({
-  site: 'https://pabloperezgonzalez.github.io/PAR',
-  base: '/PAR',
+  site: 'https://pabloperezgonzalez.github.io/IAW',
+  base: '/IAW',
   integrations: [
     starlight({
-      title: 'PAR',
-      description: 'Planificación y Administración de Redes — 7 Unidades de Programación — Pablo Pérez González',
+      title: 'IAW',
+      description: 'Implantación de Aplicaciones Web — 7 Unidades de Programación — Pablo Pérez González',
       customCss: [
         './src/styles/custom.css',
         '@fontsource/geist-sans',
@@ -60,7 +60,7 @@ export default defineConfig({
       tableOfContents: true,
       head: [
         { tag: 'meta', attrs: { name: 'theme-color', content: '#2563eb' } },
-        { tag: 'link', attrs: { rel: 'icon', type: 'image/svg+xml', href: '/PAR/favicon.svg' } },
+        { tag: 'link', attrs: { rel: 'icon', type: 'image/svg+xml', href: '/IAW/favicon.svg' } },
       ],
       sidebar: [
         {
