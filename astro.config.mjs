@@ -59,7 +59,7 @@ export default defineConfig({
       defaultLocale: 'root',
       tableOfContents: true,
       head: [
-        { tag: 'meta', attrs: { name: 'theme-color', content: '#2563eb' } },
+        { tag: 'meta', attrs: { name: 'theme-color', content: '#16a34a' } },
         { tag: 'link', attrs: { rel: 'icon', type: 'image/svg+xml', href: '/IAW/favicon.svg' } },
       ],
       sidebar: [
