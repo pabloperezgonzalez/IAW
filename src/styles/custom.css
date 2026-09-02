@@ -33,6 +33,19 @@
   letter-spacing: -0.025em !important;
 }
 
+.site-title::before {
+  content: "";
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  margin-right: 10px;
+  background-image: url("/IAW/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+
 /* === CARDS FLOTANTES === */
 .card-grid .card {
   border-radius: var(--sl-radius) !important;
