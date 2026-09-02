@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 const emojis = ['🌐','📡','🔌','🧮','🚀','🔀','🏢','🧭','🗣️','🌐','🩺','☁️'];
 
 const unitSlugs = [
-  '01-caracterizacion-redes',
+  '01-instalacion-servidores-web',
   '02-modelos-osi-analisis',
   '03-infraestructura-fisica',
   '04-ipv4-subnetting',
@@ -19,7 +19,7 @@ const unitSlugs = [
 ];
 
 const unitLabels = [
-  'Caracterización de redes',
+  'Instalación de servidores de aplicaciones web',
   'Modelos OSI y análisis',
   'Infraestructura física',
   'IPv4 y subnetting',
@@ -76,18 +76,19 @@ export default defineConfig({
           })),*/
           items: [
             {
-              label: '🌐 UP1. Caracterización de redes',
+              label: '🌐 UP1. Instalación de servidores de aplicaciones web',
               collapsed: true,
               items: [
-                { slug: '01-caracterizacion-redes', label: 'Introducción' },
-                { slug: '01-1-factores-redes', label: 'UP1.1. Factores que impulsan la continua expansión y evolución de las redes de datos - CE1.a)' },
-                { slug: '01-2-tipos-topologia-red', label: 'UP1.2. Tipos de red y topologías - CE1.c)' },
-                { slug: '01-3-elementos-red', label: 'UP1.3. Elementos funcionales, físicos y lógicos de una red - CE1.g)' },
-                { slug: '01-4-medios-transmision', label: 'UP1.4. Medios de transmisión - CE1.b)' },
-                { slug: '01-5-arquitecturas-red', label: 'UP1.5. Arquitecturas de red y niveles que las componen - CE1.d)' },
-                { slug: '01-6-protocolo-comunicacion', label: 'UP1.6. El concepto de protocolo de comunicación - CE1.e)' },
-                { slug: '01-7-pilas-protocolos', label: 'UP1.7. Funcionamiento de las pilas de protocolos en las distintas arquitecturas de red - CE1.f)' },
-                { slug: '01-8-interconexion-redes', label: 'UP1.8. Dispositivos de interconexión de redes según el nivel funcional en el que se encuadran - CE1.h)' },
+                { slug: '01-instalacion-servidores-web', label: 'Introducción' },
+                { slug: '01-1-software', label: 'UP1.1. Software necesario para un entorno Web - CE1.a)' },
+                { slug: '01-2-tecnologias', label: 'UP1.2. Tecnologías empleadas en aplicaciones Web - CE1.b)' },
+                { slug: '01-3-servidores-bbdd', label: 'UP1.3. Procesamiento en cliente y servidor - CE1.d)' },
+                { slug: '01-4-procesamiento', label: 'UP1.4. Instalación y configuración de servidores Web y BBDD - CE1.c)' },
+                { slug: '01-5-componentes-modulos', label: 'UP1.5. Procesamiento de código en el servidor - CE1.e)' },
+                { slug: '01-6-acceso-bbdd', label: 'UP1.6. Acceso de las aplicaciones Web a bases de datos - CE1.f)' },
+                { slug: '01-7-seguridad', label: 'UP1.7. Seguridad en los accesos al servidor - CE1.g)' },
+                { slug: '01-8-plataformas', label: 'UP1.8. Plataformas integradas para desarrollo y pruebas - CE1.h)' },
+                { slug: '01-9-documentacion', label: 'UP1.9. Documentación del entorno Web - CE1.i)' },
               ],
             },
             {
