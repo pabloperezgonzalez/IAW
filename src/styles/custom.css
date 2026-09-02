@@ -36,9 +36,9 @@
 .site-title::before {
   content: "";
   display: inline-block;
-  width: 38px;
-  height: 38px;
-  margin-right: 10px;
+  width: 80px;
+  height: 45px;
+  margin-right: 12px;
   background-image: url("/IAW/logo.png");
   background-size: contain;
   background-repeat: no-repeat;

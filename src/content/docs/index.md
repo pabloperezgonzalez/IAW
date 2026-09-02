@@ -1,5 +1,5 @@
 ---
-title: Implantación de Aplicaciones Web (IAW)
+title: Implantación de Aplicaciones Web
 description: Apuntes de Implantación de Aplicaciones Web (IAW) — 7 Unidades de Programación — Pablo Pérez González
 ---
 
