@@ -104,9 +104,7 @@ La documentación debe indicar también cómo se ha comprobado que el sistema fu
 - Pruebas de autenticación.
 - Comprobación de HTTPS.
 
-Por ejemplo:
-
-`curl -I http://localhost`
+Por ejemplo: `curl -I http://localhost`
 
 Si obtenemos una respuesta HTTP correcta, podemos registrar el resultado de la prueba. Una tabla sencilla puede ser:
 
@@ -163,8 +161,6 @@ Esto permite:
 - Comparar modificaciones.
 - Trabajar de forma colaborativa.
 
-Por ejemplo, podemos mantener un fichero:
-
-`README.md`
+Por ejemplo, podemos mantener un fichero: `README.md`
 
 con la información básica del proyecto y otros documentos Markdown para explicar la instalación y configuración.

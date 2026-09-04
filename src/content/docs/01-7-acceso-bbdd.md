@@ -135,13 +135,9 @@ En aplicaciones reales, las credenciales no deberían escribirse directamente en
 ### 8. Acceso remoto y seguridad
 Si el SGBD está en otro servidor, la aplicación debe poder comunicarse con él a través de la red.
 
-Por ejemplo:
+Por ejemplo: **Servidor Web → Red → Servidor de bases de datos**
 
-**Servidor Web → Red → Servidor de bases de datos**
-
-En MariaDB/MySQL se utiliza habitualmente el puerto:
-
-**3306/TCP**
+En MariaDB/MySQL se utiliza habitualmente el puerto: **3306/TCP**
 
 El acceso remoto debe configurarse cuidadosamente. Debemos:
 
@@ -152,9 +148,7 @@ El acceso remoto debe configurarse cuidadosamente. Debemos:
 - Utilizar conexiones cifradas cuando sea necesario.
 - Conceder únicamente los permisos necesarios.
 
-Una arquitectura más segura sería:
-
-**Internet → Servidor Web → Red privada → Servidor SGBD**
+Una arquitectura más segura sería: **Internet → Servidor Web → Red privada → Servidor SGBD**
 
 ### 9. Pruebas y resolución de problemas
 Una vez configurado el acceso debemos comprobar que la aplicación puede comunicarse correctamente con la base de datos. Podemos realizar diferentes pruebas:

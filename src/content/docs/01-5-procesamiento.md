@@ -160,6 +160,7 @@ No es recomendable utilizar el usuario administrador del SGBD para que una aplic
 ### 9. Integración y comprobación
 Una vez instalados el servidor Web y el SGBD debemos comprobar que todos los componentes funcionan conjuntamente. Ejemplo:
 
+```text
 **Cliente**
     ↓ HTTP/HTTPS
 **Apache**
@@ -167,6 +168,7 @@ Una vez instalados el servidor Web y el SGBD debemos comprobar que todos los com
 **Aplicación PHP**
     ↓
 **MariaDB**
+```
 
 Podemos realizar diferentes comprobaciones:
 
@@ -179,17 +181,13 @@ Podemos realizar diferentes comprobaciones:
 
 Herramientas útiles:
 
-`systemctl`
-Permite iniciar, detener, reiniciar, ver el estado, habilitar o deshabilitar servicios que se ejecutan en segundo plano (como un servidor web o una base de datos).
+`systemctl`: Permite iniciar, detener, reiniciar, ver el estado, habilitar o deshabilitar servicios que se ejecutan en segundo plano (como un servidor web o una base de datos).
 
-`ss`
-Muestra información detallada sobre los puertos que están abiertos, qué conexiones están activas y qué programas las están usando
+`ss`: Muestra información detallada sobre los puertos que están abiertos, qué conexiones están activas y qué programas las están usando
 
-`curl`
-Tranfiere datos desde o hacia un servidor utilizando diferentes protocolos (como HTTP, HTTPS, FTP). Se usa frecuentemente para descargar archivos, probar APIs o verificar si una página web responde correctamente sin necesidad de usar un navegador.
+`curl`: Tranfiere datos desde o hacia un servidor utilizando diferentes protocolos (como HTTP, HTTPS, FTP). Se usa frecuentemente para descargar archivos, probar APIs o verificar si una página web responde correctamente sin necesidad de usar un navegador.
 
-`journalctl`
-Recopila todos los mensajes generados por el kernel de Linux, los servicios y el propio sistema operativo, permitiéndote investigar errores y fallos en un solo lugar.
+`journalctl`: Recopila todos los mensajes generados por el kernel de Linux, los servicios y el propio sistema operativo, permitiéndote investigar errores y fallos en un solo lugar.
 
 ### 10. Actividad práctica: Instalación de un servidor Web y de bases de datos
 Una empresa necesita preparar un servidor Linux para alojar una futura aplicación Web. Realiza las siguientes acciones:

@@ -12,30 +12,30 @@ title: 🌐 UP1.1. Software necesario para un entorno Web - CE1.a)
 Una aplicación Web no está formada únicamente por su código fuente. Para funcionar necesita diferentes componentes software que trabajan conjuntamente. Un entorno Web típico puede estar formado por:
 
 ```text
-┌─────────────────┐
-│     CLIENTE     │
-│   Navegador Web │
-└────────┬────────┘
-         │ HTTP/HTTPS
-         ▼
-┌─────────────────┐
-│   SERVIDOR WEB  │
-│ Apache / Nginx  │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│     RUNTIME     │
-│ PHP / Java /    │
-│ Python / Node   │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│       SGBD      │
-│ MariaDB / MySQL │
-│ PostgreSQL      │
-└─────────────────┘
+                        ┌─────────────────┐
+                        │     CLIENTE     │
+                        │   Navegador Web │
+                        └────────┬────────┘
+                                │ HTTP/HTTPS
+                                ▼
+                        ┌─────────────────┐
+                        │   SERVIDOR WEB  │
+                        │ Apache / Nginx  │
+                        └────────┬────────┘
+                                │
+                                ▼
+                        ┌─────────────────┐
+                        │     RUNTIME     │
+                        │ PHP / Java /    │
+                        │ Python / Node   │
+                        └────────┬────────┘
+                                │
+                                ▼
+                        ┌─────────────────┐
+                        │       SGBD      │
+                        │ MariaDB / MySQL │
+                        │ PostgreSQL      │
+                        └─────────────────┘
 ```
 
 El objetivo de este criterio es aprender a **identificar el software necesario para que una aplicación Web pueda ejecutarse correctamente**, teniendo en cuenta sus requisitos y la compatibilidad entre los diferentes componentes.
@@ -52,12 +52,11 @@ El sistema operativo proporciona la plataforma sobre la que se ejecutarán los s
 El sistema operativo gestiona aspectos fundamentales como los procesos, memoria, almacenamiento, usuarios, permisos y red. Por ejemplo:
 
 ```text
-Ubuntu Server
-     │
-     ├── Apache
-     ├── PHP
-     ├── MariaDB
-     └── SSH
+                    Ubuntu Server
+                        ├── Apache
+                        ├── PHP
+                        ├── MariaDB
+                        └── SSH
 ```
 
 La elección del sistema operativo debe tener en cuenta los requisitos de la aplicación y del resto del software.
@@ -72,17 +71,17 @@ El **servidor Web** recibe las peticiones HTTP/HTTPS de los clientes y proporcio
 Por ejemplo:
 
 ```text
-Navegador
-    │
-    │ GET /index.html
-    ▼
-Apache
-    │
-    ▼
-Archivo solicitado
-    │
-    ▼
-Respuesta HTTP
+                    Navegador
+                        │
+                        │ GET /index.html
+                        ▼
+                    Apache
+                        │
+                        ▼
+                    Archivo solicitado
+                        │
+                        ▼
+                    Respuesta HTTP
 ```
 
 Además de servir contenido, puede encargarse de HTTPS, hosts virtuales, registros, redirecciones y actuar como proxy inverso.
@@ -101,13 +100,13 @@ Las aplicaciones Web dinámicas necesitan un entorno que permita ejecutar el có
 En determinadas aplicaciones también se utilizan **servidores de aplicaciones**, como Apache Tomcat o WildFly. Por ejemplo:
 
 ```text
-Navegador
-    ↓
-Servidor Web
-    ↓
-Servidor de aplicaciones
-    ↓
-Aplicación
+                    Navegador
+                        ↓
+                    Servidor Web
+                        ↓
+                    Servidor de aplicaciones
+                        ↓
+                    Aplicación
 ```
 
 ### 5. Sistemas gestores de bases de datos

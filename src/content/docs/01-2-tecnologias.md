@@ -16,11 +16,11 @@ Una aplicación Web está formada por diferentes **tecnologías que trabajan con
 Por ejemplo:
 
 > Cliente  
-> ↓ HTTPS  
+>    ↓ HTTPS  
 > Servidor Web (Apache/Nginx)  
-> ↓  
+>    ↓  
 > Aplicación (PHP/Java/Python/Node.js)  
-> ↓  
+>    ↓  
 > SGBD (MySQL/MariaDB/PostgreSQL)
 
 ### 2. Tecnologías del lado cliente
