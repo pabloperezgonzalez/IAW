@@ -156,12 +156,19 @@ Además, los proyectos pueden utilizar procesos de **Integración Continua y Des
 La empresa quiere disponer de un entorno de desarrollo local que permita crear y probar una aplicación Web antes de desplegarla en un servidor de producción. Utiliza **XAMPP** para preparar el entorno y realiza las siguientes acciones:
 
 a. **Instala XAMPP** en el equipo de desarrollo.
+
 b. **Comprueba que Apache y MariaDB** están correctamente instalados y funcionando desde el panel de control de XAMPP.
+
 c. **Crea un proyecto Web** dentro del directorio de publicación de XAMPP.
+
 d. **Crea una página PHP sencilla** que permita comprobar que el servidor Web está procesando correctamente el código.
+
 e. **Crea una base de datos** para la aplicación utilizando MariaDB.
+
 f. **Realiza pruebas de funcionamiento** accediendo a la aplicación desde un navegador.
+
 g. **Utiliza las herramientas disponibles en XAMPP y en el navegador** para comprobar y solucionar posibles errores.
+
 h. **Documenta el entorno utilizado**, la configuración realizada, las pruebas y los resultados obtenidos.
 
 #### Resultado esperado

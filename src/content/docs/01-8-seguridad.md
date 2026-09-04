@@ -163,13 +163,21 @@ permite identificar los puertos que están escuchando en el servidor.
 El servidor Web y de bases de datos debe estar protegido frente a accesos no autorizados. Configura y verifica las medidas de seguridad básicas del servidor. Realiza las siguientes acciones:
 
 a. **Crea y configura un usuario 'admin'** para la administración del servidor.
+
 b. **Comprueba los permisos** de los principales archivos y directorios del servidor Web.
+
 c. **Configura el acceso remoto mediante SSH** de forma segura.
+
 d. **Comprueba que no se permite el acceso remoto directo con el usuario `root`**.
+
 e. **Configura el firewall** para permitir únicamente los servicios y puertos necesarios.
+
 f. **Comprueba los puertos abiertos** y los servicios que están escuchando en el servidor.
+
 g. **Comprueba la seguridad del acceso a MariaDB**, utilizando solo un usuario específico 'admin' para la aplicación.
+
 h. **Realiza diferentes pruebas de acceso**, incluyendo accesos permitidos y accesos que deberían ser rechazados.
+
 i. **Documenta las medidas de seguridad aplicadas**, las pruebas realizadas y las incidencias encontradas.
 
 #### Resultado esperado

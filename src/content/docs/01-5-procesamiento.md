@@ -194,20 +194,26 @@ Recopila todos los mensajes generados por el kernel de Linux, los servicios y el
 ### 10. Actividad práctica: Instalación de un servidor Web y de bases de datos
 Una empresa necesita preparar un servidor Linux para alojar una futura aplicación Web. Realiza las siguientes acciones:
 
-a. **Prepara una máquina virtual en VirtualBox** con [Ubuntu Server 26.04.1 LTS](https://ubuntu.com/download/server).
-Requisitos mínimos:
+a. **Prepara una máquina virtual en VirtualBox** con [Ubuntu Server 26.04.1 LTS](https://ubuntu.com/download/server) con los siguientes requisitos mínimos:
 - Nombre: IAW-US-NombreApellidos.
 - Memoria RAM: 2 GB.
 - Almacenamiento: 25 GB.
 - Red: NAT.
 - Nombre de usuario: nombreapellidos.
 - Instalar interfaz gráfica.
+
 b. **Instala y configura Apache** como servidor Web.
+
 c. **Comprueba que Apache está funcionando** y que el servidor Web es accesible desde un navegador.
+
 d. **Modifica la página Web principal** para mostrar información identificativa del servidor y del alumnado.
+
 e. **Instala y configura MariaDB** como servidor de bases de datos.
+
 f. **Comprueba que Apache y MariaDB están funcionando correctamente.**
+
 g. **Comprueba los puertos y servicios** utilizados por ambos servidores.
+
 h. **Documenta el procedimiento realizado**, incluyendo capturas de las principales comprobaciones y cualquier incidencia encontrada.
 
 #### Resultado esperado

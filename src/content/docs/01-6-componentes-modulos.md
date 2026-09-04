@@ -182,11 +182,17 @@ Desde el punto de vista de seguridad, debemos mantener actualizados el runtime, 
 La empresa necesita preparar el servidor Web para poder ejecutar código dinámico y alojar una aplicación Web. Realiza las siguientes acciones:
 
 a. **Instala PHP** en el servidor.
+
 b. **Configura Apache** para que pueda procesar páginas PHP.
+
 c. **Comprueba que PHP está correctamente instalado** y que Apache puede ejecutar código PHP.
+
 d. **Instala las extensiones de PHP necesarias** para trabajar con aplicaciones Web y justifica su elección.
+
 e. **Crea una página PHP de prueba** y comprueba que se ejecuta correctamente desde un navegador.
+
 f. **Verifica el funcionamiento conjunto** de Apache y PHP.
+
 g. **Documenta el procedimiento realizado**, incluyendo capturas de las principales comprobaciones y las incidencias encontradas.
 
 #### Resultado esperado

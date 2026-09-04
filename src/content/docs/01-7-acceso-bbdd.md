@@ -181,13 +181,21 @@ Esto facilita localizar dónde se encuentra el error.
 La aplicación Web necesita acceder a una base de datos para almacenar y consultar información. Prepara el servidor para que la aplicación pueda realizar esta comunicación correctamente. Realiza las siguientes acciones:
 
 a. **Comprueba que MariaDB está instalado y funcionando** correctamente.
+
 b. **Crea una base de datos** destinada a la aplicación Web.
+
 c. **Crea las tablas necesarias** para almacenar la información de la aplicación.
+
 d. **Crea un usuario específico 'admin' para la aplicación**.
+
 e. **Asigna al usuario los permisos necesarios** sobre la base de datos.
+
 f. **Instala el controlador o extensión necesario** para que PHP pueda conectarse con MariaDB.
+
 g. **Configura los parámetros de conexión** de la aplicación: servidor, puerto, base de datos, usuario y contraseña.
+
 h. **Comprueba que las acciones anteriores funcionan** correctamente.
+
 i. **Documenta el procedimiento realizado**, incluyendo capturas de las principales comprobaciones y las incidencias encontradas.
 
 #### Resultado esperado
