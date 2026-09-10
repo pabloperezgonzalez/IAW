@@ -16,21 +16,21 @@ Una aplicación Web no está formada únicamente por su código fuente. Para fun
                         │     CLIENTE     │
                         │   Navegador Web │
                         └────────┬────────┘
-                                │ HTTP/HTTPS
-                                ▼
+                                 │ HTTP/HTTPS
+                                 ▼
                         ┌─────────────────┐
                         │   SERVIDOR WEB  │
                         │ Apache / Nginx  │
                         └────────┬────────┘
-                                │
-                                ▼
+                                 │
+                                 ▼
                         ┌─────────────────┐
                         │     RUNTIME     │
                         │ PHP / Java /    │
                         │ Python / Node   │
                         └────────┬────────┘
-                                │
-                                ▼
+                                 │
+                                 ▼
                         ┌─────────────────┐
                         │       SGBD      │
                         │ MariaDB / MySQL │
@@ -121,14 +121,14 @@ Muchas aplicaciones Web necesitan almacenar información de forma permanente. Pa
 La aplicación se comunica con el SGBD para consultar y modificar los datos:
 
 ```text
-Aplicación Web
-      │
-      │ SQL
-      ▼
-     SGBD
-      │
-      ▼
-Base de datos
+                    Aplicación Web
+                        │
+                        │ SQL
+                        ▼
+                        SGBD
+                        │
+                        ▼
+                    Base de datos
 ```
 
 Debemos comprobar qué SGBD necesita la aplicación y qué versiones son compatibles.

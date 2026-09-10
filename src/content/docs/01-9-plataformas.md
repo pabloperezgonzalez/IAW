@@ -152,7 +152,7 @@ Git permite:
 
 Además, los proyectos pueden utilizar procesos de **Integración Continua y Despliegue Continuo (CI/CD)** para automatizar las pruebas y el despliegue.
 
-### 10. Actividad práctica: Desarrollo y prueba de una aplicación Web con XAMPP
+### 10. Actividad UP1.9. Plataformas integradas para desarrollo y pruebas - CE1.h)
 La empresa quiere disponer de un entorno de desarrollo local que permita crear y probar una aplicación Web antes de desplegarla en un servidor de producción. Utiliza **XAMPP** para preparar el entorno y realiza las siguientes acciones:
 
 a. **Instala XAMPP** en el equipo de desarrollo.
@@ -172,7 +172,6 @@ g. **Utiliza las herramientas disponibles en XAMPP y en el navegador** para comp
 h. **Documenta el entorno utilizado**, la configuración realizada, las pruebas y los resultados obtenidos.
 
 #### Resultado esperado
-
 Al finalizar la actividad, se deberá disponer de un entorno local de desarrollo y pruebas funcionando con XAMPP:
 
 **Navegador → Apache → PHP → MariaDB**

@@ -178,7 +178,7 @@ Por ejemplo:
 
 Desde el punto de vista de seguridad, debemos mantener actualizados el runtime, los módulos y las dependencias y evitar componentes innecesarios.
 
-### 10. Actividad práctica: Configuración del entorno para ejecutar código en el servidor
+### 10. Actividad UP1.6. Procesamiento de código en el servidor - CE1.e)
 La empresa necesita preparar el servidor Web para poder ejecutar código dinámico y alojar una aplicación Web. Realiza las siguientes acciones:
 
 a. **Instala PHP** en el servidor.

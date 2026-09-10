@@ -189,7 +189,7 @@ Herramientas útiles:
 
 `journalctl`: Recopila todos los mensajes generados por el kernel de Linux, los servicios y el propio sistema operativo, permitiéndote investigar errores y fallos en un solo lugar.
 
-### 10. Actividad práctica: Instalación de un servidor Web y de bases de datos
+### 10. Actividad UP1.5. Instalación y configuración de servidores Web y BBDD - CE1.c)
 Una empresa necesita preparar un servidor Linux para alojar una futura aplicación Web. Realiza las siguientes acciones:
 
 a. **Prepara una máquina virtual en VirtualBox** con [Ubuntu Server 26.04.1 LTS](https://ubuntu.com/download/server) con los siguientes requisitos mínimos:

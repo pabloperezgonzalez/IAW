@@ -159,7 +159,7 @@ Por ejemplo:
 
 permite identificar los puertos que están escuchando en el servidor.
 
-### 10. Actividad práctica: Seguridad en los accesos al servidor
+### 10. Actividad UP1.8. Seguridad en los accesos al servidor - CE1.g)
 El servidor Web y de bases de datos debe estar protegido frente a accesos no autorizados. Configura y verifica las medidas de seguridad básicas del servidor. Realiza las siguientes acciones:
 
 a. **Crea y configura un usuario 'admin'** para la administración del servidor.
@@ -181,7 +181,6 @@ h. **Realiza diferentes pruebas de acceso**, incluyendo accesos permitidos y acc
 i. **Documenta las medidas de seguridad aplicadas**, las pruebas realizadas y las incidencias encontradas.
 
 #### Resultado esperado
-
 Al finalizar la actividad, el servidor deberá permitir únicamente los accesos necesarios y rechazar los accesos no autorizados:
 
 **Usuario autorizado → Firewall → Servicio → Acceso permitido**

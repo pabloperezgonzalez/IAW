@@ -171,7 +171,7 @@ Si existe un problema, debemos revisar:
 
 Esto facilita localizar dónde se encuentra el error.
 
-### 10. Actividad práctica: Instalación y configuración del acceso a bases de datos
+### 10. Actividad UP1.7. Acceso de las aplicaciones Web a bases de datos - CE1.f)
 La aplicación Web necesita acceder a una base de datos para almacenar y consultar información. Prepara el servidor para que la aplicación pueda realizar esta comunicación correctamente. Realiza las siguientes acciones:
 
 a. **Comprueba que MariaDB está instalado y funcionando** correctamente.
