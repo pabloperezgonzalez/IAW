@@ -1,11 +1,11 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-const emojis = ['🌐','📡','🔌','🧮','🚀','🔀','🏢','🧭','🗣️','🌐','🩺','☁️'];
+const emojis = ['🌐','☁️','🔌','🧮','🚀','🔀','🏢','🧭','🗣️','🌐','🩺','☁️'];
 
 const unitSlugs = [
   '01-instalacion-servidores-web',
-  '02-modelos-osi-analisis',
+  '02-instalacion-cms',
   '03-infraestructura-fisica',
   '04-ipv4-subnetting',
   '05-ipv6-transicion',
@@ -20,7 +20,7 @@ const unitSlugs = [
 
 const unitLabels = [
   'Instalación de servidores de aplicaciones web',
-  'Modelos OSI y análisis',
+  'Instalación de gestores de contenidos',
   'Infraestructura física',
   'IPv4 y subnetting',
   'IPv6 y transición',
@@ -90,23 +90,22 @@ export default defineConfig({
                 { slug: '01-8-seguridad', label: 'UP1.8. Seguridad en los accesos al servidor - CE1.g)' },
                 { slug: '01-9-plataformas', label: 'UP1.9. Plataformas integradas para desarrollo y pruebas - CE1.h)' },
               ],
-            },
+            },/*
             {
-              label: '📡 UP2. Integración de elementos en una red',
+              label: '☁️ UP2. Instalación de gestores de contenidos',
               collapsed: true,
               items: [
-                { slug: '02-integracion-elementos-red', label: 'Introducción' },
-                { slug: '02-1-estandares-red', label: 'UP2.1. Estándares de redes cableadas e inalámbricas - CE2.a)' },
-                { slug: '02-2-montaje-cables-red', label: 'UP2.2. Montaje de cables de red Ethernet y consola - CE2.b)' },
-                { slug: '02-3-verificacion-cables-red', label: 'UP2.3. Verificación y certificación del cableado - CE2.c)' },
-                { slug: '02-4-configuracion-adaptadores-red', label: 'UP2.4. Configuración de adaptadores de red - CE2.e)' },
-                { slug: '02-5-direccionamiento-ip', label: 'UP2.5. Direccionamiento IPv4 e IPv6 - CE2.d)' },
-                { slug: '02-6-integracion-dispositivos-red', label: 'UP2.6. Integración de dispositivos en redes cableadas e inalámbricas - CE2.f)' },
-                { slug: '02-7-conectividad-incidencias', label: 'UP2.7. Comprobación de la conectividad y resolución de incidencias - CE2.g)' },
-                { slug: '02-8-mapa-fisico-logico', label: 'UP2.8. Representación del mapa físico y lógico de la red - CE2.h)' },
-                { slug: '02-9-monitorizacion-red', label: 'UP2.9. Monitorización de redes mediante SNMP - CE2.i)' },
+                { slug: '02-instalacion-cms', label: 'Introducción' },
+                { slug: '02-1-uso-cms', label: 'UP2.1. Uso y utilidad de los gestores de contenidos - CE2.a)' },
+                { slug: '02-2-clasificacion-cms', label: 'UP2.2. Clasificación de los gestores de contenidos - CE2.b)' },
+                { slug: '02-3-caracteristicas-cms', label: 'UP2.3. Características de los gestores de contenidos - CE2.d)' },
+                { slug: '02-4-instalacion-cms', label: 'UP2.4. Instalación de gestores de contenidos - CE2.c)' },
+                { slug: '02-5-personalizacion-cms', label: 'UP2.5. Personalización y configuración de los gestores de contenidos - CE2.e)' },
+                { slug: '02-6-seguridad-cms', label: 'UP2.6. Seguridad de los gestores de contenidos - CE2.f)' },
+                { slug: '02-7-pruebas-cms', label: 'UP2.7. Pruebas de funcionamiento de los gestores de contenidos - CE2.g)' },
+                { slug: '02-8-publicacion-cms', label: 'UP2.8. Publicación de los gestores de contenidos - CE2.h)' },
               ],
-            },
+            },*/
 
           // resto de unidades...
         ],
