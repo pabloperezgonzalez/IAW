@@ -126,7 +126,7 @@ Una vez publicado el CMS debemos realizar una última comprobación desde el ext
 
 > El proceso sería: **Publicar → Comprobar → Detectar errores → Corregir → Volver a comprobar**
 
-### Actividad UP2.8. Presentación de los gestores de contenidos - CE2.h)
+### 10. Actividad UP2.8. Presentación de los gestores de contenidos - CE2.h)
 A partir del sitio **WordPress instalado, configurado, personalizado y protegido con XAMPP**, cada alumnado realizará una **presentación de su sitio Web** ante el resto de la clase. El objetivo es explicar las decisiones tomadas durante el desarrollo y demostrar que el sitio funciona correctamente.
 
 a. Presentar brevemente la temática y finalidad del sitio Web.

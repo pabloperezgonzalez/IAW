@@ -140,7 +140,7 @@ Después de realizar cambios debemos comprobar que funcionan correctamente. Debe
 
 > El proceso puede resumirse como: **Configurar → Personalizar → Guardar → Probar → Corregir**
 
-## Actividad UP2.5. Personalización y configuración de los gestores de contenidos - CE2.e)
+### 10. Actividad UP2.5. Personalización y configuración de los gestores de contenidos - CE2.e)
 Sobre la instalación de **WordPress realizada en la actividad anterior con XAMPP**, personaliza el sitio Web y configura sus principales parámetros para adaptarlo a una temática concreta.
 
 a. Configurar el nombre, descripción, idioma y zona horaria del sitio.

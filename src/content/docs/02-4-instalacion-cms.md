@@ -127,7 +127,7 @@ Durante la instalación pueden aparecer diferentes problemas.
 | Error 403 | Permisos o configuración del servidor |
 | Error 500 | Error del servidor o aplicación |
 
-### Actividad UP2.4. Instalación de gestores de contenidos - CE2.c)
+### 10. Actividad UP2.4. Instalación de gestores de contenidos - CE2.c)
 Utilizando el entorno **XAMPP previamente instalado**, instala y configura **WordPress** en el servidor local, preparando la base de datos necesaria y comprobando posteriormente el funcionamiento del gestor de contenidos.
 
 a. Comprobar que **Apache** y **MariaDB** están funcionando correctamente en XAMPP.
