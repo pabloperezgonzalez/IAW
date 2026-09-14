@@ -6,7 +6,7 @@ title: ☁️ UP2.4. Instalación de gestores de contenidos - CE2.c)
 
 | Criterio de evaluación | Tipo | Ponderación |
 |:-----------|:-----:|:-----:|
-| c) Se han instalado diferentes tipos de gestores de contenidos. | Práctico | 20 % |
+| c) Se han instalado diferentes tipos de gestores de contenidos. | Práctico | 15 % |
 
 ### 1. Introducción
 Los gestores de contenidos o **CMS (Content Management System)** permiten crear y administrar sitios Web sin tener que desarrollar desde cero todas sus funcionalidades. En este criterio se debe aprender a **instalar diferentes tipos de CMS**, comprobando previamente sus requisitos y configurando correctamente el entorno necesario para su funcionamiento.

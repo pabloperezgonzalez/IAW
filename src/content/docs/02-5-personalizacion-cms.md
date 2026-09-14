@@ -6,7 +6,7 @@ title: ☁️ UP2.5. Personalización y configuración de los gestores de conten
 
 | Criterio de evaluación | Tipo | Ponderación |
 |:-----------|:-----:|:-----:|
-| e) Se han personalizado y configurado los gestores de contenidos. | Práctico | 15 % |
+| e) Se han personalizado y configurado los gestores de contenidos. | Práctico | 20 % |
 
 ### 1. Introducción
 Una vez instalado un gestor de contenidos, es necesario **configurarlo y personalizarlo** para adaptarlo a las necesidades del sitio Web. La configuración permite modificar aspectos relacionados con:
