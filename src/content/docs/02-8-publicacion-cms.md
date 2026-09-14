@@ -126,33 +126,62 @@ Una vez publicado el CMS debemos realizar una última comprobación desde el ext
 
 > El proceso sería: **Publicar → Comprobar → Detectar errores → Corregir → Volver a comprobar**
 
-## Actividad UP2.8. Publicación de los gestores de contenidos - CE2.h)
-A partir del **WordPress instalado, personalizado, protegido y probado en XAMPP**, prepara su publicación en un entorno accesible desde la red local.
+### Actividad UP2.8. Presentación de los gestores de contenidos - CE2.h)
+A partir del sitio **WordPress instalado, configurado, personalizado y protegido con XAMPP**, cada alumnado realizará una **presentación de su sitio Web** ante el resto de la clase. El objetivo es explicar las decisiones tomadas durante el desarrollo y demostrar que el sitio funciona correctamente.
 
-a. Comprobar que WordPress funciona correctamente en el entorno local.
+a. Presentar brevemente la temática y finalidad del sitio Web.
 
-b. Preparar un servidor de producción para alojar WordPress.
+b. Mostrar la página principal y explicar su estructura.
 
-c. Instalar y configurar el servidor Web, PHP y MariaDB necesarios.
+c. Mostrar el tema utilizado y las principales personalizaciones realizadas.
 
-d. Crear la base de datos y el usuario de WordPress en el servidor.
+d. Enseñar las páginas, entradas, categorías y etiquetas creadas.
 
-e. Transferir los archivos de WordPress desde el entorno de XAMPP al servidor.
+e. Mostrar el menú de navegación y explicar su organización.
 
-f. Importar la base de datos del sitio.
+f. Presentar los diferentes usuarios y roles configurados.
 
-g. Configurar WordPress para utilizar la nueva base de datos.
+g. Mostrar la extensión o plugin adicional instalado y explicar su utilidad.
 
-h. Configurar el servidor Web para acceder al sitio mediante un nombre o dirección de la red local.
+h. Explicar las principales medidas de seguridad aplicadas.
 
-i. Comprobar el acceso al sitio y al panel de administración desde otro equipo.
+i. Realizar una demostración práctica de las principales funcionalidades del sitio.
 
-j. Verificar el funcionamiento de páginas, entradas, usuarios, imágenes, menús y plugins.
+j. Explicar brevemente los problemas encontrados durante el desarrollo y cómo se solucionaron.
 
-k. Corregir los problemas encontrados durante la publicación.
+#### Condiciones de la presentación
+- Duración aproximada: **5-7 minutos**.
+- La presentación debe realizarse mostrando el **WordPress funcionando**.
+- Se deberá utilizar el sitio Web desarrollado como elemento principal de la presentación.
+- El alumnado debe demostrar personalmente las funcionalidades más importantes.
+- No es necesario explicar comandos de instalación o configuración.
+- Se valorará especialmente la capacidad para **explicar las decisiones tomadas y justificar la configuración realizada**.
 
-l. Documentar todo el proceso de publicación y las comprobaciones realizadas.
+#### Contenido mínimo
+La presentación deberá incluir:
 
-### Resultado esperado
-Disponer del sitio **WordPress publicado en un servidor**, accesible desde otro equipo de la red y funcionando con los contenidos, usuarios, configuración y funcionalidades desarrolladas durante las actividades anteriores.
-La arquitectura final será: **Cliente → Red → Servidor Web → PHP → WordPress → MariaDB**
+| Apartado | Contenido |
+|---|---|
+| **Temática** | Finalidad y público del sitio |
+| **Diseño** | Tema, apariencia y personalización |
+| **Contenidos** | Páginas, entradas, categorías y etiquetas |
+| **Navegación** | Menús y organización |
+| **Usuarios** | Roles y permisos |
+| **Extensiones** | Plugins utilizados |
+| **Seguridad** | Medidas de protección aplicadas |
+| **Demostración** | Funcionamiento del sitio |
+| **Problemas** | Dificultades y soluciones |
+
+#### Rúbrica de evaluación
+| Criterio | Excelente (10) | Notable (8) | Suficiente (5) | Insuficiente (0-4) | Ponderación |
+|:---|:---|:---|:---|:---|:---:|
+| **Presentación del proyecto** | Explica claramente la temática, finalidad y público objetivo. | Explica correctamente la finalidad del sitio. | Explicación básica y poco detallada. | No explica adecuadamente el proyecto. | **10%** |
+| **Diseño y personalización** | Presenta y justifica las personalizaciones realizadas, mostrando un diseño coherente. | Muestra correctamente las principales personalizaciones. | Presenta algunas personalizaciones básicas. | Apenas existen personalizaciones o no sabe explicarlas. | **15%** |
+| **Organización de contenidos** | Demuestra una organización clara mediante páginas, entradas, categorías, etiquetas y menús. | La organización es correcta. | La organización es básica. | Los contenidos están desorganizados o no sabe explicarlos. | **15%** |
+| **Usuarios y permisos** | Explica y demuestra correctamente los diferentes roles y sus permisos. | Configura correctamente los usuarios y roles. | Presenta una configuración básica. | No diferencia correctamente los roles o permisos. | **10%** |
+| **Plugins y funcionalidades** | Explica claramente las extensiones utilizadas y demuestra su funcionamiento. | Explica y demuestra correctamente las principales extensiones. | Utiliza alguna extensión pero apenas explica su funcionamiento. | Las extensiones no funcionan o no sabe explicar su utilidad. | **10%** |
+| **Seguridad** | Explica y demuestra varias medidas de seguridad aplicadas al sitio. | Explica correctamente las principales medidas de seguridad. | Aplica algunas medidas básicas. | No aplica o no sabe explicar medidas de seguridad. | **15%** |
+| **Demostración práctica** | Demuestra de forma fluida las principales funcionalidades y responde correctamente a las preguntas. | Demuestra correctamente las funcionalidades principales. | La demostración es parcial o presenta algunas dificultades. | No consigue demostrar correctamente el funcionamiento. | **15%** |
+| **Comunicación y expresión** | Se expresa con claridad, utiliza vocabulario técnico adecuado y mantiene una presentación fluida. | Se expresa correctamente y utiliza vocabulario técnico adecuado. | La explicación es comprensible, aunque poco fluida. | La explicación es confusa o utiliza incorrectamente la terminología. | **5%** |
+| **Problemas y soluciones** | Identifica problemas reales del desarrollo y explica claramente cómo los solucionó. | Explica correctamente algunos problemas y soluciones. | Menciona problemas pero apenas explica las soluciones. | No identifica problemas ni soluciones. | **5%** |
+| **TOTAL** | | | | | **100%** |
