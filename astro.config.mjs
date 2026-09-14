@@ -90,7 +90,7 @@ export default defineConfig({
                 { slug: '01-8-seguridad', label: 'UP1.8. Seguridad en los accesos al servidor - CE1.g)' },
                 { slug: '01-9-plataformas', label: 'UP1.9. Plataformas integradas para desarrollo y pruebas - CE1.h)' },
               ],
-            },/*
+            },
             {
               label: '☁️ UP2. Instalación de gestores de contenidos',
               collapsed: true,
@@ -105,7 +105,7 @@ export default defineConfig({
                 { slug: '02-7-pruebas-cms', label: 'UP2.7. Pruebas de funcionamiento de los gestores de contenidos - CE2.g)' },
                 { slug: '02-8-publicacion-cms', label: 'UP2.8. Publicación de los gestores de contenidos - CE2.h)' },
               ],
-            },*/
+            },
 
           // resto de unidades...
         ],
