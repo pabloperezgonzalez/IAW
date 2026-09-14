@@ -161,6 +161,4 @@ Esto permite:
 - Comparar modificaciones.
 - Trabajar de forma colaborativa.
 
-Por ejemplo, podemos mantener un fichero: `README.md`
-
-con la información básica del proyecto y otros documentos Markdown para explicar la instalación y configuración.
+Por ejemplo, podemos mantener un fichero: `README.md` con la información básica del proyecto y otros documentos Markdown para explicar la instalación y configuración.

@@ -196,5 +196,4 @@ Los gestores de contenidos permiten **crear, administrar y publicar sitios Web d
 | Flexibilidad | Depende del CMS y sus extensiones |
 
 Antes de utilizar un CMS debemos preguntarnos:
-
-> **¿El CMS resuelve las necesidades del proyecto de forma adecuada, segura y mantenible?**
+ **¿El CMS resuelve las necesidades del proyecto de forma adecuada, segura y mantenible?**

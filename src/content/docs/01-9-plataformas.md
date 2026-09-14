@@ -172,8 +172,6 @@ g. **Utiliza las herramientas disponibles en XAMPP y en el navegador** para comp
 h. **Documenta el entorno utilizado**, la configuración realizada, las pruebas y los resultados obtenidos.
 
 #### Resultado esperado
-Al finalizar la actividad, se deberá disponer de un entorno local de desarrollo y pruebas funcionando con XAMPP:
-
-**Navegador → Apache → PHP → MariaDB**
+Al finalizar la actividad, se deberá disponer de un entorno local de desarrollo y pruebas funcionando con XAMPP: **Navegador → Apache → PHP → MariaDB**
 
 La aplicación deberá poder ejecutarse desde el navegador y acceder correctamente a la base de datos.

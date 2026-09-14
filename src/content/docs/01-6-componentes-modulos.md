@@ -196,8 +196,6 @@ f. **Verifica el funcionamiento conjunto** de Apache y PHP.
 g. **Documenta el procedimiento realizado**, incluyendo capturas de las principales comprobaciones y las incidencias encontradas.
 
 #### Resultado esperado
-Al finalizar la actividad, el servidor deberá ser capaz de ejecutar código PHP y comunicarse con el servidor de bases de datos:
-
-**Cliente → Apache → PHP → MariaDB**
+Al finalizar la actividad, el servidor deberá ser capaz de ejecutar código PHP y comunicarse con el servidor de bases de datos: **Cliente → Apache → PHP → MariaDB**
 
 > **Importante:** no es necesario buscar los comandos utilizados. Todos los comandos y procedimientos necesarios para realizar la actividad aparecen en la explicación del criterio.

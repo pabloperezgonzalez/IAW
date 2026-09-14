@@ -215,7 +215,6 @@ g. **Comprueba los puertos y servicios** utilizados por ambos servidores.
 h. **Documenta el procedimiento realizado**, incluyendo capturas de las principales comprobaciones y cualquier incidencia encontrada.
 
 #### Resultado esperado
-Al finalizar la actividad deberá estar disponible el siguiente entorno:
-**Cliente → Servidor Web Apache → Aplicación Web → Base de datos MariaDB**
+Al finalizar la actividad deberá estar disponible el siguiente entorno: **Cliente → Servidor Web Apache → Aplicación Web → Base de datos MariaDB**
 
 > **Importante:** no es necesario buscar los comandos utilizados. Todos los comandos y procedimientos necesarios para realizar la actividad aparecen en la explicación del criterio.

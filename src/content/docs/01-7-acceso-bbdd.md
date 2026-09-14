@@ -193,8 +193,6 @@ h. **Comprueba que las acciones anteriores funcionan** correctamente.
 i. **Documenta el procedimiento realizado**, incluyendo capturas de las principales comprobaciones y las incidencias encontradas.
 
 #### Resultado esperado
-Al finalizar la actividad, la aplicación Web deberá poder comunicarse correctamente con MariaDB:
-
-**Cliente → Apache → PHP → MariaDB**
+Al finalizar la actividad, la aplicación Web deberá poder comunicarse correctamente con MariaDB: **Cliente → Apache → PHP → MariaDB**
 
 > **Importante:** no es necesario buscar los comandos utilizados. Todos los comandos y procedimientos necesarios para realizar la actividad aparecen en la explicación del criterio.
