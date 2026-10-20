@@ -135,19 +135,11 @@ b. Mostrar la página principal y explicar su estructura.
 
 c. Mostrar el tema utilizado y las principales personalizaciones realizadas.
 
-d. Enseñar las páginas, entradas, categorías y etiquetas creadas.
+d. Enseñar las páginas y entradas creadas.
 
-e. Mostrar el menú de navegación y explicar su organización.
+e. Realizar una demostración práctica de las principales funcionalidades del sitio.
 
-f. Presentar los diferentes usuarios y roles configurados.
-
-g. Mostrar la extensión o plugin adicional instalado y explicar su utilidad.
-
-h. Explicar las principales medidas de seguridad aplicadas.
-
-i. Realizar una demostración práctica de las principales funcionalidades del sitio.
-
-j. Explicar brevemente los problemas encontrados durante el desarrollo y cómo se solucionaron.
+f. Explicar brevemente los problemas encontrados durante el desarrollo y cómo se solucionaron.
 
 #### Condiciones de la presentación
 - Duración aproximada: **5-7 minutos**.

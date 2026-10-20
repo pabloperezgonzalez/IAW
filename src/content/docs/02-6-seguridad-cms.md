@@ -149,21 +149,9 @@ b. Revisar los roles y permisos de los usuarios creados.
 
 c. Configurar contraseñas seguras para todas las cuentas.
 
-d. Crear un usuario con permisos limitados y comprobar sus restricciones.
+d. Comprobar la configuración de acceso y protección del panel de administración.
 
-e. Revisar las actualizaciones disponibles de WordPress.
-
-f. Instalar y configurar un plugin de seguridad.
-
-g. Activar las medidas de protección disponibles en el plugin.
-
-h. Comprobar la configuración de acceso y protección del panel de administración.
-
-i. Realizar una copia de seguridad de los archivos y de la base de datos.
-
-j. Revisar los avisos o registros de seguridad disponibles.
-
-k. Realizar pruebas de acceso con diferentes usuarios para verificar los permisos y las restricciones.
+e. Revisar los avisos o registros de seguridad disponibles.
 
 ### Resultado esperado
 Disponer de una instalación de WordPress con los usuarios correctamente configurados, contraseñas seguras, componentes actualizados, medidas de protección activadas y una copia de seguridad disponible.

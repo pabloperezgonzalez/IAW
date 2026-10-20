@@ -151,21 +151,11 @@ c. Personalizar la apariencia general del sitio.
 
 d. Configurar el logotipo, título, colores y otros elementos visuales.
 
-e. Crear varias páginas estáticas.
+e. Crear dos páginas estáticas.
 
 f. Crear diferentes entradas o publicaciones.
 
-g. Organizar las entradas mediante categorías y etiquetas.
-
-h. Crear y configurar un menú de navegación.
-
-i. Crear diferentes usuarios con distintos roles y permisos.
-
-j. Configurar las opciones generales de comentarios, imágenes y lectura del sitio.
-
-k. Instalar y configurar una extensión que aporte una funcionalidad adicional.
-
-l. Comprobar que todos los cambios se muestran correctamente en la parte pública del sitio.
+g. Comprobar que todos los cambios se muestran correctamente en la parte pública del sitio.
 
 ### Resultado esperado
-Disponer de un sitio WordPress personalizado y correctamente configurado, con una apariencia coherente, contenidos organizados, menú de navegación, usuarios con diferentes permisos y funcionalidades adicionales.
+Disponer de un sitio WordPress personalizado y correctamente configurado, con una apariencia coherente y contenidos organizados.

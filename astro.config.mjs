@@ -106,7 +106,22 @@ export default defineConfig({
                 { slug: '02-8-publicacion-cms', label: 'UP2.8. Publicación de los gestores de contenidos - CE2.h)' },
               ],
             },
-
+            {
+              label: '🔌 UP3. Administración de gestores de contenidos',
+              collapsed: true,
+              items: [
+                { slug: '03-admin-cms', label: 'Introducción' },
+                { slug: '03-1-gestion-plantillas', label: 'UP3.1. Gestión de plantillas en CMS - CE3.f)' },
+                { slug: '03-2-config-modulos', label: 'UP3.2. Configuración de módulos en CMS - CE3.a)' },
+                { slug: '03-3-integracion-modulos', label: 'UP3.3. Integración de módulos en CMS - CE3.c)' },
+                { slug: '03-4-usuarios-cms', label: 'UP3.4. Creación y gestión de usuarios en CMS - CE3.b)' },
+                { slug: '03-5-formatos-cms', label: 'UP3.5. Importación y exportación de contenidos en CMS - CE3.e)' },
+                { slug: '03-6-sindicacion-cms', label: 'UP3.6. Funcionalidades de sindicación en CMS - CE3.g)' },
+                { slug: '03-7-backups-cms', label: 'UP3.7. Copias de seguridad en CMS - CE3.d)' },
+                { slug: '03-8-actualizaciones-cms', label: 'UP3.8. Actualizaciones en CMS - CE3.h)' },
+                { slug: '03-9-informes-cms', label: 'UP3.9. Informes de acceso en CMS - CE3.i)' },
+              ],
+            },
           // resto de unidades...
         ],
         },

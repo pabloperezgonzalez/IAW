@@ -138,27 +138,15 @@ Sobre el sitio **WordPress instalado, personalizado y protegido en XAMPP**, real
 
 a. Comprobar el acceso a la página principal del sitio Web.
 
-b. Revisar el funcionamiento de los menús, enlaces, imágenes y páginas.
+b. Crear una nueva entrada y comprobar que se publica correctamente.
 
-c. Crear una nueva entrada y comprobar que se publica correctamente.
+c. Modificar una entrada existente y verificar que los cambios son visibles.
 
-d. Modificar una entrada existente y verificar que los cambios son visibles.
+d. Revisar posibles errores y comprobar los registros disponibles.
 
-e. Crear una nueva página estática y añadirla al menú de navegación.
+e. Comprobar el funcionamiento de la aplicación.
 
-f. Comprobar el funcionamiento de las categorías, etiquetas y buscador.
-
-g. Realizar pruebas de inicio y cierre de sesión con diferentes usuarios.
-
-h. Verificar que cada usuario puede realizar únicamente las acciones permitidas por su rol.
-
-i. Comprobar el funcionamiento de los formularios, comentarios o plugins instalados.
-
-j. Revisar posibles errores y comprobar los registros disponibles.
-
-k. Verificar que la información se guarda correctamente en la base de datos.
-
-l. Registrar los resultados de todas las pruebas y corregir los errores detectados.
+f. Registrar los resultados de todas las pruebas y corregir los errores detectados.
 
 #### Resultado esperado
 Disponer de un sitio WordPress probado y funcionando correctamente, con sus contenidos, usuarios, permisos, formularios, extensiones y funcionalidades principales verificadas.
