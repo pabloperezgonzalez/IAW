@@ -107,16 +107,16 @@ Después de instalar, activar o modificar una plantilla, es necesario comprobar 
 6. Rendimiento: comprobar que las páginas se cargan correctamente y no presentan ralentizaciones importantes.
 7. Errores: revisar posibles mensajes de error, elementos descolocados o problemas en la consola del navegador.
 
-### 10. Actividad 
+### 10. Actividad UP3.1. Gestión de plantillas - CE3.f)
 Partiendo del WordPress personalizado en el RA2 y ejecutado en el entorno XAMPP, realiza las siguientes tareas:
 
-a. Identifica el tema activo, sus características principales y las opciones de personalización disponibles. Justifica si es adecuado para la finalidad del sitio web.
+a. Identifica el tema activo, sus características principales y las opciones de personalización disponibles.
 
 b. Si el tema actual no se adapta a las necesidades del proyecto, instala otro desde una fuente fiable. Activa el tema elegido y comprueba que el sitio sigue funcionando correctamente.
 
 c. Revisa la cabecera, el pie de página, los menús y la distribución de los contenidos. Comprueba que la navegación sea clara y que los elementos principales estén accesibles.
 
-d. Configura, según las posibilidades del tema, la presentación de la página de inicio, las páginas estáticas y las entradas del blog. Mantén una estructura coherente entre las diferentes secciones.
+d. Configura, según las posibilidades del tema, la presentación de la página de inicio, las páginas estáticas y las entradas de la página web. Mantén una estructura coherente entre las diferentes secciones.
 
 e. Aplica al menos una modificación que vaya más allá de las opciones básicas del tema. Puedes utilizar CSS adicional, el editor del sitio o un tema hijo, según el tipo de tema empleado. Explica qué has modificado y por qué.
 
@@ -124,6 +124,4 @@ f. Verifica que el sitio se visualiza correctamente en diferentes tamaños de pa
 
 g. Comprueba que la plantilla no afecta negativamente a los contenidos ni a las funcionalidades existentes en WordPress. Si detectas algún problema, documenta su causa y la solución aplicada.
 
-h. Identifica el tema activo, su versión y las personalizaciones realizadas. Indica qué precauciones tomarías antes de actualizarlo y cómo evitarías perder los cambios.
-
-i. Accede al sitio como visitante y comprueba que la apariencia y la navegación responden a los objetivos del proyecto.
+h. Accede al sitio como visitante y comprueba que la apariencia y la navegación responden a los objetivos del proyecto.

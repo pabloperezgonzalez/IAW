@@ -149,7 +149,3 @@ g. Configurar el nombre y los datos básicos del sitio Web.
 h. Acceder al panel de administración y crear una primera página o entrada.
 
 i. Comprobar desde el navegador que el sitio Web funciona correctamente.
-
-#### Resultado esperado
-Disponer de una instalación funcional de **WordPress sobre XAMPP**, accesible desde el navegador y con acceso al panel de administración.
-La arquitectura utilizada será: **Navegador → Apache → PHP → WordPress → MariaDB**

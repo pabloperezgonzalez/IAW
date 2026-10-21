@@ -152,6 +152,3 @@ c. Configurar contraseñas seguras para todas las cuentas.
 d. Comprobar la configuración de acceso y protección del panel de administración.
 
 e. Revisar los avisos o registros de seguridad disponibles.
-
-### Resultado esperado
-Disponer de una instalación de WordPress con los usuarios correctamente configurados, contraseñas seguras, componentes actualizados, medidas de protección activadas y una copia de seguridad disponible.

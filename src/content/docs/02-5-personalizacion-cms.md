@@ -156,6 +156,3 @@ e. Crear dos páginas estáticas.
 f. Crear diferentes entradas o publicaciones.
 
 g. Comprobar que todos los cambios se muestran correctamente en la parte pública del sitio.
-
-### Resultado esperado
-Disponer de un sitio WordPress personalizado y correctamente configurado, con una apariencia coherente y contenidos organizados.

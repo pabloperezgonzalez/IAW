@@ -147,6 +147,3 @@ d. Revisar posibles errores y comprobar los registros disponibles.
 e. Comprobar el funcionamiento de la aplicación.
 
 f. Registrar los resultados de todas las pruebas y corregir los errores detectados.
-
-#### Resultado esperado
-Disponer de un sitio WordPress probado y funcionando correctamente, con sus contenidos, usuarios, permisos, formularios, extensiones y funcionalidades principales verificadas.
