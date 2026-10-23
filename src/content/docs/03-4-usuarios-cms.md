@@ -124,7 +124,7 @@ Una gestión incorrecta de usuarios puede provocar accesos no autorizados, pérd
 **Cuentas inactivas o innecesarias**
 Cuando una persona deja de colaborar en el proyecto, se debe revisar su cuenta. Según las necesidades, puede cambiarse su rol, desactivarse mediante una solución apropiada o eliminarse.
 
-### 8. Actividad propuesta: creación y gestión de usuarios con distintos perfiles en WordPress
+### 8. Actividad UP3.4. Creación y gestión de usuarios en CMS - CE3.b)
 En el RA2 se ha desarrollado una instalación de WordPress en XAMPP. Durante el RA3 se ha personalizado su apariencia y se han adaptado e integrado módulos para responder a las necesidades del proyecto.
 
 Ahora, la web debe permitir que varias personas colaboren en la creación y revisión de contenidos sin que todas dispongan de permisos administrativos. La actividad consiste en diseñar e implementar una estructura de usuarios adecuada para el sitio existente, comprobar los permisos y documentar los resultados.
