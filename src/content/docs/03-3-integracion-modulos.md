@@ -123,4 +123,4 @@ c. Ajusta las opciones necesarias y adapta su presentación para mantener la coh
 
 d. Verifica que los plugins funcionan con WordPress, el tema y los módulos existentes. Comprueba que no se han alterado las páginas ni las funcionalidades anteriores.
 
-e. Diseña y ejecuta al menos tres pruebas por funcionalidad, indicando el resultado esperado y el obtenido. Incluye pruebas de funcionamiento normal y, cuando corresponda, de validación o permisos.
+e. Diseña y ejecuta al menos tres pruebas por funcionalidad, indicando el resultado esperado y el resultado obtenido. Incluye pruebas de funcionamiento normal y, cuando corresponda, de validación o permisos.
