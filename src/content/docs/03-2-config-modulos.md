@@ -128,8 +128,4 @@ e. Configura el segundo módulo: Adapta sus opciones al segundo requisito. Evita
 
 f. Comprueba qué usuarios pueden acceder a las opciones de administración de los módulos y evita conceder permisos superiores a los necesarios.
 
-g. Comprueba que ambas funcionalidades cumplen los requisitos establecidos y que no afectan negativamente al tema, las páginas, las entradas ni los menús existentes.
-
-h. Si aparecen errores, identifica sus causas y documenta las soluciones. Si no se producen incidencias, indica qué comprobaciones has realizado para verificar el funcionamiento. 
-
-i. Accede al sitio como visitante y comprueba las funcionalidades implementadas. Confirma también que el panel de administración sigue operativo.
+g. Si aparecen errores, identifica sus causas y documenta las soluciones.

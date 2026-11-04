@@ -115,14 +115,12 @@ Los módulos integrados deben mantenerse durante todo el ciclo de vida del sitio
 ### 10. Actividad UP3.3. Integración de módulos en CMS - CE3.c)
 Partiendo del WordPress existente en XAMPP, personalizado en el criterio f) y con los módulos configurados en el criterio a), realiza las siguientes tareas:
 
-a. Identifica dos funcionalidades que todavía no estén disponibles en el sitio y que resulten útiles para tu temática.
+a. Identifica los dos plugins o extensiones que hayas instalado en el criterio anterior. Explica por qué es la opción más adecuada para el proyecto.
 
-b. Elige un plugin para cada requisito y explica por qué es la opción más adecuada para el proyecto.
+b. Incorpora las funcionalidades del plugin en la página o sección correspondiente.
 
-c. Instala y activa los componentes seleccionados. Incorpora cada funcionalidad en la página o sección correspondiente.
+c. Ajusta las opciones necesarias y adapta su presentación para mantener la coherencia visual con el tema del sitio.
 
-d. Ajusta las opciones necesarias y adapta su presentación para mantener la coherencia visual con el tema del sitio.
+d. Verifica que los plugins funcionan con WordPress, el tema y los módulos existentes. Comprueba que no se han alterado las páginas ni las funcionalidades anteriores.
 
-e. Verifica que los plugins funcionan con WordPress, el tema y los módulos existentes. Comprueba que no se han alterado las páginas ni las funcionalidades anteriores.
-
-f. Diseña y ejecuta al menos tres pruebas por funcionalidad, indicando el resultado esperado y el obtenido. Incluye pruebas de funcionamiento normal y, cuando corresponda, de validación o permisos.
+e. Diseña y ejecuta al menos tres pruebas por funcionalidad, indicando el resultado esperado y el obtenido. Incluye pruebas de funcionamiento normal y, cuando corresponda, de validación o permisos.
