@@ -122,6 +122,34 @@ export default defineConfig({
                 { slug: '03-9-informes-cms', label: 'UP3.9. Informes de acceso en CMS - CE3.i)' },
               ],
             },
+            {
+              label: '🧮 UP4. Adaptación de gestores de contenidos',
+              collapsed: true,
+              items: [
+                { slug: '04-adaptacion-cms', label: 'Introducción' },
+              ],
+            },
+            {
+              label: '🚀 UP5. Programación de documentos Web utilizando lenguajes de «script» de servidor',
+              collapsed: true,
+              items: [
+                { slug: '05-programacion', label: 'Introducción' },
+              ],
+            },
+            {
+              label: '🔀 UP6. Acceso a bases de datos desde lenguajes de «script» de servidor',
+              collapsed: true,
+              items: [
+                { slug: '06-acceso-bd', label: 'Introducción' },
+              ],
+            },
+            {
+              label: '🧭 UP7. Implantación de aplicaciones de ofimática Web',
+              collapsed: true,
+              items: [
+                { slug: '07-ofimatica-web', label: 'Introducción' },
+              ],
+            },
         ],
         },
       ],
