@@ -150,6 +150,13 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { slug: '06-acceso-bd', label: 'Introducción' },
+                { slug: '06-1-sgbd', label: 'UP6.1. Sistemas gestores de bases de datos en entornos Web - CE6.a)' },
+                { slug: '06-2-integracion', label: 'UP6.2. Integración de PHP con sistemas gestores de bases de datos - CE6.b)' },
+                { slug: '06-3-conexion', label: 'UP6.3. Conexión a bases de datos desde PHP mediante PDO - CE6.c)' },
+                { slug: '06-4-creacion-admin', label: 'UP6.4. Creación y administración de bases de datos y tablas con PHP - CE6.d)' },
+                { slug: '06-5-seguridad', label: 'UP6.5. Seguridad en el acceso a bases de datos desde PHP - CE6.f)' },
+                { slug: '06-6-crud', label: 'UP6.6. Consulta, inserción, modificación y eliminación de datos con PHP - CE6.e)' },
+                { slug: '06-7-pruebas', label: 'UP6.7. Verificación, pruebas y optimización del acceso a bases de datos - CE6.g)' },
               ],
             },
             {
