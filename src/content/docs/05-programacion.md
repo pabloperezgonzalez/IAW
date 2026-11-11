@@ -7,8 +7,8 @@ title: 🚀 UP5. Programación de documentos Web utilizando lenguajes de «scrip
 | Criterio de evaluación | Tipo | Ponderación |
 |:-----------|:-----:|:-----:|
 | a) Se han identificado los lenguajes de guiones de servidor más relevantes. | Teórico | 5 % |
-| b) Se ha reconocido la relación entre los lenguajes de guiones de servidor y los lenguajes de marcas utilizados en los clientes. | Teórico-práctico | 10 % |
-| c) Se ha reconocido la sintaxis básica de un lenguaje de guiones concreto. | Teórico-práctico | 15 % |
+| b) Se ha reconocido la relación entre los lenguajes de guiones de servidor y los lenguajes de marcas utilizados en los clientes. | Teórico | 10 % |
+| c) Se ha reconocido la sintaxis básica de un lenguaje de guiones concreto. | Teórico | 15 % |
 | d) Se han utilizado estructuras de control del lenguaje. | Práctico | 15 % |
 | e) Se han definido y utilizado funciones. | Práctico | 10 % |
 | f) Se han utilizado formularios para introducir información. | Práctico | 10 % |
