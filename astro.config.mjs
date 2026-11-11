@@ -134,6 +134,15 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { slug: '05-programacion', label: 'Introducción' },
+                { slug: '05-1-introduccion', label: 'UP5.1. Introducción a los lenguajes de guiones de servidor - CE5.a)' },
+                { slug: '05-2-integracion', label: 'UP5.2. Integración de PHP con HTML y generación dinámica de documentos Web - CE5.b)' },
+                { slug: '05-3-sintaxis', label: 'UP5.3. Sintaxis básica de PHP y gestión de datos - CE5.c)' },
+                { slug: '05-4-control', label: 'UP5.4. Estructuras de control en PHP - CE5.d)' },
+                { slug: '05-5-funciones', label: 'UP5.5. Funciones y organización del código PHP - CE5.e)' },
+                { slug: '05-6-formularios', label: 'UP5.6. Formularios HTML y procesamiento de datos con PHP - CE5.f)' },
+                { slug: '05-7-persistencia', label: 'UP5.7. Persistencia de información mediante sesiones y cookies - CE5.g)' },
+                { slug: '05-8-autenticacion', label: 'UP5.8. Autenticación y control de acceso de usuarios - CE5.h)' },
+                { slug: '05-9-seguridad', label: 'UP5.9. Aislamiento y seguridad del entorno de cada usuario - CE5.i)' },
               ],
             },
             {
